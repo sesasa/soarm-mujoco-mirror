@@ -1,0 +1,44 @@
+{
+  "T_camera_from_board": [
+    [
+      0.9576608138283891,
+      0.26853166315510174,
+      -0.1038099780401788,
+      0.0914523937277111
+    ],
+    [
+      -0.24606096261654722,
+      0.95062816368914,
+      0.18910340313498267,
+      -0.16843666726373968
+    ],
+    [
+      0.14946494014907172,
+      -0.15555333581819644,
+      0.9764545004156957,
+      0.47259433690422187
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "fit": {
+    "rms_px": 0.2661995589733124,
+    "corner_colour_samples": [
+      175.0,
+      32.0
+    ],
+    "reversed_detector_order": true,
+    "canonical_origin_pixel": [
+      367.7314147949219,
+      157.5837860107422
+    ]
+  },
+  "source_image": "captures/scene_changes/setup.png",
+  "square_m": 0.0096,
+  "status": "preview_only_table_plane",
+  "assumption": "Small checkerboard remains directly on tabletop"
+}

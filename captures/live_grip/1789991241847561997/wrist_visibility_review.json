@@ -1,0 +1,13 @@
+{
+  "object": "highlighter",
+  "selected_patch_px": [
+    415,
+    110,
+    600,
+    340
+  ],
+  "patch_initialized": true,
+  "tracked_features": null,
+  "motion_control_enabled": false,
+  "limitations": "Object clipped at frame boundary; only one fingertip visible. No validated image-to-robot correction map. Two saved views are a tracking sanity check, not a calibration."
+}

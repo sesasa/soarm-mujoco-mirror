@@ -1,0 +1,36 @@
+{
+  "time": 1789835911.1305337,
+  "reason": "Shoulder lag exceeded 8 degrees in basket lift; restore documented default P from 16 to 32",
+  "before": {
+    "shoulder_pan": 16,
+    "shoulder_lift": 16,
+    "elbow_flex": 32,
+    "wrist_flex": 16,
+    "wrist_roll": 16,
+    "gripper": 16
+  },
+  "after": {
+    "shoulder_pan": 16,
+    "shoulder_lift": 32,
+    "elbow_flex": 32,
+    "wrist_flex": 16,
+    "wrist_roll": 16,
+    "gripper": 16
+  },
+  "torque_enabled": {
+    "shoulder_pan": 0,
+    "shoulder_lift": 0,
+    "elbow_flex": 0,
+    "wrist_flex": 0,
+    "wrist_roll": 0,
+    "gripper": 0
+  },
+  "status": {
+    "shoulder_pan": 0,
+    "shoulder_lift": 0,
+    "elbow_flex": 0,
+    "wrist_flex": 0,
+    "wrist_roll": 0,
+    "gripper": 0
+  }
+}

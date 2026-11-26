@@ -1,0 +1,482 @@
+[
+  {
+    "stage": "clear_wrist",
+    "plan": {
+      "start": [
+        -0.17721804712557807,
+        -1.7959629797444947,
+        1.5557404645661543,
+        1.1612193358461174,
+        -1.6145254553064028,
+        -0.12885824504361618
+      ],
+      "goal": [
+        -0.17721804712557807,
+        -1.7959629797444947,
+        1.5557404645661543,
+        1.073952873246401,
+        -1.6145254553064028,
+        -0.12885824504361618
+      ],
+      "duration": 4.0,
+      "speedup_until_s": 4.0,
+      "speedup_factor": 4.0,
+      "playback_duration": 1.0
+    },
+    "clearance": {
+      "method": "sampled moving visual geometry vs infinite tabletop plane",
+      "samples": 161,
+      "path_minimum_m": 0.00888728511642356,
+      "gripper_holder_path_minimum_m": 0.03164711661629787,
+      "minimum_at_fraction": 0.0,
+      "closest_body": "shoulder",
+      "closest_geom": "rotation_pitch_so101_v1",
+      "endpoint": {
+        "minimum_m": 0.00888728511642356,
+        "gripper_holder_minimum_m": 0.041628086769897675,
+        "geom": "rotation_pitch_so101_v1",
+        "body": "shoulder"
+      },
+      "status": "no intersection in sampled poses",
+      "collision_validated": false,
+      "limitations": [
+        "Provisional camera/base/table registration and approximate holder shape.",
+        "Fixed base excluded. Table objects, cables and self-collision not checked.",
+        "Discrete samples do not establish continuous path clearance."
+      ]
+    }
+  },
+  {
+    "stage": "ready",
+    "plan": {
+      "start": [
+        -0.17721804712557807,
+        -1.7959629797444947,
+        1.5557404645661543,
+        1.073952873246401,
+        -1.6145254553064028,
+        -0.12885824504361618
+      ],
+      "goal": [
+        -0.17721804712557807,
+        -1.7278760074800568,
+        1.5290810397279992,
+        1.073952873246401,
+        -1.6145254553064028,
+        0.6301199301803483
+      ],
+      "duration": 20.38417789822211,
+      "speedup_until_s": 20.38417789822211,
+      "speedup_factor": 4.0,
+      "playback_duration": 5.096044474555527
+    },
+    "clearance": {
+      "method": "sampled moving visual geometry vs infinite tabletop plane",
+      "samples": 161,
+      "path_minimum_m": 0.00888728511642356,
+      "gripper_holder_path_minimum_m": 0.036424219612849404,
+      "minimum_at_fraction": 0.0,
+      "closest_body": "shoulder",
+      "closest_geom": "rotation_pitch_so101_v1",
+      "endpoint": {
+        "minimum_m": 0.00888728511642356,
+        "gripper_holder_minimum_m": 0.039215188851375475,
+        "geom": "rotation_pitch_so101_v1",
+        "body": "shoulder"
+      },
+      "status": "no intersection in sampled poses",
+      "collision_validated": false,
+      "limitations": [
+        "Provisional camera/base/table registration and approximate holder shape.",
+        "Fixed base excluded. Table objects, cables and self-collision not checked.",
+        "Discrete samples do not establish continuous path clearance."
+      ]
+    }
+  },
+  {
+    "stage": "approach",
+    "plan": {
+      "start": [
+        -0.17721804712557807,
+        -1.7278760074800568,
+        1.5290810397279992,
+        1.073952873246401,
+        -1.6145254553064028,
+        0.6301199301803483
+      ],
+      "goal": [
+        -0.7565991198344592,
+        0.5009354543474123,
+        -0.2910579397006533,
+        1.376029089937727,
+        -1.3105314209534245,
+        0.6301199301803483
+      ],
+      "duration": 39.90671565409292,
+      "speedup_until_s": 27.048536943629916,
+      "speedup_factor": 4.0,
+      "playback_duration": 19.620312946370483
+    },
+    "clearance": {
+      "method": "sampled moving visual geometry vs infinite tabletop plane",
+      "samples": 161,
+      "path_minimum_m": 0.008886075116300372,
+      "gripper_holder_path_minimum_m": 0.02932524208686614,
+      "minimum_at_fraction": 0.5625,
+      "closest_body": "shoulder",
+      "closest_geom": "rotation_pitch_so101_v1",
+      "endpoint": {
+        "minimum_m": 0.008887278855111473,
+        "gripper_holder_minimum_m": 0.02932524208686614,
+        "geom": "rotation_pitch_so101_v1",
+        "body": "shoulder"
+      },
+      "status": "no intersection in sampled poses",
+      "collision_validated": false,
+      "limitations": [
+        "Provisional camera/base/table registration and approximate holder shape.",
+        "Fixed base excluded. Table objects, cables and self-collision not checked.",
+        "Discrete samples do not establish continuous path clearance."
+      ]
+    },
+    "retarget": {
+      "current_surface_center_base_m": [
+        0.22241991442424391,
+        0.15792174763927153,
+        -0.017303473904977176
+      ],
+      "target_base_m": [
+        0.22312082446593123,
+        0.15752214806405754,
+        0.019840657085689432
+      ],
+      "target_shift_m": [
+        -0.001042279479301328,
+        -0.06428875907773901,
+        0.0026842011252513967
+      ],
+      "jaw_alignment_error_deg": 4.1027922773831484,
+      "downward_tilt_deg": 5.035618431554737,
+      "roll_change_deg": 17.41757516558062,
+      "jaw_orientation_sign": -1,
+      "target_name": "green-and-gold packet",
+      "estimated_width_m": 0.05506536737084389,
+      "opening_gap_m": 0.0630653673708439,
+      "closing_gap_m": 0.035
+    },
+    "joint_mapping": {
+      "validated_for_commands": false,
+      "notes": "All six directions, visual pose offsets, and gripper opening were confirmed. User reports all controls responding in the limited physical control test. Full-range accuracy and physical collision clearance remain unvalidated.",
+      "sign": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "offset_rad": [
+        0,
+        0,
+        -0.09599310885968812,
+        -0.07853981633974483,
+        -1.5707963267948966
+      ],
+      "gripper_closed_rad": -0.174533,
+      "gripper_open_rad": 1.7453292,
+      "validation": {
+        "shoulder_pan": {
+          "direction": "confirmed_same_by_user",
+          "offset": "not_validated",
+          "range": "not_validated"
+        },
+        "shoulder_lift": {
+          "direction": "confirmed_same_by_user",
+          "offset": "not_validated",
+          "range": "not_validated"
+        },
+        "elbow_flex": {
+          "direction": "confirmed_same_by_user",
+          "offset": "minus_5.5_degrees_visually_confirmed_by_user",
+          "range": "not_validated",
+          "reference": "User requested one additional upward degree beyond the previous -4.5 degree offset"
+        },
+        "wrist_flex": {
+          "direction": "confirmed_same_by_user",
+          "offset": "minus_4.5_degrees_visually_confirmed_by_user",
+          "range": "not_validated",
+          "reference": "User requested one additional upward degree beyond the previous -3.5 degree offset"
+        },
+        "wrist_roll": {
+          "direction": "confirmed_same_by_user",
+          "offset": "minus_90_degrees_confirmed_by_user",
+          "range": "not_validated"
+        },
+        "gripper": {
+          "direction": "confirmed_same_by_user",
+          "opening": "visually_similar_confirmed_by_user",
+          "endpoints": "not_measured"
+        }
+      },
+      "visual_alignment_status": "User accepted the current overall pose after elbow and wrist-bend adjustments",
+      "commissioning": {
+        "status": "limited_physical_control_confirmed_by_user",
+        "all_six_controls_responding": true,
+        "excursion_limit_deg": 5,
+        "command_speed_deg_s": 5,
+        "evidence": "User reported all responding; controller output reached ACTIVE. No quantitative tracking-error measurements recorded.",
+        "full_range_validated": false
+      }
+    },
+    "source": "Current target; both wrist-roll directions evaluated from actual starting pose"
+  },
+  {
+    "stage": "lower",
+    "plan": {
+      "start": [
+        -0.7565991198344592,
+        0.5009354543474123,
+        -0.2910579397006533,
+        1.376029089937727,
+        -1.3105314209534245,
+        0.6301199301803483
+      ],
+      "goal": [
+        -0.7587577561494709,
+        0.5664684951909269,
+        -0.2833956857582576,
+        1.3334368038914812,
+        -1.307315631018233,
+        0.6301199301803483
+      ],
+      "duration": 4.693458323739791
+    },
+    "clearance": {
+      "method": "sampled moving visual geometry vs infinite tabletop plane",
+      "samples": 161,
+      "path_minimum_m": 0.008887219080187532,
+      "gripper_holder_path_minimum_m": 0.014453871432507634,
+      "minimum_at_fraction": 1.0,
+      "closest_body": "shoulder",
+      "closest_geom": "rotation_pitch_so101_v1",
+      "endpoint": {
+        "minimum_m": 0.008887219080187532,
+        "gripper_holder_minimum_m": 0.014453871432507634,
+        "geom": "rotation_pitch_so101_v1",
+        "body": "shoulder"
+      },
+      "status": "no intersection in sampled poses",
+      "collision_validated": false,
+      "limitations": [
+        "Provisional camera/base/table registration and approximate holder shape.",
+        "Fixed base excluded. Table objects, cables and self-collision not checked.",
+        "Discrete samples do not establish continuous path clearance."
+      ]
+    },
+    "vertical_travel_m": -0.015,
+    "position_error_m": 2.056913409877893e-08,
+    "orientation_change_deg": 1.7802505449581785
+  },
+  {
+    "stage": "close",
+    "plan": {
+      "start": [
+        -0.7587577561494709,
+        0.5664684951909269,
+        -0.2833956857582576,
+        1.3334368038914812,
+        -1.307315631018233,
+        0.6301199301803483
+      ],
+      "goal": [
+        -0.7587577561494709,
+        0.5664684951909269,
+        -0.2833956857582576,
+        1.3334368038914812,
+        -1.307315631018233,
+        0.25674295326269836
+      ],
+      "duration": 16.044693708551172,
+      "speedup_until_s": 16.044693708551172,
+      "speedup_factor": 4.0,
+      "playback_duration": 4.011173427137793,
+      "hold_gripper": true
+    },
+    "clearance": {
+      "method": "sampled moving visual geometry vs infinite tabletop plane",
+      "samples": 161,
+      "path_minimum_m": 0.008887219080187532,
+      "gripper_holder_path_minimum_m": 0.014453871432507634,
+      "minimum_at_fraction": 0.0,
+      "closest_body": "shoulder",
+      "closest_geom": "rotation_pitch_so101_v1",
+      "endpoint": {
+        "minimum_m": 0.008887219080187532,
+        "gripper_holder_minimum_m": 0.014453871432507634,
+        "geom": "rotation_pitch_so101_v1",
+        "body": "shoulder"
+      },
+      "status": "no intersection in sampled poses",
+      "collision_validated": false,
+      "limitations": [
+        "Provisional camera/base/table registration and approximate holder shape.",
+        "Fixed base excluded. Table objects, cables and self-collision not checked.",
+        "Discrete samples do not establish continuous path clearance."
+      ]
+    },
+    "commanded_gap_m": 0.035,
+    "grip_force_calibrated": false
+  },
+  {
+    "stage": "basket_lift",
+    "plan": {
+      "start": [
+        -0.7587577561494709,
+        0.5664684951909269,
+        -0.2833956857582576,
+        1.3334368038914812,
+        -1.307315631018233,
+        0.25674295326269836
+      ],
+      "goal": [
+        -0.7464086126776369,
+        0.11693772649191608,
+        -0.1589159206112177,
+        1.376029089937727,
+        -1.2746878390260532,
+        0.25674295326269836
+      ],
+      "duration": 32.19526975965616,
+      "hold_gripper": true,
+      "speedup_until_s": 32.19526975965616,
+      "speedup_factor": 4.0,
+      "playback_duration": 8.04881743991404
+    },
+    "clearance": {
+      "method": "sampled moving visual geometry vs infinite tabletop plane",
+      "samples": 121,
+      "path_minimum_m": 0.008887219080187532,
+      "gripper_holder_path_minimum_m": 0.014453871432507634,
+      "minimum_at_fraction": 0.0,
+      "closest_body": "shoulder",
+      "closest_geom": "rotation_pitch_so101_v1",
+      "endpoint": {
+        "minimum_m": 0.008887390905877597,
+        "gripper_holder_minimum_m": 0.0904393343657207,
+        "geom": "rotation_pitch_so101_v1",
+        "body": "shoulder"
+      },
+      "status": "no intersection in sampled poses",
+      "collision_validated": false,
+      "limitations": [
+        "Provisional camera/base/table registration and approximate holder shape.",
+        "Fixed base excluded. Table objects, cables and self-collision not checked.",
+        "Discrete samples do not establish continuous path clearance."
+      ]
+    },
+    "basket_rim_height_m": 0.04,
+    "object_height_m": 0.03,
+    "carried_object_minimum_m": 2.034480364978709e-16
+  },
+  {
+    "stage": "basket_transfer",
+    "plan": {
+      "start": [
+        -0.7464086126776369,
+        0.11693772649191608,
+        -0.1589159206112177,
+        1.376029089937727,
+        -1.2746878390260532,
+        0.25674295326269836
+      ],
+      "goal": [
+        -0.09731562236772046,
+        0.36657976268115433,
+        -0.45767309283086,
+        1.376029089937727,
+        -0.2759385872010426,
+        0.25674295326269836
+      ],
+      "duration": 35.76507307588859,
+      "hold_gripper": true,
+      "speedup_until_s": 35.76507307588859,
+      "speedup_factor": 4.0,
+      "playback_duration": 8.941268268972147
+    },
+    "clearance": {
+      "method": "sampled moving visual geometry vs infinite tabletop plane",
+      "samples": 121,
+      "path_minimum_m": 0.008886077156113226,
+      "gripper_holder_path_minimum_m": 0.08659732993463776,
+      "minimum_at_fraction": 0.4083333333333333,
+      "closest_body": "shoulder",
+      "closest_geom": "rotation_pitch_so101_v1",
+      "endpoint": {
+        "minimum_m": 0.00888783978037476,
+        "gripper_holder_minimum_m": 0.08659732993463776,
+        "geom": "rotation_pitch_so101_v1",
+        "body": "shoulder"
+      },
+      "status": "no intersection in sampled poses",
+      "collision_validated": false,
+      "limitations": [
+        "Provisional camera/base/table registration and approximate holder shape.",
+        "Fixed base excluded. Table objects, cables and self-collision not checked.",
+        "Discrete samples do not establish continuous path clearance."
+      ]
+    },
+    "basket_rim_height_m": 0.04,
+    "object_height_m": 0.03,
+    "carried_object_minimum_m": 0.06345719475588628
+  },
+  {
+    "stage": "basket_open",
+    "plan": {
+      "start": [
+        -0.09731562236772046,
+        0.36657976268115433,
+        -0.45767309283086,
+        1.376029089937727,
+        -0.2759385872010426,
+        0.25674295326269836
+      ],
+      "goal": [
+        -0.09731562236772046,
+        0.36657976268115433,
+        -0.45767309283086,
+        1.376029089937727,
+        -0.2759385872010426,
+        0.7329006749811914
+      ],
+      "duration": 20.461370877775792,
+      "hold_gripper": false,
+      "speedup_until_s": 20.461370877775792,
+      "speedup_factor": 4.0,
+      "playback_duration": 5.115342719443948
+    },
+    "clearance": {
+      "method": "sampled moving visual geometry vs infinite tabletop plane",
+      "samples": 121,
+      "path_minimum_m": 0.00888783978037476,
+      "gripper_holder_path_minimum_m": 0.08659732993463776,
+      "minimum_at_fraction": 0.0,
+      "closest_body": "shoulder",
+      "closest_geom": "rotation_pitch_so101_v1",
+      "endpoint": {
+        "minimum_m": 0.00888783978037476,
+        "gripper_holder_minimum_m": 0.08659732993463776,
+        "geom": "rotation_pitch_so101_v1",
+        "body": "shoulder"
+      },
+      "status": "no intersection in sampled poses",
+      "collision_validated": false,
+      "limitations": [
+        "Provisional camera/base/table registration and approximate holder shape.",
+        "Fixed base excluded. Table objects, cables and self-collision not checked.",
+        "Discrete samples do not establish continuous path clearance."
+      ]
+    },
+    "basket_rim_height_m": 0.04,
+    "object_height_m": 0.03,
+    "carried_object_minimum_m": null
+  }
+]

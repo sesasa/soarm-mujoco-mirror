@@ -1,0 +1,63 @@
+{
+  "validated_for_commands": false,
+  "notes": "All six directions, visual pose offsets, and gripper opening were confirmed. User reports all controls responding in the limited physical control test. Full-range accuracy and physical collision clearance remain unvalidated.",
+  "sign": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "offset_rad": [
+    0,
+    0,
+    -0.09599310885968812,
+    -0.07853981633974483,
+    -1.5707963267948966
+  ],
+  "gripper_closed_rad": -0.174533,
+  "gripper_open_rad": 1.7453292,
+  "validation": {
+    "shoulder_pan": {
+      "direction": "confirmed_same_by_user",
+      "offset": "not_validated",
+      "range": "not_validated"
+    },
+    "shoulder_lift": {
+      "direction": "confirmed_same_by_user",
+      "offset": "not_validated",
+      "range": "not_validated"
+    },
+    "elbow_flex": {
+      "direction": "confirmed_same_by_user",
+      "offset": "minus_5.5_degrees_visually_confirmed_by_user",
+      "range": "not_validated",
+      "reference": "User requested one additional upward degree beyond the previous -4.5 degree offset"
+    },
+    "wrist_flex": {
+      "direction": "confirmed_same_by_user",
+      "offset": "minus_4.5_degrees_visually_confirmed_by_user",
+      "range": "not_validated",
+      "reference": "User requested one additional upward degree beyond the previous -3.5 degree offset"
+    },
+    "wrist_roll": {
+      "direction": "confirmed_same_by_user",
+      "offset": "minus_90_degrees_confirmed_by_user",
+      "range": "not_validated"
+    },
+    "gripper": {
+      "direction": "confirmed_same_by_user",
+      "opening": "visually_similar_confirmed_by_user",
+      "endpoints": "not_measured"
+    }
+  },
+  "visual_alignment_status": "User accepted the current overall pose after elbow and wrist-bend adjustments",
+  "commissioning": {
+    "status": "limited_physical_control_confirmed_by_user",
+    "all_six_controls_responding": true,
+    "excursion_limit_deg": 5,
+    "command_speed_deg_s": 5,
+    "evidence": "User reported all responding; controller output reached ACTIVE. No quantitative tracking-error measurements recorded.",
+    "full_range_validated": false
+  }
+}

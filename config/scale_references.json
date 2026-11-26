@@ -1,0 +1,55 @@
+{
+  "status": "Table lines retired: user erased physical blue marks; archived coordinates must not be used for current registration",
+  "references": [
+    {
+      "type": "table_line",
+      "name": "line_1",
+      "length_m": 0.15,
+      "endpoints_px": [
+        [
+          346,
+          110
+        ],
+        [
+          450,
+          125
+        ]
+      ],
+      "endpoint_method": "manual selection on thick marker strokes",
+      "current_sim_plane_length_m": 0.1573292072315905,
+      "relative_length_error_percent": 4.886138154393671,
+      "status": "retired_erased_by_user",
+      "use_for_registration": false
+    },
+    {
+      "type": "table_line",
+      "name": "line_2",
+      "length_m": 0.15,
+      "endpoints_px": [
+        [
+          346,
+          110
+        ],
+        [
+          352,
+          220
+        ]
+      ],
+      "endpoint_method": "manual selection on thick marker strokes",
+      "current_sim_plane_length_m": 0.14619335828707877,
+      "relative_length_error_percent": -2.537761141947481,
+      "status": "retired_erased_by_user",
+      "use_for_registration": false
+    },
+    {
+      "type": "ruler",
+      "length_m": 0.15
+    }
+  ],
+  "capture": "captures/alignment/blue_scale_reference_640.jpg",
+  "capture_size": [
+    640,
+    480
+  ],
+  "notes": "Lines share a visible endpoint; perpendicularity not assumed. Ruler mark endpoints not yet registered. Two lengths check local scale but cannot determine all camera intrinsics/extrinsics and distortion. World points were intersected with approximate Z=0 tabletop. User subsequently erased the blue table marks. Retain their old measurements only as historical records. Current calibration uses the measured printed checkerboard."
+}

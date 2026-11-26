@@ -1,0 +1,121 @@
+{
+  "state": {
+    "state": "ACTIVE",
+    "reason": "Direct joint control: full working range, 7 deg/s; Space holds, X releases",
+    "q": [
+      -0.11430947628446378,
+      -1.7253826319715373,
+      1.5327251337706245,
+      1.0752954342094736,
+      -1.686640158465729,
+      0.7267821644726409
+    ],
+    "command": [
+      -0.11430947628446378,
+      -1.7253826319715373,
+      1.5327251337706245,
+      1.0752954342094736,
+      -1.686640158465729,
+      0.7267821644726409
+    ],
+    "segment_id": null,
+    "segment_elapsed": null,
+    "motor_diagnostics": {
+      "time": 395170.024485303,
+      "raw_units": true,
+      "Present_Load": {
+        "shoulder_pan": 0,
+        "shoulder_lift": 0,
+        "elbow_flex": 0,
+        "wrist_flex": 0,
+        "wrist_roll": 0,
+        "gripper": 0
+      },
+      "Present_Current": {
+        "shoulder_pan": 0,
+        "shoulder_lift": 0,
+        "elbow_flex": 0,
+        "wrist_flex": 2,
+        "wrist_roll": 0,
+        "gripper": 0
+      },
+      "Present_Voltage": {
+        "shoulder_pan": 124,
+        "shoulder_lift": 124,
+        "elbow_flex": 123,
+        "wrist_flex": 123,
+        "wrist_roll": 124,
+        "gripper": 122
+      },
+      "Status": {
+        "shoulder_pan": 0,
+        "shoulder_lift": 0,
+        "elbow_flex": 0,
+        "wrist_flex": 0,
+        "wrist_roll": 0,
+        "gripper": 0
+      }
+    },
+    "limits": [
+      [
+        -1.7407261858352236,
+        1.7407261858352236
+      ],
+      [
+        -1.7453293,
+        1.7453293
+      ],
+      [
+        -1.69,
+        1.5465343322479426
+      ],
+      [
+        -1.5331087226172169,
+        1.3760290899377272
+      ],
+      [
+        -2.7438473,
+        1.5355061529084182
+      ],
+      [
+        -0.1395156878667724,
+        1.7103118878667722
+      ]
+    ],
+    "time": 395170.158446761,
+    "grasp_stage": null,
+    "grasp_running": null,
+    "grasp_elapsed": null,
+    "hover_used": false,
+    "hover_elapsed": null
+  },
+  "region": [
+    [
+      0.21374387958922694,
+      0.14025580934861867,
+      -0.015777036413643097
+    ],
+    [
+      0.026402028277516365,
+      0.053714726120233536,
+      0.001
+    ],
+    [
+      [
+        0.552189297108445,
+        -0.8284549279438332,
+        -0.09353829442779042
+      ],
+      [
+        -0.8335159263562947,
+        -0.5510441634565019,
+        -0.04001912581419248
+      ],
+      [
+        -0.018389689211337695,
+        0.1000637910840009,
+        -0.994811066004298
+      ]
+    ]
+  ]
+}

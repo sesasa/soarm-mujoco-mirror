@@ -1,0 +1,32 @@
+{
+  "time": 1789822620.023826,
+  "reason": "Trial restoring elbow default P gain for persistent position lag",
+  "register": "P_Coefficient",
+  "motor": "elbow_flex",
+  "requested": 32,
+  "before": {
+    "shoulder_pan": 16,
+    "shoulder_lift": 16,
+    "elbow_flex": 16,
+    "wrist_flex": 16,
+    "wrist_roll": 16,
+    "gripper": 16
+  },
+  "lock": 0,
+  "after": {
+    "shoulder_pan": 16,
+    "shoulder_lift": 16,
+    "elbow_flex": 32,
+    "wrist_flex": 16,
+    "wrist_roll": 16,
+    "gripper": 16
+  },
+  "torque_enabled": {
+    "shoulder_pan": 0,
+    "shoulder_lift": 0,
+    "elbow_flex": 0,
+    "wrist_flex": 0,
+    "wrist_roll": 0,
+    "gripper": 0
+  }
+}

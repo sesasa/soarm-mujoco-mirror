@@ -1,0 +1,22 @@
+{
+  "method": "sampled moving visual geometry vs infinite tabletop plane",
+  "samples": 81,
+  "path_minimum_m": 0.008886087104325598,
+  "gripper_holder_path_minimum_m": 0.07351970681560023,
+  "minimum_at_fraction": 0.4125,
+  "closest_body": "shoulder",
+  "closest_geom": "rotation_pitch_so101_v1",
+  "endpoint": {
+    "minimum_m": 0.008888464876082282,
+    "gripper_holder_minimum_m": 0.07351970681560023,
+    "geom": "rotation_pitch_so101_v1",
+    "body": "shoulder"
+  },
+  "status": "no intersection in sampled poses",
+  "collision_validated": false,
+  "limitations": [
+    "Provisional camera/base/table registration and approximate holder shape.",
+    "Fixed base excluded. Table objects, cables and self-collision not checked.",
+    "Discrete samples do not establish continuous path clearance."
+  ]
+}

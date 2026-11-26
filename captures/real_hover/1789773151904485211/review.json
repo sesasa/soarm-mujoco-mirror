@@ -1,0 +1,9 @@
+{
+  "completed": false,
+  "stop_cause": "UI camera guard: target_visible became false",
+  "elapsed_s": 9.098146506992634,
+  "jaw_unchanged": true,
+  "diagnosis": "Current saved image has split blue-pen detections; a label fragment has pink pixels near the global candidate threshold. Exact stop frame was not saved, so this cause remains a hypothesis.",
+  "prepared_fix": "Track selected highlighter spatially, allow contained footprint fragments, and save precise future stop reasons and frames.",
+  "fix_running": false
+}

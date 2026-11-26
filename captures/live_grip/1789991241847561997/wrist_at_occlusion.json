@@ -1,0 +1,105 @@
+{
+  "state": "ACTIVE",
+  "reason": "Adaptive pause: holding current command for fresh planning",
+  "q": [
+    -0.33525665192154813,
+    0.22785177487574323,
+    -0.023111228007177645,
+    1.3744947345513585,
+    -1.5899757691245047,
+    0.3948789451229184
+  ],
+  "command": [
+    -0.34324981799195387,
+    0.22077926267856599,
+    -0.04347582065904443,
+    1.376029089904332,
+    -1.5884788916719972,
+    0.40639993830024357
+  ],
+  "segment_id": null,
+  "segment_elapsed": null,
+  "direct_pause_id": 791,
+  "visual_servo_running": false,
+  "motor_diagnostics": {
+    "time": 437897.305143591,
+    "raw_units": true,
+    "Present_Load": {
+      "shoulder_pan": -34,
+      "shoulder_lift": -51,
+      "elbow_flex": -108,
+      "wrist_flex": 0,
+      "wrist_roll": 0,
+      "gripper": 44
+    },
+    "Present_Current": {
+      "shoulder_pan": 6,
+      "shoulder_lift": 10,
+      "elbow_flex": 29,
+      "wrist_flex": 3,
+      "wrist_roll": 0,
+      "gripper": 4
+    },
+    "Present_Voltage": {
+      "shoulder_pan": 124,
+      "shoulder_lift": 124,
+      "elbow_flex": 123,
+      "wrist_flex": 123,
+      "wrist_roll": 124,
+      "gripper": 122
+    },
+    "Status": {
+      "shoulder_pan": 0,
+      "shoulder_lift": 0,
+      "elbow_flex": 0,
+      "wrist_flex": 0,
+      "wrist_roll": 0,
+      "gripper": 0
+    }
+  },
+  "limits": [
+    [
+      -1.7407261858352236,
+      1.7407261858352236
+    ],
+    [
+      -1.7453293,
+      1.7453293
+    ],
+    [
+      -1.69,
+      1.5465343322479426
+    ],
+    [
+      -1.5331087226172169,
+      1.3760290899377272
+    ],
+    [
+      -2.7438473,
+      1.5355061529084182
+    ],
+    [
+      -0.1395156878667724,
+      1.7103118878667722
+    ]
+  ],
+  "time": 437897.640882843,
+  "grasp_stage": null,
+  "grasp_running": null,
+  "grasp_elapsed": null,
+  "hover_used": false,
+  "hover_elapsed": null,
+  "recorded_at_unix": 1789991658.5650291,
+  "phase": "PAUSING",
+  "notice": "Target obscured or ambiguous; holding until it is visible.",
+  "ik_ms": 3.016218019183725,
+  "frame_age_s": 0.08872987300856039,
+  "wrist_setup": false,
+  "wrist_features": null,
+  "named_reach": true,
+  "gpt_reach": true,
+  "gpt_grip": true,
+  "gpt_place": true,
+  "active_name": "highlighter",
+  "names": []
+}

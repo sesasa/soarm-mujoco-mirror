@@ -1,0 +1,20 @@
+{
+  "status": "capture_complete_optical_alignment_unresolved",
+  "saved_views": 10,
+  "independent_joint_pose_groups": 7,
+  "new_wrist_roll_degrees": [
+    19.604395604395602,
+    -40.747252747252745
+  ],
+  "fixed_overhead_held_out_error_range_px": [
+    8.751117361162152,
+    38.34998942778611
+  ],
+  "free_overhead_held_out_error_range_px": [
+    14.77033449464224,
+    50.243542998209435
+  ],
+  "free_overhead_translation_change_mm": 45.31104584361823,
+  "decision": "Neither candidate accepted. Retain wrist camera as live video only; overhead alignment remains provisional for visual preview. Further work should isolate intrinsic, kinematic and mechanical errors offline rather than request more similar captures.",
+  "changes_to_working_calibration": false
+}

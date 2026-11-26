@@ -1,0 +1,7 @@
+{
+  "status": "awaiting_unobscured_board",
+  "reason": "User secured wrist-camera mounting; previous captures remain separate.",
+  "user_confirmation": "secured",
+  "protocol": "Two repeat captures at one stationary pose, then a different pose; evaluate before requesting a full dataset.",
+  "mounting_may_have_changed": true
+}

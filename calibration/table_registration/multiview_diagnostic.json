@@ -1,0 +1,108 @@
+{
+  "status": "rejected_cross_validation_and_parameter_bound",
+  "model": "Shared planar base pose and 3 shaft-depth nuisance coordinates; all joint offsets fixed",
+  "images": [
+    "registration_raw",
+    "pose2_raw",
+    "pose3_raw"
+  ],
+  "landmark_names": [
+    "shoulder_lift_near_side_axis",
+    "elbow_near_side_axis",
+    "wrist_flex_near_side_axis"
+  ],
+  "manual_pixels": [
+    [
+      [
+        490.0,
+        341.0
+      ],
+      [
+        466.0,
+        216.0
+      ],
+      [
+        461.0,
+        122.0
+      ]
+    ],
+    [
+      [
+        486.0,
+        356.0
+      ],
+      [
+        433.0,
+        236.0
+      ],
+      [
+        343.0,
+        149.0
+      ]
+    ],
+    [
+      [
+        479.0,
+        383.0
+      ],
+      [
+        409.0,
+        294.0
+      ],
+      [
+        255.0,
+        207.0
+      ]
+    ]
+  ],
+  "fitted_parameters_xy_yaw_axisdepth": [
+    -0.0371492312043273,
+    0.2185312577073238,
+    -1.5360493031350886,
+    0.05091851017621291,
+    0.05455915341525935,
+    0.059999999999831806
+  ],
+  "T_camera_from_base": [
+    [
+      0.08240143267629846,
+      -0.9909212970970717,
+      0.10623081875025916,
+      0.18904843259879778
+    ],
+    [
+      -0.9781340182525522,
+      -0.10083790874398647,
+      -0.18189436081763333,
+      0.12638906071255912
+    ],
+    [
+      0.19095508956298962,
+      -0.08891962167933702,
+      -0.9775630182501763,
+      0.4264356477609891
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "per_pose_rms_px": [
+    15.221411868977544,
+    3.7896911578249,
+    4.63134002769138
+  ],
+  "leave_one_pose_out_rms_px": [
+    16.593991239550157,
+    5.135544448933859,
+    10.332703505746721
+  ],
+  "limitations": [
+    "Manual picks are approximate and obscured by cables.",
+    "Fitted shaft depth must be verified against CAD before accepting correspondence.",
+    "No changes applied to robot, joint mapping or working scene."
+  ],
+  "decision": "Do not apply. Held-out pose errors reach 16.6 px and wrist shaft-depth parameter reaches 60 mm bound. Manual correspondences are not established. Use an unambiguous rigid target for further calibration."
+}

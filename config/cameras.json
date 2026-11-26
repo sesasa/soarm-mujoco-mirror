@@ -1,0 +1,38 @@
+{
+  "loop_hz": 15,
+  "width": 640,
+  "height": 480,
+  "cameras": [
+    {
+      "name": "camera_4",
+      "role": "overhead",
+      "path": "/dev/v4l/by-id/usb-icSpring_icspring_camera_202404160005-video-index0",
+      "fourcc": "MJPG",
+      "controls": {
+        "auto_exposure": 3,
+        "white_balance_automatic": 1,
+        "power_line_frequency": 1
+      },
+      "rotation_deg": 0
+    },
+    {
+      "name": "camera_6",
+      "role": "wrist",
+      "path": "/dev/v4l/by-id/usb-icSpring_icspring_camera-video-index0",
+      "fourcc": "YUYV",
+      "controls": {
+        "auto_exposure": 1,
+        "white_balance_automatic": 1,
+        "power_line_frequency": 1,
+        "exposure_time_absolute": 5,
+        "brightness": 0,
+        "gamma": 67
+      },
+      "rotation_deg": 0,
+      "capability_notes": "Live V4L2 probe: only 640x480 YUYV advertised; no zoom control exposed. Current capture uses the full delivered frame without digital cropping."
+    }
+  ],
+  "exposure_notes": "Curtains closed: automatic exposure and white balance, 50 Hz compensation. Wrist camera physically rotated and tilted; no software rotation. Latest live view confirms both fingertips and the gap are visible near the bottom. Overhead view covers robot, objects and more of the tabletop.",
+  "placement_reference": "Photos-1-001/IMG_8798.HEIC",
+  "placement_status": "Approximate object/overhead visual fit saved in config/scene.json; arm pose and wrist mounting transform provisional pending motor and camera calibration."
+}

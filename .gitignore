@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+logs/
+MUJOCO_LOG.TXT
+.env
+.env.*
+!.env.example
+src/archive/
+reports/voice_pick_place/fonts/
+# Raw local recordings; curated demonstrations are in media/.
+sample_videos/
+Photos-1-001/
+# New captures are local; required reference files are explicitly tracked.
+captures/

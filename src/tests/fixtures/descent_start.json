@@ -1,0 +1,101 @@
+{
+  "plan": {
+    "start": [
+      -0.33832536269428537,
+      -1.7453283000000002,
+      0.8637461853138969,
+      1.4420063715515787,
+      -2.2819700483767615,
+      -0.15017313068992863
+    ],
+    "goal": [
+      -0.9190839654129959,
+      0.3156720901609435,
+      -0.360054066554672,
+      1.6580629999999998,
+      0.8550805795546886,
+      -0.15017313068992863
+    ],
+    "target": [
+      0.17064254908302537,
+      0.18652225150383095,
+      0.06683169722621674
+    ],
+    "error_m": 0.00021272428784091424,
+    "downward_tilt_deg": 3.8928015794235025,
+    "jaw_alignment_error_deg": 3.8846807367942744,
+    "orientation_error_deg": 3.893149169692111,
+    "object_axis": [
+      0.9834627622831309,
+      0.15192886902879177,
+      -0.09858303078150019
+    ],
+    "table_up": [
+      0.09353829442779042,
+      0.04001912581419248,
+      0.994811066004298
+    ],
+    "mode": "aligned_hover",
+    "grasp_executed": false,
+    "start_adjustment_deg": 2.9890655342681858,
+    "duration": 13.480482082450262,
+    "table_clearance": {
+      "method": "sampled moving visual geometry vs infinite tabletop plane",
+      "samples": 81,
+      "path_minimum_m": 0.008886076956167305,
+      "gripper_holder_path_minimum_m": 0.07361955750906247,
+      "minimum_at_fraction": 0.4125,
+      "closest_body": "shoulder",
+      "closest_geom": "rotation_pitch_so101_v1",
+      "endpoint": {
+        "minimum_m": 0.008888514736142404,
+        "gripper_holder_minimum_m": 0.07361955750906247,
+        "geom": "rotation_pitch_so101_v1",
+        "body": "shoulder"
+      },
+      "status": "no intersection in sampled poses",
+      "collision_validated": false,
+      "limitations": [
+        "Provisional camera/base/table registration and approximate holder shape.",
+        "Fixed base excluded. Table objects, cables and self-collision not checked.",
+        "Discrete samples do not establish continuous path clearance."
+      ]
+    },
+    "surface": [
+      0.16315948552880213,
+      0.18332072143869554,
+      -0.012753188054127097
+    ],
+    "time": 1789767657.661821,
+    "hardware_commands": false,
+    "position_only": false,
+    "collision_validated": false,
+    "gripper_site": "gripperframe"
+  },
+  "plane": [
+    [
+      0.4201917789980833,
+      -0.9026014936493105,
+      -0.09353829442779042,
+      0.2958304845690073
+    ],
+    [
+      -0.9074303491513124,
+      -0.418292518470263,
+      -0.04001912581419248,
+      0.1457317589323115
+    ],
+    [
+      -0.003005046015183594,
+      0.10169519484144174,
+      -0.994811066004298,
+      -0.023715612903587646
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ]
+}

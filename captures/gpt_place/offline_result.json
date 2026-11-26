@@ -1,0 +1,14 @@
+{
+  "hardware_commands": false,
+  "status": "passed ideal-feedback replay",
+  "stages": [
+    "lower",
+    "close",
+    "basket_lift",
+    "basket_transfer",
+    "basket_open",
+    "return_sitting"
+  ],
+  "seconds": 2.7825915979919955,
+  "plate_height_m": 0.02
+}

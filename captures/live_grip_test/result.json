@@ -1,0 +1,17 @@
+{
+  "hardware_commands": false,
+  "scenario": "Archived second box, target shifted smoothly 10 mm over 4 seconds; ideal-feedback 20-second streaming replay",
+  "ik_queries": 200,
+  "ik_median_ms": 1.0120220249518752,
+  "ik_p95_ms": 1.7800757661461828,
+  "worker_clearance_median_ms": 1.2572589912451804,
+  "worker_clearance_p95_ms": 2.066713906242512,
+  "final_hover_error_mm": 0.39674608636905406,
+  "grip_stages": [
+    "lower",
+    "close"
+  ],
+  "basket_required": false,
+  "all_streaming_commands_and_final_grip_validated": true,
+  "limitations": "No live image-latency, servo-bus timing, physical tracking or grasp-success measurement."
+}

@@ -1,0 +1,31 @@
+{
+  "measurements": [
+    {
+      "source_capture": "captures/scene_changes/saved_1789771263473035327.json",
+      "gripper_percent": 20.856463124504362,
+      "measured_gap_mm": 33.0,
+      "current_model_gap_mm": 32.57421571422606,
+      "fitted_model_angle_rad": 0.23129324888205485
+    },
+    {
+      "source_capture": "captures/scene_changes/saved_1789771425704277591.json",
+      "gripper_percent": 29.896907216494846,
+      "measured_gap_mm": 50.0,
+      "current_model_gap_mm": 46.07953825674775,
+      "fitted_model_angle_rad": 0.4510346102291828
+    }
+  ],
+  "candidate_local_fit": {
+    "offset_rad": -0.275653926857372,
+    "radians_per_normalized_opening": 2.4306478654274417,
+    "validity": "Unvalidated interpolation only between measured 33 and 50 mm openings; do not extrapolate to endpoints."
+  },
+  "applied": false,
+  "hardware_commands": false,
+  "next_validation": "Independent intermediate opening around 40 mm at the same tooth location",
+  "limitations": [
+    "Approximate ruler readings",
+    "Model uses tip sphere proxies rather than exact measured tooth surfaces",
+    "Two points fit two parameters exactly; independent validation required"
+  ]
+}

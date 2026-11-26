@@ -1,0 +1,9 @@
+{
+  "prompt": "matchbox",
+  "selected_id": 2,
+  "description": "A small rectangular box with 'doper' text likely representing a matchbox.",
+  "elapsed_s": 3.5243280500289984,
+  "expected_id": 2,
+  "correct": true,
+  "hardware_commands": false
+}

@@ -1,0 +1,121 @@
+{
+  "state": {
+    "state": "ACTIVE",
+    "reason": "Direct joint control: full working range, 7 deg/s; Space holds, X releases",
+    "q": [
+      -0.17721804712557807,
+      -1.7959629797444947,
+      1.5557404645661543,
+      1.1612193358461174,
+      -1.6145254553064028,
+      -0.12885824504361618
+    ],
+    "command": [
+      -0.17721804712557807,
+      -1.7959629797444947,
+      1.5557404645661543,
+      1.1612193358461174,
+      -1.6145254553064028,
+      -0.12885824504361618
+    ],
+    "segment_id": null,
+    "segment_elapsed": null,
+    "motor_diagnostics": {
+      "time": 389737.413277014,
+      "raw_units": true,
+      "Present_Load": {
+        "shoulder_pan": 0,
+        "shoulder_lift": 0,
+        "elbow_flex": 0,
+        "wrist_flex": 0,
+        "wrist_roll": 0,
+        "gripper": 0
+      },
+      "Present_Current": {
+        "shoulder_pan": 0,
+        "shoulder_lift": 0,
+        "elbow_flex": 0,
+        "wrist_flex": 2,
+        "wrist_roll": 0,
+        "gripper": 0
+      },
+      "Present_Voltage": {
+        "shoulder_pan": 124,
+        "shoulder_lift": 124,
+        "elbow_flex": 123,
+        "wrist_flex": 123,
+        "wrist_roll": 124,
+        "gripper": 122
+      },
+      "Status": {
+        "shoulder_pan": 0,
+        "shoulder_lift": 0,
+        "elbow_flex": 0,
+        "wrist_flex": 0,
+        "wrist_roll": 0,
+        "gripper": 0
+      }
+    },
+    "limits": [
+      [
+        -1.7407261858352236,
+        1.7407261858352236
+      ],
+      [
+        -1.7959629797444947,
+        1.7453293
+      ],
+      [
+        -1.69,
+        1.5557404645661543
+      ],
+      [
+        -1.5331087226172169,
+        1.3760290899377272
+      ],
+      [
+        -2.7438473,
+        1.5355061529084182
+      ],
+      [
+        -0.1395156878667724,
+        1.7103118878667722
+      ]
+    ],
+    "time": 389737.511903653,
+    "grasp_stage": null,
+    "grasp_running": null,
+    "grasp_elapsed": null,
+    "hover_used": false,
+    "hover_elapsed": null
+  },
+  "region": [
+    [
+      0.22241991442424391,
+      0.15792174763927153,
+      -0.017303473904977176
+    ],
+    [
+      0.027532683685421944,
+      0.051408782601356506,
+      0.001
+    ],
+    [
+      [
+        0.8187069578372831,
+        -0.5665417060238033,
+        -0.09353829442779042
+      ],
+      [
+        -0.5716684039612855,
+        -0.8195082095265578,
+        -0.04001912581419248
+      ],
+      [
+        -0.053982896376332655,
+        0.08623682423544074,
+        -0.994811066004298
+      ]
+    ]
+  ]
+}

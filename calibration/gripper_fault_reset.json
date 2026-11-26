@@ -1,0 +1,21 @@
+{
+  "time": 1789833592.4812603,
+  "torque_enabled": false,
+  "action": "Write current gripper position while torque remains off to reset overload",
+  "position_raw": 1644,
+  "before_error": 32,
+  "write_result": [
+    0,
+    32
+  ],
+  "after_status": [
+    32,
+    0,
+    32
+  ],
+  "after_torque": [
+    1,
+    0,
+    32
+  ]
+}

@@ -1,0 +1,1691 @@
+{
+  "date": "2026-09-20",
+  "python": "3.13.12 | packaged by conda-forge | (main, Feb  5 2026, 05:53:46) [GCC 14.3.0]",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+  "package_versions": {
+    "mujoco": "3.13.0",
+    "opencv-python": "5.0.0.93",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pillow": "12.3.0",
+    "reportlab": "5.0.1",
+    "glfw": "2.10.2",
+    "PyOpenGL": "3.1.10"
+  },
+  "image_sources": {
+    "holder_alignment.jpg": "captures/calibrated_preview/holder_photo_shape.jpg",
+    "two_objects.jpg": "captures/mirror_grasp/1789856005604745428/latest.jpg",
+    "contact_simulation.jpg": "captures/contact_preview/latest.jpg"
+  },
+  "sha256": {
+    "test_control.py": "05810bdca110f3e0754530131e6dcd36577043877c6e18364cf4f64e4d3daa05",
+    "hover_trajectory.py": "069161b6e864440dc66591c91c475e5aa12aa4b1bae25ca2935eb433fe705df9",
+    "command_mapping.py": "9e83c71c7fec4939eda14e119a01ca0212b079b65d69f07c5ed831f303fafcd9",
+    "grasp_planning.py": "e6503d3eec4efbab4e17888b9c096510f1717a7c31407003442118c48357632f",
+    "verify_simulation.py": "e350618b00d34bd3c424ea93109ff3880ada15a421c781b081b5ae58dfffd2ce",
+    "contact_cycle.py": "d81b2d6c3d07e0f5043a9c48070a5bc390e7d52662493b68abd305e3b4e5a943",
+    "align_scene.py": "8dcc8cb1d4c424b9092008626972b0558f9f2015f81f165b0c9604029b5efa31",
+    "grasp_return.py": "c0c9764702d6421d1114cbcaa5c93ef9dfc2ce8166d738ab2bda5f0e345ac331",
+    "test_replay_settling.py": "abbe7d18124213f3a20421c21cd8938769bf0a32bc854e4791e38a5da9b8a31f",
+    "fit_base_registration.py": "920345669d9e337adb2d3b25fc0ecc7c38a9a2abb0bcf3f8ae6a1c1b36a5cbad",
+    "measured_objects.py": "ea497d32faf8e4f125188c1c3a62ce6ad402455c3059f5fcaca6e9ff38eef14f",
+    "approach_step.py": "27b79824d2f9884de6389d54ba38e1573a70a30a4dfee324e4e18472e1f0c7fe",
+    "make_calibration_board.py": "9600aef13ba757e5d02faae70d974c8b20749f3650c0a5f165479e5489a07a0b",
+    "test_grasp_offset.py": "1508bff3a7f4ac6723302ba37146e9ca965c6b9244be53bfb099b94c64248fbd",
+    "test_live_grip.py": "7643a2f54f81e1844a24d38ffb8ed4b7e3f8c506f3324474a667c789d327c6cf",
+    "named_targets.py": "ebabf0766593b734fed8e7c2ca4c32f0b091777e40cbffb581eb0305a3294a8f",
+    "compare_registration_pose.py": "4617e3ee8965110df22a105cf884fa6d4976989829e27496047d34dd707df604",
+    "grasp_motion.py": "77aed6a81d8ca770af69aa9b3df0e29f455f140743a6193258362c32ad40e97d",
+    "table_geometry.py": "84a4fe943f04708ef08530e8d6612b638bbb692adaf677d0bbf303d302e4721c",
+    "contact_preview.py": "945453ea97d706025c1f82d77e40fb839b9155c5f51e77309eedc4ca10c4716c",
+    "live_grip.py": "d9469ee779d0bf92a59b95c6fd92909925535d1acef97f62fd93313330c2358b",
+    "test_direct_segment.py": "6d6a9469d88c347d7f4e72e4574e5cbaef9a8a280b6b63746ac07e1f06b2eba7",
+    "test_named_targets.py": "aa8edc8effb648340a3473e7c4aa2d4d6ce7adb4c1399b285fd0a125fd872699",
+    "capture_marker_registration.py": "3608ddfd713a2babba2a9d040bfacf59dd52a2179c36524575f83963fd98e89f",
+    "test_adaptive_reach.py": "6b94e863d1f195c4ddb0d6be6ca2457783beef5a153dd94ae29d00df5e5c6125",
+    "verify_adaptive_reach.py": "9daa8c49debc43e09751b5be1bc351bb1babe9de53d7284fb7d8a20365638738",
+    "test_grasp_worker.py": "575e1e95d5473380630c713fca8bede9b2e839db0d777d41eb9d3556b422514c",
+    "gpt_targets.py": "9b8a95fb71b0d2a5ab22467e945bcaf03a1bcd505ae4a8e2068ce657a161bfbe",
+    "table_clearance.py": "cd7f4a4585784c37d87004b2dd9db380c779cd61ab86699b68e014333c8d3b4c",
+    "sitting_return.py": "32ee93db7e2c33f6e400c75821f3a142372e001da0097fc3fe0ed4514bd33b12",
+    "robot_setup.py": "9fb0780b57f87dfa3667fb7290b5e6724169da94bc506eec3f5330c5826ce849",
+    "verify_gpt_grip.py": "71513436b8830a86b161dc66c0f6fa97296e0080d981d7465104c837786ca089",
+    "verify_live_grip.py": "3775c3bd1e5f40a0fe1517c81c9c94fcc91dacc7e2a187961d39782848571277",
+    "adaptive_reach.py": "a028189e37edc38955885e229e70a0aa3e41328bd62131c3315f681b2284c915",
+    "diagnose_wrist_overhead.py": "07081aab802f38cba890fd7d01ab677036796fad069c73564ee5529d69697bca",
+    "test_playback_speed.py": "f57e56a934c43cbb7032b518289047e28141fa2f64ef12ebb5d2ea53c4469bc1",
+    "test_plate_occlusion.py": "fdef6d142f5249217bbefa12b3df6d1b42349622645d4e6de1ecd466b7fa5f70",
+    "refine_base_multiview.py": "4aebc03a00541030a51a74ec9a00eab6ea8b91aee7fdf43dcce141d65200a87f",
+    "test_basket_tracking.py": "177bc0afe25d2315ba89e4c750e2809818bc5849bed4cff1f735012db9e41ab4",
+    "mesh_support.py": "f6f94d91a3bd8f5862f0b2939d0f59c29be655b1272076737a3dff7c573da62c",
+    "batch_grasp.py": "98ef3f967254f9ff4dc2d54e2192e3c47ff2db718665e29b10d82de1ab118ced",
+    "capture_wrist_extrinsics.py": "e0078116a1a9c021d347f13d4ad9d3b6c5a364fd6ce76ba38d51b5dde48d6340",
+    "seated_start.py": "0f3c62914d048b699b2d30bd929bd7acdf8f2d078ad36295849c21316773ff85",
+    "build_scene.py": "d7f4f0a23da12020a55902bd2bc8e2fe2a838b4050ce6aba8af81fd6bbde229a",
+    "wrist_local.py": "085ed20ae8c72423ffacd8593d53a56d203128811ef4efd6934c1facc25c7f04",
+    "basket_place.py": "47fd6b542ee7b7e0b83bff8602f7b533af5141758170aa287c958a4cd509f29b",
+    "test_gpt_targets.py": "a0fab34cd33cd6a0842c542bcb8b5633dc36dfa129e14533d7f83ceabadbfa93",
+    "wrist_mount_visual.py": "b755da74f99d30dfd8c1e3a2cd484166ece9d8daa50ea8d7c8f4addb6a04cdd3",
+    "camera_calibration.py": "c9b777831aa867c0232db7b994ee66626d954057915397de9ef1402a1185a2bc",
+    "solve_wrist_bundle.py": "c6a7b3b59c3901d8a76dcdb45c7d4f2fea771e3631065fe863cab5f8b777914e",
+    "grasp_control.py": "86f6667a002293f0f54552dd966dd8a3659de4e541e0f7c89ca060977e32b8a5",
+    "mirror_robot.py": "a9190b1c97b84f1d3660b6675a0c45cd3d48cb6ae0ac9bf5aa812e8180d2fa55",
+    "preview_camera_alignment.py": "351acda82c1b24d421abd5d2804bdd48f4ad1e7d29490444f3974cb33ba32a36",
+    "test_batch_grasp.py": "4b7582286765ca03f2c787276212b6b67c584e49890f9b6c781e8b94ea5183c7",
+    "control_worker.py": "add1480ccbb6fbebdfada13522ead626c0af13735e159a6bc7920e42d5439f5a",
+    "grasp_tail.py": "202576da89e9e2a4c73deedce5edf51289ce74a83d3b455a2d78f5a2082d9f1c",
+    "test_hover_worker.py": "934719ca5e8470129586c3a9263330744850a43c9cb2f0266268a6ba79f6181c",
+    "test_wrist_local.py": "f78c31518686445653651e9ee58f661d23826116f147a41e777cd4c3296a698f",
+    "control_robot.py": "0a44ce984f3cd5ab45f2c88dcb808a64de12ba8da920abcf0960e58e8a9319b2",
+    "test_return_hold.py": "1f7d607d5909caaa7ec5c6b905cff941f3fb6afa5dfdf50eae9ef5d6c2472d03",
+    "replay_settling.py": "ab1f016c1902bfd68a84510c22f0c379f5696d0531e6376e5ffc9b85df80801b",
+    "test_direct_control.py": "09cd64088b6fd53faba5d6863e9b3220f9ca3e575783456f883d3bfc547a9583",
+    "solve_wrist_extrinsics.py": "9fb919615fa9269c3a896392c04b2f9fad110cd0acd40943cdb23d6ad2ac1fcf",
+    "test_basket.py": "da3cd5cf09cf168a30cb6fc354dc41b1c84cbe326c4b9882d45f007b300d6dbf",
+    "estimate_wrist_extrinsics.py": "783c2494741aec4be6a3329bf9f72d865fde6940acf355254b0a9d5765e4b67a",
+    "check_current_grasp.py": "434ace263f3b10925324cbe083987f8e2c528fa60f439bd5e1980fc3a185e541",
+    "simulate.py": "f7edd20bd3d719ab6d49dc4322802e1fa911c44984e6feef2ce4b2ff7bb79ded",
+    "plate_detection.py": "b1e5830b265525068b125b0d8ef644e29e74b13856d1928a17c80427149d8079",
+    "test_grip_occlusion.py": "5a136b5aa6d96e4095eada4aefcd9eb27e2a1bd955c21a82417518a5e54070bb",
+    "basket_tracking.py": "9e6dae2034207ce81f1d10a3eecb9bb2b9cbe258ceaba9507de029036218b318",
+    "mirror_grasp.py": "0480068e5e3a2e7dc8047d34a8826614f67a73e581511685de4c82f0dda3cf45",
+    "simulated_reach.py": "5c7fccedeb1e90797f28e7239597ec6faac002053e7bbc0e4d98292fb5a8e01f",
+    "real_hover.py": "d2cb52b1bb6ed572969eb513c0d308031264a1756a01a898f274962eded2f266",
+    "camera_visibility.py": "e74aadc8e9190da76decca2d0574e4513c3985ff4ad9bb1e6be5950e37146440",
+    "capture_cameras.py": "cbc89c9d006e6777ccf6679cf3c214d1b0f77cfcfe2bf8944eee6a2312944743",
+    "register_table_plane.py": "9fbe0c72e7130adb68d153f8f2472111f55a2c7977f016a0b9e23be343af5e72",
+    "test_seated_start.py": "3a1516c5c9464e4aa86251c7a357ae0adead625268941d5c60af02b6c9f1cf78",
+    "scene_changes.py": "0de5b5a0d1cf96d20e58e83bb29462551213bebb08b8c93ff269fb81255ec942",
+    "test_mesh_support.py": "f8a5f015db68637e3ca69c80d6811c049ba74a79ed9b085123422dd863fb927d",
+    "grasp_target.py": "2bd54130ede2f9c66b3b32e98f9a1ecaa65264fbfc19a35fab3717c555da8512",
+    "reach_retarget.py": "f057cc1dc208adc12ea6d9ecddc715b92eaccb28aef8225c083b822588fcc1bc",
+    "adaptive_grip.py": "b5f30054a7efc842ec987ff2f7d4e79b1990f26e877cd27c5ee8453a58ed3a44",
+    "mirror_grasp_plan.py": "a9b5bc6917316e55403dd91b0b8a94dfbc5a227a0bc0cd9ba8300066175453b6",
+    "solve_marker_registration.py": "eaf22dd23354a3a3c0a2ed02ea6bdf3f757e574a5fd35dbbff19069d81eee0cc",
+    "config/basket_reference.json": "1909750eadcdedfbdbc20a6d7e5b464e2cc3ce8a97f20e5d5ad8378dbb8709fa",
+    "config/gripper_registration_marker.json": "ade4a3be9ccdd9afb8c9eed60db78c59b8304c40f27ee96d8be59ab4deeab065",
+    "config/wrist_mount_visual.json": "7763ff37e2ace191feb85e6f88cea9c6c4f707ab3b27d23108f1b8c1ebf6991d",
+    "config/cameras.json": "3948d8f3d2c54c98e4f714a89e9a9d4d79da0fce0ec77613d8b474788edfed00",
+    "config/joint_mapping.json": "0f97bac790c1d6521ce6bdb33415d00ea9356069b4f54d6f083f2a56012fc0af",
+    "config/basket.json": "1d26014439f35a6696a89dd929768e162993f817e3d73fcface8633f187f4bbf",
+    "config/scene.json": "63ea96b9e89535e1221949bf9163cbe6ad29a16613685b12cf19ea27e6ee1054",
+    "config/measured_objects.json": "c59f915815411b14c7214b1dcf39823b44458f6e6b72634cba5d6ea073d4ef13",
+    "config/calibration_boards.json": "4c0665cbdd74730cdd8bb00d1d622b77309b2231865327d877ff387aa9cc2f74",
+    "config/grasp_target.json": "84741096223e3ba753cfc3883f0aa3530a9da7f27d7e47be06b2360dbb8e541b",
+    "config/batch_objects.json": "e34ff9c66a60fad9779ec31e4ac3dd75864e1f1d1aee812c582df6f586034ea2",
+    "config/scale_references.json": "b4a6ea1e03584d8000421dd44561aec95e532d76d64bd9228acd2fad8dee8d3a",
+    "requirements.txt": "6b750c92427a7c086f73f8bd876d3306f809774fe471aead4158703d36e505a7",
+    "assets/so101/README.md": "e2344e7c14290bed85c7907247aecb8bf6cb4392e3de0d7c45680efe9bb9b5a9",
+    "assets/so101/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "calibration/cameras/overhead_640x480.json": "ae528a7c3af932d7c3a176f0307a36296dc9fafeec67dfa9e5cff27065e7b8a7",
+    "calibration/cameras/wrist_640x480.json": "2ddfbf9d0c49ffe4f1cd52866d63aa4e0fd24c23c58521fdd999ceee16ae3f78",
+    "calibration/robot_camera/overhead_from_base_provisional.json": "93b2fbab9410ad7474fca0981fa160de68e91a7a41cff65b00b6b09bdfd157b4",
+    "calibration/planning_performance.json": "d3e5c5409701dfddfcbb11627214255d9ea89ff9643e909987ce1f49259ee0df",
+    "captures/contact_preview/lift_result.json": "fbed489b2523f2687180240085622ff19a0d1ce7aa9f2f8c98807dc834239693",
+    "captures/contact_preview/cycle_result.json": "f0e1394f124f85eaaacd2ba573022bdbe5b2a2df4a5de1a2d5c2a2a2e9b15159"
+  },
+  "configuration": {
+    "basket_reference.json": {
+      "name": "yellow plate",
+      "kind": "plate",
+      "rim_height_m": 0.02,
+      "measurement_height_m": 0.02,
+      "physical_rim_height_m": 0.02,
+      "rim_polygon_base_m": [
+        [
+          0.319071785731506,
+          -0.06587504392151533,
+          0.0027159060994488074
+        ],
+        [
+          0.30039685674792715,
+          -0.0640794601383029,
+          0.004399606019556593
+        ],
+        [
+          0.28230394340269865,
+          -0.05790627686274277,
+          0.005852479742774228
+        ],
+        [
+          0.2660080357378164,
+          -0.047887490628871016,
+          0.00698168746946248
+        ],
+        [
+          0.25254338812563865,
+          -0.03478417113677024,
+          0.00772059841094291
+        ],
+        [
+          0.24271515736612678,
+          -0.019515597809615953,
+          0.008030487389905621
+        ],
+        [
+          0.23707451727246803,
+          -0.003091819945851504,
+          0.007900161759981511
+        ],
+        [
+          0.23591107780648132,
+          0.013445749311503108,
+          0.007344284427742192
+        ],
+        [
+          0.23925615007992013,
+          0.029074836322467976,
+          0.006401035215188835
+        ],
+        [
+          0.2468918010576428,
+          0.042835685996714654,
+          0.005129514434055436
+        ],
+        [
+          0.2583629784116679,
+          0.05387040864782819,
+          0.0036070199920130164
+        ],
+        [
+          0.27299262268333935,
+          0.06146140792812385,
+          0.0019260805798414458
+        ],
+        [
+          0.28990212912308533,
+          0.06507087779656319,
+          0.00019094284387889335
+        ],
+        [
+          0.3080413402910137,
+          0.06438126818071097,
+          -0.0014868765511527118
+        ],
+        [
+          0.3262329744922599,
+          0.059333837340524,
+          -0.002994319237963828
+        ],
+        [
+          0.3432355222444581,
+          0.050159411034345264,
+          -0.004223936437499874
+        ],
+        [
+          0.3578257904968053,
+          0.037393043449545416,
+          -0.005082240055323196
+        ],
+        [
+          0.3688974860035991,
+          0.021863484474618958,
+          -0.005498548391474161
+        ],
+        [
+          0.375566317477731,
+          0.004650240259300387,
+          -0.005433141133523223
+        ],
+        [
+          0.3772667666454503,
+          -0.012993969770460828,
+          -0.004883238981388267
+        ],
+        [
+          0.37382315774855973,
+          -0.02975010456809235,
+          -0.0038853860187100277
+        ],
+        [
+          0.3654797590297908,
+          -0.04435594291593217,
+          -0.0025133263231630516
+        ],
+        [
+          0.3528816691497064,
+          -0.055726950868997926,
+          -0.0008713445497798011
+        ],
+        [
+          0.3370083758984015,
+          -0.06305566915057453,
+          0.0009159794330424083
+        ]
+      ],
+      "center_base_m": [
+        0.3065236896714149,
+        -0.00036639048595388246,
+        0.0012604824622806793
+      ],
+      "opening_size_m": [
+        0.14649303257465363,
+        0.12446552515029907
+      ],
+      "rotation": [
+        [
+          0.8702673177294006,
+          -0.4836169798173087,
+          -0.09353829442779045
+        ],
+        [
+          -0.4886405305363197,
+          -0.8715669231253858,
+          -0.04001912581419248
+        ],
+        [
+          -0.062170954707637005,
+          0.08053393909485065,
+          -0.994811066004298
+        ]
+      ],
+      "source_image": "captures/basket/plate_reference.jpg",
+      "inner_rim_pixels": [
+        [
+          557.0,
+          161.0
+        ],
+        [
+          555.1259204458987,
+          175.49386652574117
+        ],
+        [
+          549.6313972081441,
+          189.0
+        ],
+        [
+          540.8908729652601,
+          200.59797974644664
+        ],
+        [
+          529.5,
+          209.49742261192856
+        ],
+        [
+          516.2350474806386,
+          215.0918462721878
+        ],
+        [
+          502.0,
+          217.0
+        ],
+        [
+          487.7649525193614,
+          215.0918462721878
+        ],
+        [
+          474.5,
+          209.49742261192858
+        ],
+        [
+          463.1091270347399,
+          200.59797974644667
+        ],
+        [
+          454.3686027918559,
+          189.00000000000003
+        ],
+        [
+          448.87407955410123,
+          175.49386652574117
+        ],
+        [
+          447.0,
+          161.0
+        ],
+        [
+          448.87407955410123,
+          146.50613347425886
+        ],
+        [
+          454.3686027918559,
+          133.0
+        ],
+        [
+          463.10912703473986,
+          121.40202025355336
+        ],
+        [
+          474.5,
+          112.50257738807144
+        ],
+        [
+          487.7649525193613,
+          106.90815372781219
+        ],
+        [
+          502.0,
+          105.0
+        ],
+        [
+          516.2350474806386,
+          106.90815372781216
+        ],
+        [
+          529.5,
+          112.50257738807142
+        ],
+        [
+          540.8908729652601,
+          121.40202025355333
+        ],
+        [
+          549.6313972081441,
+          132.99999999999997
+        ],
+        [
+          555.1259204458987,
+          146.5061334742588
+        ]
+      ],
+      "method": "Plate measured and planned at 2 cm rim height; position refreshed for every plan",
+      "fixed_position": false
+    },
+    "gripper_registration_marker.json": {
+      "dictionary": "DICT_4X4_50",
+      "id": 7,
+      "nominal_black_square_m": 0.08,
+      "actual_black_square_m": 0.0768,
+      "printed_scale_verified": true,
+      "pdf": "calibration/print/gripper_registration_marker_A4.pdf",
+      "mounting": "Rigid flat backing; marker fixed to gripper with full white border visible to overhead; do not open or close gripper during capture.",
+      "measured_check_bar_mm": 96,
+      "print_scale": 0.96,
+      "scale_assumption": "Uniform print scaling; user reported 96 mm in response to request to measure both bars.",
+      "mounting_status": "marker_detected_in_overhead_view_rigidity_to_be_checked_during_capture",
+      "mount_check_image": "captures/marker_registration/mount_check.png"
+    },
+    "wrist_mount_visual.json": {
+      "status": "approximate_visual_model",
+      "translation_in_gripper_m": [
+        0,
+        0,
+        0.045
+      ],
+      "reason": "Actual camera holder appears farther rearward along gripper than imported mesh; approximate placement from four overhead panel-centre landmarks.",
+      "evidence": "calibration/robot_camera/holder_landmarks.json",
+      "scope": "Photo-informed visual holder, PCB and lens only; existing placement adjustments retained. Joint mapping, optical camera transform, and collision proxies unchanged.",
+      "rotation_quat_wxyz": [
+        0.9762960071199334,
+        0.1057711773638683,
+        -0.014476456047537486,
+        -0.18827903956903916
+      ],
+      "rotation_pivot_gripper_m": [
+        0,
+        0.024,
+        0.025
+      ],
+      "rotation_reference": {
+        "interpretation": "25 degrees clockwise in overhead image at saved pose, around approximate mounting end; fixed thereafter in gripper coordinates",
+        "axis_in_gripper": [
+          0.48868677706159935,
+          -0.06688450318377229,
+          -0.8698917732448135
+        ],
+        "degrees": 25,
+        "observation": "captures/calibrated_preview/holder_rotation_joints.json"
+      },
+      "shape": {
+        "source": "Photos-1-001/IMG_8804.heic",
+        "status": "photo_informed_approximation_not_dimensionally_measured",
+        "foot_m": [
+          0,
+          0.024,
+          -0.019
+        ],
+        "bend_m": [
+          0,
+          0.039,
+          -0.019
+        ],
+        "frame_center_m": [
+          0,
+          0.073,
+          -0.04
+        ],
+        "frame_size_m": [
+          0.04,
+          0.034
+        ],
+        "frame_rim_m": 0.003,
+        "frame_thickness_m": 0.003,
+        "frame_tilt_deg": 37,
+        "support_width_m": 0.016,
+        "support_thickness_m": 0.003
+      },
+      "post_rotation_translation_gripper_m": [
+        0,
+        0,
+        -0.015
+      ],
+      "latest_adjustment": "User requested 1\u20132 cm toward gripper; applied 15 mm along gripper local -Z toward fingertips after visual rotation."
+    },
+    "cameras.json": {
+      "loop_hz": 15,
+      "width": 640,
+      "height": 480,
+      "cameras": [
+        {
+          "name": "camera_4",
+          "role": "overhead",
+          "path": "/dev/v4l/by-id/usb-icSpring_icspring_camera_202404160005-video-index0",
+          "fourcc": "MJPG",
+          "controls": {
+            "auto_exposure": 3,
+            "white_balance_automatic": 1,
+            "power_line_frequency": 1
+          },
+          "rotation_deg": 0
+        },
+        {
+          "name": "camera_6",
+          "role": "wrist",
+          "path": "/dev/v4l/by-id/usb-icSpring_icspring_camera-video-index0",
+          "fourcc": "YUYV",
+          "controls": {
+            "auto_exposure": 3,
+            "white_balance_automatic": 1,
+            "power_line_frequency": 1
+          },
+          "rotation_deg": 0,
+          "capability_notes": "Live V4L2 probe: only 640x480 YUYV advertised; no zoom control exposed. Current capture uses the full delivered frame without digital cropping."
+        }
+      ],
+      "exposure_notes": "Curtains closed: automatic exposure and white balance, 50 Hz compensation. Wrist camera physically rotated and tilted; no software rotation. Latest live view confirms both fingertips and the gap are visible near the bottom. Overhead view covers robot, objects and more of the tabletop.",
+      "placement_reference": "Photos-1-001/IMG_8798.HEIC",
+      "placement_status": "Approximate object/overhead visual fit saved in config/scene.json; arm pose and wrist mounting transform provisional pending motor and camera calibration."
+    },
+    "joint_mapping.json": {
+      "validated_for_commands": false,
+      "notes": "All six directions, visual pose offsets, and gripper opening were confirmed. User reports all controls responding in the limited physical control test. Full-range accuracy and physical collision clearance remain unvalidated.",
+      "sign": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "offset_rad": [
+        0,
+        0,
+        -0.09599310885968812,
+        -0.07853981633974483,
+        -1.5707963267948966
+      ],
+      "gripper_closed_rad": -0.174533,
+      "gripper_open_rad": 1.7453292,
+      "validation": {
+        "shoulder_pan": {
+          "direction": "confirmed_same_by_user",
+          "offset": "not_validated",
+          "range": "not_validated"
+        },
+        "shoulder_lift": {
+          "direction": "confirmed_same_by_user",
+          "offset": "not_validated",
+          "range": "not_validated"
+        },
+        "elbow_flex": {
+          "direction": "confirmed_same_by_user",
+          "offset": "minus_5.5_degrees_visually_confirmed_by_user",
+          "range": "not_validated",
+          "reference": "User requested one additional upward degree beyond the previous -4.5 degree offset"
+        },
+        "wrist_flex": {
+          "direction": "confirmed_same_by_user",
+          "offset": "minus_4.5_degrees_visually_confirmed_by_user",
+          "range": "not_validated",
+          "reference": "User requested one additional upward degree beyond the previous -3.5 degree offset"
+        },
+        "wrist_roll": {
+          "direction": "confirmed_same_by_user",
+          "offset": "minus_90_degrees_confirmed_by_user",
+          "range": "not_validated"
+        },
+        "gripper": {
+          "direction": "confirmed_same_by_user",
+          "opening": "visually_similar_confirmed_by_user",
+          "endpoints": "not_measured"
+        }
+      },
+      "visual_alignment_status": "User accepted the current overall pose after elbow and wrist-bend adjustments",
+      "commissioning": {
+        "status": "limited_physical_control_confirmed_by_user",
+        "all_six_controls_responding": true,
+        "excursion_limit_deg": 5,
+        "command_speed_deg_s": 5,
+        "evidence": "User reported all responding; controller output reached ACTIVE. No quantitative tracking-error measurements recorded.",
+        "full_range_validated": false
+      }
+    },
+    "basket.json": {
+      "name": "yellow plate",
+      "kind": "plate",
+      "rim_height_m": 0.02,
+      "measurement_height_m": 0.02,
+      "physical_rim_height_m": 0.02,
+      "rim_polygon_base_m": [
+        [
+          0.32583534891461075,
+          -0.099172118646568,
+          0.003419424267049511
+        ],
+        [
+          0.30705641998985667,
+          -0.0949358742125776,
+          0.0050147203368781125
+        ],
+        [
+          0.28920014527063703,
+          -0.08645457837664403,
+          0.006352493389895715
+        ],
+        [
+          0.2734472970545658,
+          -0.07441156711767191,
+          0.007349209053442966
+        ],
+        [
+          0.2607805612794697,
+          -0.059688960119401224,
+          0.007947954904738803
+        ],
+        [
+          0.2519431956427681,
+          -0.04329327300004396,
+          0.008119335229182637
+        ],
+        [
+          0.24741981260906526,
+          -0.026288226825310762,
+          0.007860574991059676
+        ],
+        [
+          0.24743273742589664,
+          -0.00973731247270676,
+          0.007193551762413649
+        ],
+        [
+          0.251947414512775,
+          0.005344149377281199,
+          0.00616235885665338
+        ],
+        [
+          0.2606825089187367,
+          0.018030191318027744,
+          0.004830698819706708
+        ],
+        [
+          0.273122434834897,
+          0.02752218929294907,
+          0.0032791771620400284
+        ],
+        [
+          0.28853319362722474,
+          0.033186414851739066,
+          0.0016023025216624518
+        ],
+        [
+          0.30598430586216613,
+          0.034593068940482016,
+          -9.514576674602999e-05
+        ],
+        [
+          0.32438173196241804,
+          0.03155496803678355,
+          -0.0017027693363160204
+        ],
+        [
+          0.34251660806463785,
+          0.024162646323154124,
+          -0.00311054532052302
+        ],
+        [
+          0.359133594488191,
+          0.01280812593691319,
+          -0.004216209125721754
+        ],
+        [
+          0.3730189648013576,
+          -0.0018108773143623302,
+          -0.004933706297388629
+        ],
+        [
+          0.38310335109554394,
+          -0.01871600653027941,
+          -0.005201845455091822
+        ],
+        [
+          0.3885679209503399,
+          -0.03670751126815344,
+          -0.004991898305497502
+        ],
+        [
+          0.3889376516104201,
+          -0.05445765731850613,
+          -0.0043126121819705345
+        ],
+        [
+          0.3841441457896374,
+          -0.07062939266863508,
+          -0.0032113426968846115
+        ],
+        [
+          0.37454353192891704,
+          -0.08400413511232693,
+          -0.0017705962118913297
+        ],
+        [
+          0.360883819152647,
+          -0.093598649875168,
+          -0.00010025861144601902
+        ],
+        [
+          0.3442262664549954,
+          -0.09875213296924265,
+          0.0016733012305137959
+        ]
+      ],
+      "center_base_m": [
+        0.31808143882983403,
+        -0.03259085559846085,
+        0.0014700727926005746
+      ],
+      "opening_size_m": [
+        0.15219292044639587,
+        0.12187600880861282
+      ],
+      "rotation": [
+        [
+          0.8197623848178868,
+          -0.5650134687892241,
+          -0.09353829442779045
+        ],
+        [
+          -0.5701386631168841,
+          -0.8205731986778267,
+          -0.04001912581419248
+        ],
+        [
+          -0.054143672363291005,
+          0.08613597215106336,
+          -0.994811066004298
+        ]
+      ],
+      "source_image": "captures/basket/plate_reference.jpg",
+      "inner_rim_pixels": [
+        [
+          583.8497803552293,
+          161.5101282327292
+        ],
+        [
+          580.2485062531025,
+          175.55422056121185
+        ],
+        [
+          573.1427806983365,
+          188.3695939947448
+        ],
+        [
+          563.0167957682519,
+          199.08289365120658
+        ],
+        [
+          550.5606694486067,
+          206.96403748390904
+        ],
+        [
+          536.6232433919215,
+          211.47592838025585
+        ],
+        [
+          522.1543360277511,
+          212.31109845838122
+        ],
+        [
+          508.1399789028968,
+          209.4126194944346
+        ],
+        [
+          495.53522364612695,
+          202.97803049674363
+        ],
+        [
+          485.19907169156846,
+          193.44582906460778
+        ],
+        [
+          477.83588988216417,
+          181.4656257092002
+        ],
+        [
+          473.94751768739445,
+          167.8538470887918
+        ],
+        [
+          473.7988887502697,
+          153.53811425839837
+        ],
+        [
+          477.40016285239653,
+          139.4940219299157
+        ],
+        [
+          484.5058884071625,
+          126.67864849638275
+        ],
+        [
+          494.63187333724716,
+          115.96534883992098
+        ],
+        [
+          507.0879996568923,
+          108.08420500721854
+        ],
+        [
+          521.0254257135775,
+          103.5723141108717
+        ],
+        [
+          535.4943330777479,
+          102.73714403274633
+        ],
+        [
+          549.5086902026022,
+          105.63562299669297
+        ],
+        [
+          562.1134454593721,
+          112.07021199438395
+        ],
+        [
+          572.4495974139306,
+          121.60241342651977
+        ],
+        [
+          579.8127792233348,
+          133.58261678192736
+        ],
+        [
+          583.7011514181046,
+          147.19439540233577
+        ]
+      ],
+      "method": "Plate measured and planned at 2 cm rim height; position refreshed for every plan",
+      "fixed_position": false,
+      "detection": {
+        "method": "Fresh visible yellow rim arcs; deposited-object interior excluded",
+        "center_pixels": [
+          530.1255493164062,
+          163.38229370117188
+        ]
+      },
+      "next_target_pixels": [
+        [
+          347.0,
+          271.0
+        ],
+        [
+          346.0,
+          272.0
+        ],
+        [
+          316.0,
+          292.0
+        ],
+        [
+          315.0,
+          292.0
+        ],
+        [
+          314.0,
+          291.0
+        ],
+        [
+          311.0,
+          287.0
+        ],
+        [
+          289.0,
+          250.0
+        ],
+        [
+          289.0,
+          248.0
+        ],
+        [
+          290.0,
+          245.0
+        ],
+        [
+          291.0,
+          243.0
+        ],
+        [
+          292.0,
+          242.0
+        ],
+        [
+          314.0,
+          229.0
+        ],
+        [
+          316.0,
+          228.0
+        ],
+        [
+          318.0,
+          228.0
+        ],
+        [
+          319.0,
+          229.0
+        ],
+        [
+          325.0,
+          237.0
+        ],
+        [
+          330.0,
+          244.0
+        ],
+        [
+          344.0,
+          265.0
+        ],
+        [
+          347.0,
+          270.0
+        ]
+      ]
+    },
+    "scene.json": {
+      "notes": "Latest arrangement visually fitted using IMG_8798 and overhead landmarks. Remote is 22x5cm. Pose and scale remain approximate; see alignment metadata. Not suitable for physical collision clearance decisions.",
+      "table_thickness_m": 0.025,
+      "remote_size_m": [
+        0.22,
+        0.05,
+        0.018
+      ],
+      "remote_position_m": [
+        0.31,
+        0
+      ],
+      "overhead_position_m": [
+        0.16672882730058253,
+        0.24640604101441144,
+        0.3346070175026131
+      ],
+      "home_rad": [
+        0.5326469642627778,
+        -1.0219306748119448,
+        1.0095003141485592,
+        0.9484480053449101,
+        0.056685448330711916,
+        0.35
+      ],
+      "command_speed_rad_s": 0.5,
+      "table_outline_m": [
+        [
+          0.1859,
+          0.5939
+        ],
+        [
+          0.109,
+          0.5965
+        ],
+        [
+          0.032,
+          0.5676
+        ],
+        [
+          -0.0256,
+          0.5164
+        ],
+        [
+          -0.0641,
+          0.4459
+        ],
+        [
+          -0.0833,
+          0.3786
+        ],
+        [
+          -0.0705,
+          0.3177
+        ],
+        [
+          -0.0449,
+          0.26
+        ],
+        [
+          -0.0128,
+          0.1895
+        ],
+        [
+          0.0064,
+          0.11900000000000002
+        ],
+        [
+          0.0128,
+          0.054900000000000004
+        ],
+        [
+          0.0064,
+          -0.009199999999999986
+        ],
+        [
+          -0.0192,
+          -0.07329999999999998
+        ],
+        [
+          -0.0577,
+          -0.14379999999999998
+        ],
+        [
+          -0.0961,
+          -0.2207
+        ],
+        [
+          -0.1186,
+          -0.30399999999999994
+        ],
+        [
+          -0.109,
+          -0.3809
+        ],
+        [
+          -0.0769,
+          -0.44499999999999995
+        ],
+        [
+          -0.0128,
+          -0.4962
+        ],
+        [
+          0.0641,
+          -0.5155
+        ],
+        [
+          0.1474,
+          -0.5091
+        ],
+        [
+          0.2371,
+          -0.48339999999999994
+        ],
+        [
+          0.314,
+          -0.44499999999999995
+        ],
+        [
+          0.3909,
+          -0.3809
+        ],
+        [
+          0.4614,
+          -0.2912
+        ],
+        [
+          0.5255,
+          -0.18219999999999997
+        ],
+        [
+          0.5672,
+          -0.07329999999999998
+        ],
+        [
+          0.5896,
+          0.0421
+        ],
+        [
+          0.5928,
+          0.08700000000000002
+        ],
+        [
+          0.5832,
+          0.1831
+        ],
+        [
+          0.5608,
+          0.2728
+        ],
+        [
+          0.5191,
+          0.3625
+        ],
+        [
+          0.4582,
+          0.4427
+        ],
+        [
+          0.3781,
+          0.5164
+        ],
+        [
+          0.2852,
+          0.5612
+        ]
+      ],
+      "table_measurement": {
+        "source": "Photos-1-001/IMG_8795.HEIC",
+        "section_width_m": 0.58,
+        "status": "approximate tape reading, not independently confirmed",
+        "method": "manually traced photo outline with uniform scale at the tape; perspective remains uncorrected",
+        "photo_size_px": [
+          1350,
+          1800
+        ],
+        "tape_endpoints_px": [
+          [
+            205,
+            850
+          ],
+          [
+            1110,
+            865
+          ]
+        ],
+        "robot_origin_px": [
+          1130,
+          570
+        ],
+        "outline_px": [
+          [
+            840,
+            49
+          ],
+          [
+            960,
+            45
+          ],
+          [
+            1080,
+            90
+          ],
+          [
+            1170,
+            170
+          ],
+          [
+            1230,
+            280
+          ],
+          [
+            1260,
+            385
+          ],
+          [
+            1240,
+            480
+          ],
+          [
+            1200,
+            570
+          ],
+          [
+            1150,
+            680
+          ],
+          [
+            1120,
+            790
+          ],
+          [
+            1110,
+            890
+          ],
+          [
+            1120,
+            990
+          ],
+          [
+            1160,
+            1090
+          ],
+          [
+            1220,
+            1200
+          ],
+          [
+            1280,
+            1320
+          ],
+          [
+            1315,
+            1450
+          ],
+          [
+            1300,
+            1570
+          ],
+          [
+            1250,
+            1670
+          ],
+          [
+            1150,
+            1750
+          ],
+          [
+            1030,
+            1780
+          ],
+          [
+            900,
+            1770
+          ],
+          [
+            760,
+            1730
+          ],
+          [
+            640,
+            1670
+          ],
+          [
+            520,
+            1570
+          ],
+          [
+            410,
+            1430
+          ],
+          [
+            310,
+            1260
+          ],
+          [
+            245,
+            1090
+          ],
+          [
+            210,
+            910
+          ],
+          [
+            205,
+            840
+          ],
+          [
+            220,
+            690
+          ],
+          [
+            255,
+            550
+          ],
+          [
+            320,
+            410
+          ],
+          [
+            415,
+            285
+          ],
+          [
+            540,
+            170
+          ],
+          [
+            685,
+            100
+          ]
+        ]
+      },
+      "stand_position_m": [
+        0.11789865046739578,
+        0.23630808293819427
+      ],
+      "wire_holder_position_m": [
+        0.3302171528339386,
+        0.1453135907649994,
+        0
+      ],
+      "candle_position_m": [
+        0.36210301518440247,
+        -0.1069980338215828,
+        0.013
+      ],
+      "overhead_lookat_m": [
+        0.3903634310193218,
+        -0.034267230894151735,
+        -0.6403905196593136
+      ],
+      "overhead_fovy_deg": 74.27875535727347,
+      "tape_measure_position_m": [
+        0.29737013578414917,
+        -0.07630260288715363,
+        0.023
+      ],
+      "pre_alignment_table_outline_m": [
+        [
+          0.1859,
+          0.3339
+        ],
+        [
+          0.109,
+          0.3365
+        ],
+        [
+          0.032,
+          0.3076
+        ],
+        [
+          -0.0256,
+          0.2564
+        ],
+        [
+          -0.0641,
+          0.1859
+        ],
+        [
+          -0.0833,
+          0.1186
+        ],
+        [
+          -0.0705,
+          0.0577
+        ],
+        [
+          -0.0449,
+          0.0
+        ],
+        [
+          -0.0128,
+          -0.0705
+        ],
+        [
+          0.0064,
+          -0.141
+        ],
+        [
+          0.0128,
+          -0.2051
+        ],
+        [
+          0.0064,
+          -0.2692
+        ],
+        [
+          -0.0192,
+          -0.3333
+        ],
+        [
+          -0.0577,
+          -0.4038
+        ],
+        [
+          -0.0961,
+          -0.4807
+        ],
+        [
+          -0.1186,
+          -0.564
+        ],
+        [
+          -0.109,
+          -0.6409
+        ],
+        [
+          -0.0769,
+          -0.705
+        ],
+        [
+          -0.0128,
+          -0.7562
+        ],
+        [
+          0.0641,
+          -0.7755
+        ],
+        [
+          0.1474,
+          -0.7691
+        ],
+        [
+          0.2371,
+          -0.7434
+        ],
+        [
+          0.314,
+          -0.705
+        ],
+        [
+          0.3909,
+          -0.6409
+        ],
+        [
+          0.4614,
+          -0.5512
+        ],
+        [
+          0.5255,
+          -0.4422
+        ],
+        [
+          0.5672,
+          -0.3333
+        ],
+        [
+          0.5896,
+          -0.2179
+        ],
+        [
+          0.5928,
+          -0.173
+        ],
+        [
+          0.5832,
+          -0.0769
+        ],
+        [
+          0.5608,
+          0.0128
+        ],
+        [
+          0.5191,
+          0.1025
+        ],
+        [
+          0.4582,
+          0.1827
+        ],
+        [
+          0.3781,
+          0.2564
+        ],
+        [
+          0.2852,
+          0.3012
+        ]
+      ],
+      "overhead_xyaxes": [
+        -0.04684266543703508,
+        -0.9597745563995719,
+        0.2768367128521059,
+        0.9764516303779525,
+        0.014430895026907198,
+        0.2152532527070406
+      ],
+      "alignment": {
+        "status": "approximate visual fit; not metric calibration",
+        "phone_source": "Photos-1-001/IMG_8798.HEIC",
+        "phone_size_px": [
+          1200,
+          1600
+        ],
+        "phone_remote_corners_px": [
+          [
+            437.0,
+            796.0
+          ],
+          [
+            848.0,
+            751.0
+          ],
+          [
+            857.0,
+            836.0
+          ],
+          [
+            451.0,
+            892.0
+          ]
+        ],
+        "overhead_reference": "captures/alignment/overhead_reference.jpg",
+        "overhead_landmarks_px": [
+          [
+            433.0,
+            269.0
+          ],
+          [
+            409.0,
+            106.0
+          ],
+          [
+            443.0,
+            108.0
+          ],
+          [
+            469.0,
+            271.0
+          ],
+          [
+            333.0,
+            147.0
+          ],
+          [
+            233.0,
+            370.0
+          ],
+          [
+            493.0,
+            191.0
+          ],
+          [
+            497.0,
+            152.0
+          ]
+        ],
+        "world_landmarks_m": [
+          [
+            0.20000000298023224,
+            0.02500000037252903,
+            0.018
+          ],
+          [
+            0.41999998688697815,
+            0.02500000037252903,
+            0.018
+          ],
+          [
+            0.41999998688697815,
+            -0.02500000037252903,
+            0.018
+          ],
+          [
+            0.20000000298023224,
+            -0.02500000037252903,
+            0.018
+          ],
+          [
+            0.3302171528339386,
+            0.1453135907649994,
+            0.055
+          ],
+          [
+            0.11789865046739578,
+            0.23630808293819427,
+            0.024
+          ],
+          [
+            0.29737013578414917,
+            -0.07630260288715363,
+            0.046
+          ],
+          [
+            0.36210301518440247,
+            -0.1069980338215828,
+            0.026
+          ]
+        ],
+        "phone_to_world_homography": [
+          [
+            0.00034546810831217534,
+            -6.678476143285513e-05,
+            0.07290514660336268
+          ],
+          [
+            -5.3789468186459676e-05,
+            -0.00043467301517238825,
+            0.3908449726541078
+          ],
+          [
+            -0.00025284435217770763,
+            -4.5146774601992064e-05,
+            1.0
+          ]
+        ],
+        "reprojection_error_px": [
+          5.054736422806181,
+          1.8176058896649911,
+          4.767022651617947,
+          4.024694079931673,
+          5.285707063093903,
+          3.253355296321809,
+          10.98246660201936,
+          2.757482745759263
+        ],
+        "rms_px": 5.636865798467494,
+        "limitations": [
+          "Remote partly occluded; corners picked manually",
+          "Remote surface used as approximate table plane",
+          "No lens distortion calibration",
+          "Robot base registration and table translation estimated",
+          "No encoder-derived arm pose yet"
+        ],
+        "arm_pose_status": "Approximate physically feasible pose with fingertips above near remote end; encoder alignment pending",
+        "joint_landmarks_px": [
+          [
+            475,
+            421
+          ],
+          [
+            505,
+            324
+          ],
+          [
+            510,
+            272
+          ],
+          [
+            492,
+            240
+          ]
+        ],
+        "fit_method": "Joint camera, focal length, base XY and four joint photo fit; object landmarks from phone homography. Manual picks and regularization, no distortion calibration.",
+        "wrist_pose_status": "Provisional camera tilt aimed at remote, 45-degree FOV estimate. Not independently calibrated; actual arm pose needed to fit mounting transform."
+      },
+      "robot_base_position_m": [
+        0.03702363238770422,
+        0.09999999999999999,
+        0
+      ],
+      "wrist_camera_xyaxes": [
+        0.6713820702561661,
+        -0.7071815255030338,
+        0.2216763535556866,
+        0.7309897781604903,
+        0.6811609485029481,
+        -0.0409109576940026
+      ],
+      "wrist_fovy_deg": 45
+    },
+    "measured_objects.json": {
+      "pink_highlighter": {
+        "height_m": 0.017,
+        "width_m": 0.027,
+        "source": "User measured highlighter lying on tabletop: height 17 mm, width 27 mm",
+        "length_source": "estimated from overhead footprint",
+        "shape": "rectangular visual proxy",
+        "association": "single bright pink/red candidate; ambiguous matches are not assigned",
+        "collision_validated": false
+      }
+    },
+    "calibration_boards.json": {
+      "inner_corners": [
+        9,
+        6
+      ],
+      "boards": {
+        "large": {
+          "square_m": 0.025,
+          "pdf": "calibration/print/checkerboard_25mm_A4.pdf"
+        },
+        "small": {
+          "square_m": 0.01,
+          "pdf": "calibration/print/checkerboard_10mm_A4.pdf"
+        }
+      }
+    },
+    "grasp_target.json": {
+      "name": "green-and-gold packet",
+      "kind": "packet",
+      "hsv_hue_min": 10,
+      "hsv_hue_max": 100,
+      "opening_margin_m": 0.008,
+      "closing_margin_m": 0.004,
+      "width_estimate_method": "calibrated tabletop projection",
+      "closing_gap_m": 0.035,
+      "after_grasp": "basket",
+      "height_m": 0.04,
+      "descent_m": 0.025,
+      "camera_left_offset_m": 0.02,
+      "sequence_speed_multiplier": 2.0
+    },
+    "batch_objects.json": {
+      "enabled": true,
+      "box": {
+        "height_m": 0.04
+      }
+    },
+    "scale_references.json": {
+      "status": "Table lines retired: user erased physical blue marks; archived coordinates must not be used for current registration",
+      "references": [
+        {
+          "type": "table_line",
+          "name": "line_1",
+          "length_m": 0.15,
+          "endpoints_px": [
+            [
+              346,
+              110
+            ],
+            [
+              450,
+              125
+            ]
+          ],
+          "endpoint_method": "manual selection on thick marker strokes",
+          "current_sim_plane_length_m": 0.1573292072315905,
+          "relative_length_error_percent": 4.886138154393671,
+          "status": "retired_erased_by_user",
+          "use_for_registration": false
+        },
+        {
+          "type": "table_line",
+          "name": "line_2",
+          "length_m": 0.15,
+          "endpoints_px": [
+            [
+              346,
+              110
+            ],
+            [
+              352,
+              220
+            ]
+          ],
+          "endpoint_method": "manual selection on thick marker strokes",
+          "current_sim_plane_length_m": 0.14619335828707877,
+          "relative_length_error_percent": -2.537761141947481,
+          "status": "retired_erased_by_user",
+          "use_for_registration": false
+        },
+        {
+          "type": "ruler",
+          "length_m": 0.15
+        }
+      ],
+      "capture": "captures/alignment/blue_scale_reference_640.jpg",
+      "capture_size": [
+        640,
+        480
+      ],
+      "notes": "Lines share a visible endpoint; perpendicularity not assumed. Ruler mark endpoints not yet registered. Two lengths check local scale but cannot determine all camera intrinsics/extrinsics and distortion. World points were intersected with approximate Z=0 tabletop. User subsequently erased the blue table marks. Retain their old measurements only as historical records. Current calibration uses the measured printed checkerboard."
+    }
+  },
+  "report_test_output": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.535s\n\nOK\n"
+}

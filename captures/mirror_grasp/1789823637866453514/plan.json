@@ -1,0 +1,724 @@
+[
+  {
+    "stage": "ready",
+    "plan": {
+      "start": [
+        -0.1373248070799934,
+        -1.7913599135853888,
+        1.5664809522707348,
+        1.0875702773004228,
+        -1.3506163288509965,
+        0.08276811958762886
+      ],
+      "goal": [
+        -0.1373248070799934,
+        -1.7278760074800568,
+        1.5290810397279992,
+        1.0875702773004228,
+        -1.3506163288509965,
+        0.25674295326269786
+      ],
+      "duration": 6.230014819419952
+    },
+    "clearance": {
+      "method": "sampled moving visual geometry vs infinite tabletop plane",
+      "samples": 161,
+      "path_minimum_m": 0.008888083743101682,
+      "gripper_holder_path_minimum_m": 0.03504992833854511,
+      "minimum_at_fraction": 0.0,
+      "closest_body": "shoulder",
+      "closest_geom": "rotation_pitch_so101_v1",
+      "endpoint": {
+        "minimum_m": 0.008888083743101682,
+        "gripper_holder_minimum_m": 0.036125836553200966,
+        "geom": "rotation_pitch_so101_v1",
+        "body": "shoulder"
+      },
+      "status": "no intersection in sampled poses",
+      "collision_validated": false,
+      "limitations": [
+        "Provisional camera/base/table registration and approximate holder shape.",
+        "Fixed base excluded. Table objects, cables and self-collision not checked.",
+        "Discrete samples do not establish continuous path clearance."
+      ]
+    }
+  },
+  {
+    "mode": "supervised_grasp",
+    "stage": "approach",
+    "prepared_at_unix": 1789823874.5165374,
+    "joint_mapping": {
+      "validated_for_commands": false,
+      "notes": "All six directions, visual pose offsets, and gripper opening were confirmed. User reports all controls responding in the limited physical control test. Full-range accuracy and physical collision clearance remain unvalidated.",
+      "sign": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "offset_rad": [
+        0,
+        0,
+        -0.09599310885968812,
+        -0.07853981633974483,
+        -1.5707963267948966
+      ],
+      "gripper_closed_rad": -0.174533,
+      "gripper_open_rad": 1.7453292,
+      "validation": {
+        "shoulder_pan": {
+          "direction": "confirmed_same_by_user",
+          "offset": "not_validated",
+          "range": "not_validated"
+        },
+        "shoulder_lift": {
+          "direction": "confirmed_same_by_user",
+          "offset": "not_validated",
+          "range": "not_validated"
+        },
+        "elbow_flex": {
+          "direction": "confirmed_same_by_user",
+          "offset": "minus_5.5_degrees_visually_confirmed_by_user",
+          "range": "not_validated",
+          "reference": "User requested one additional upward degree beyond the previous -4.5 degree offset"
+        },
+        "wrist_flex": {
+          "direction": "confirmed_same_by_user",
+          "offset": "minus_4.5_degrees_visually_confirmed_by_user",
+          "range": "not_validated",
+          "reference": "User requested one additional upward degree beyond the previous -3.5 degree offset"
+        },
+        "wrist_roll": {
+          "direction": "confirmed_same_by_user",
+          "offset": "minus_90_degrees_confirmed_by_user",
+          "range": "not_validated"
+        },
+        "gripper": {
+          "direction": "confirmed_same_by_user",
+          "opening": "visually_similar_confirmed_by_user",
+          "endpoints": "not_measured"
+        }
+      },
+      "visual_alignment_status": "User accepted the current overall pose after elbow and wrist-bend adjustments",
+      "commissioning": {
+        "status": "limited_physical_control_confirmed_by_user",
+        "all_six_controls_responding": true,
+        "excursion_limit_deg": 5,
+        "command_speed_deg_s": 5,
+        "evidence": "User reported all responding; controller output reached ACTIVE. No quantitative tracking-error measurements recorded.",
+        "full_range_validated": false
+      }
+    },
+    "reference_height_m": 0.04,
+    "plan": {
+      "start": [
+        -0.1373248070799934,
+        -1.7278760074800568,
+        1.5290810397279992,
+        1.0875702773004228,
+        -1.3506163288509965,
+        0.25674295326269786
+      ],
+      "goal": [
+        -1.0720705598045828,
+        0.43539346489817,
+        -0.24071619023791146,
+        1.376029089937727,
+        0.4553575979196349,
+        0.25674295326269786
+      ],
+      "target": [
+        0.1535929010480046,
+        0.21983338682716527,
+        0.02688613482175064
+      ],
+      "error_m": 0.0003194364420916805,
+      "downward_tilt_deg": 5.843400351278705,
+      "jaw_alignment_error_deg": 5.138068960883158,
+      "orientation_error_deg": 5.8436904935791745,
+      "object_axis": [
+        0.991662459828278,
+        -0.09269818819172815,
+        -0.08951319273324929
+      ],
+      "table_up": [
+        0.09353829442779042,
+        0.04001912581419248,
+        0.994811066004298
+      ],
+      "mode": "aligned_hover",
+      "grasp_executed": false,
+      "start_adjustment_deg": 0.0,
+      "duration": 77.46638169797801
+    },
+    "clearance": {
+      "method": "sampled moving visual geometry vs infinite tabletop plane",
+      "samples": 161,
+      "path_minimum_m": 0.0088860857614435,
+      "gripper_holder_path_minimum_m": 0.032356964811749114,
+      "minimum_at_fraction": 0.45625,
+      "closest_body": "shoulder",
+      "closest_geom": "rotation_pitch_so101_v1",
+      "endpoint": {
+        "minimum_m": 0.00889023297616811,
+        "gripper_holder_minimum_m": 0.032356964811749114,
+        "geom": "rotation_pitch_so101_v1",
+        "body": "shoulder"
+      },
+      "status": "no intersection in sampled poses",
+      "collision_validated": false,
+      "limitations": [
+        "Provisional camera/base/table registration and approximate holder shape.",
+        "Fixed base excluded. Table objects, cables and self-collision not checked.",
+        "Discrete samples do not establish continuous path clearance."
+      ]
+    },
+    "initial_clearance": {
+      "minimum_m": 0.008888083743101682,
+      "gripper_holder_minimum_m": 0.036125836553200966,
+      "geom": "rotation_pitch_so101_v1",
+      "body": "shoulder"
+    },
+    "surface_center_base_m": [
+      0.149851369270893,
+      0.21823262179459757,
+      -0.01290630781842128
+    ],
+    "region": [
+      [
+        0.149851369270893,
+        0.21823262179459757,
+        -0.01290630781842128
+      ],
+      [
+        0.06371937692165375,
+        0.03563825041055679,
+        0.001
+      ],
+      [
+        [
+          0.9916624598282783,
+          -0.0886349436896583,
+          -0.09353829442779042
+        ],
+        [
+          -0.09269818819172816,
+          -0.9948897001552679,
+          -0.04001912581419248
+        ],
+        [
+          -0.08951319273324924,
+          0.048356295165080054,
+          -0.994811066004298
+        ]
+      ]
+    ],
+    "original_opening_rad": 0.25674295326269786,
+    "hardware_commands": false,
+    "note": "Supervised experimental grasp; model gap is approximate, contact/force not measured."
+  },
+  {
+    "mode": "supervised_grasp",
+    "stage": "lower",
+    "prepared_at_unix": 1789823874.7720113,
+    "joint_mapping": {
+      "validated_for_commands": false,
+      "notes": "All six directions, visual pose offsets, and gripper opening were confirmed. User reports all controls responding in the limited physical control test. Full-range accuracy and physical collision clearance remain unvalidated.",
+      "sign": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "offset_rad": [
+        0,
+        0,
+        -0.09599310885968812,
+        -0.07853981633974483,
+        -1.5707963267948966
+      ],
+      "gripper_closed_rad": -0.174533,
+      "gripper_open_rad": 1.7453292,
+      "validation": {
+        "shoulder_pan": {
+          "direction": "confirmed_same_by_user",
+          "offset": "not_validated",
+          "range": "not_validated"
+        },
+        "shoulder_lift": {
+          "direction": "confirmed_same_by_user",
+          "offset": "not_validated",
+          "range": "not_validated"
+        },
+        "elbow_flex": {
+          "direction": "confirmed_same_by_user",
+          "offset": "minus_5.5_degrees_visually_confirmed_by_user",
+          "range": "not_validated",
+          "reference": "User requested one additional upward degree beyond the previous -4.5 degree offset"
+        },
+        "wrist_flex": {
+          "direction": "confirmed_same_by_user",
+          "offset": "minus_4.5_degrees_visually_confirmed_by_user",
+          "range": "not_validated",
+          "reference": "User requested one additional upward degree beyond the previous -3.5 degree offset"
+        },
+        "wrist_roll": {
+          "direction": "confirmed_same_by_user",
+          "offset": "minus_90_degrees_confirmed_by_user",
+          "range": "not_validated"
+        },
+        "gripper": {
+          "direction": "confirmed_same_by_user",
+          "opening": "visually_similar_confirmed_by_user",
+          "endpoints": "not_measured"
+        }
+      },
+      "visual_alignment_status": "User accepted the current overall pose after elbow and wrist-bend adjustments",
+      "commissioning": {
+        "status": "limited_physical_control_confirmed_by_user",
+        "all_six_controls_responding": true,
+        "excursion_limit_deg": 5,
+        "command_speed_deg_s": 5,
+        "evidence": "User reported all responding; controller output reached ACTIVE. No quantitative tracking-error measurements recorded.",
+        "full_range_validated": false
+      }
+    },
+    "reference_height_m": 0.018,
+    "plan": {
+      "start": [
+        -1.0720705598045828,
+        0.43539346489817,
+        -0.24071619023791146,
+        1.376029089937727,
+        0.4553575979196349,
+        0.25674295326269786
+      ],
+      "goal": [
+        -1.0777223131397513,
+        0.5797525135457159,
+        -0.3107563937358384,
+        1.3760290899363812,
+        0.45323237781939735,
+        0.25674295326269786
+      ],
+      "target": [
+        0.1515350585705932,
+        0.21895296605925305,
+        0.005000291369656082
+      ],
+      "error_m": 2.8308857870639303e-05,
+      "downward_tilt_deg": 3.651893364010548,
+      "jaw_alignment_error_deg": 3.4693058156243577,
+      "orientation_error_deg": 3.6519032258808295,
+      "object_axis": [
+        0.991662459828278,
+        -0.09269818819172815,
+        -0.08951319273324929
+      ],
+      "table_up": [
+        0.09353829442779042,
+        0.04001912581419248,
+        0.994811066004298
+      ],
+      "mode": "aligned_hover",
+      "grasp_executed": false,
+      "start_adjustment_deg": 5.729577949564657e-05,
+      "duration": 15.508432916302713
+    },
+    "clearance": {
+      "method": "sampled moving visual geometry vs infinite tabletop plane",
+      "samples": 161,
+      "path_minimum_m": 0.00889023297616811,
+      "gripper_holder_path_minimum_m": 0.010150742442674526,
+      "minimum_at_fraction": 0.0,
+      "closest_body": "shoulder",
+      "closest_geom": "rotation_pitch_so101_v1",
+      "endpoint": {
+        "minimum_m": 0.008890583497294428,
+        "gripper_holder_minimum_m": 0.010150742442674526,
+        "geom": "rotation_pitch_so101_v1",
+        "body": "shoulder"
+      },
+      "status": "no intersection in sampled poses",
+      "collision_validated": false,
+      "limitations": [
+        "Provisional camera/base/table registration and approximate holder shape.",
+        "Fixed base excluded. Table objects, cables and self-collision not checked.",
+        "Discrete samples do not establish continuous path clearance."
+      ]
+    },
+    "initial_clearance": {
+      "minimum_m": 0.00889023297616811,
+      "gripper_holder_minimum_m": 0.03235696481174909,
+      "geom": "rotation_pitch_so101_v1",
+      "body": "shoulder"
+    },
+    "surface_center_base_m": [
+      0.149851369270893,
+      0.21823262179459757,
+      -0.01290630781842128
+    ],
+    "region": [
+      [
+        0.149851369270893,
+        0.21823262179459757,
+        -0.01290630781842128
+      ],
+      [
+        0.06371937692165375,
+        0.03563825041055679,
+        0.001
+      ],
+      [
+        [
+          0.9916624598282783,
+          -0.0886349436896583,
+          -0.09353829442779042
+        ],
+        [
+          -0.09269818819172816,
+          -0.9948897001552679,
+          -0.04001912581419248
+        ],
+        [
+          -0.08951319273324924,
+          0.048356295165080054,
+          -0.994811066004298
+        ]
+      ]
+    ],
+    "original_opening_rad": 0.25674295326269786,
+    "hardware_commands": false,
+    "note": "Supervised experimental grasp; model gap is approximate, contact/force not measured."
+  },
+  {
+    "mode": "supervised_grasp",
+    "stage": "close",
+    "prepared_at_unix": 1789823874.907629,
+    "joint_mapping": {
+      "validated_for_commands": false,
+      "notes": "All six directions, visual pose offsets, and gripper opening were confirmed. User reports all controls responding in the limited physical control test. Full-range accuracy and physical collision clearance remain unvalidated.",
+      "sign": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "offset_rad": [
+        0,
+        0,
+        -0.09599310885968812,
+        -0.07853981633974483,
+        -1.5707963267948966
+      ],
+      "gripper_closed_rad": -0.174533,
+      "gripper_open_rad": 1.7453292,
+      "validation": {
+        "shoulder_pan": {
+          "direction": "confirmed_same_by_user",
+          "offset": "not_validated",
+          "range": "not_validated"
+        },
+        "shoulder_lift": {
+          "direction": "confirmed_same_by_user",
+          "offset": "not_validated",
+          "range": "not_validated"
+        },
+        "elbow_flex": {
+          "direction": "confirmed_same_by_user",
+          "offset": "minus_5.5_degrees_visually_confirmed_by_user",
+          "range": "not_validated",
+          "reference": "User requested one additional upward degree beyond the previous -4.5 degree offset"
+        },
+        "wrist_flex": {
+          "direction": "confirmed_same_by_user",
+          "offset": "minus_4.5_degrees_visually_confirmed_by_user",
+          "range": "not_validated",
+          "reference": "User requested one additional upward degree beyond the previous -3.5 degree offset"
+        },
+        "wrist_roll": {
+          "direction": "confirmed_same_by_user",
+          "offset": "minus_90_degrees_confirmed_by_user",
+          "range": "not_validated"
+        },
+        "gripper": {
+          "direction": "confirmed_same_by_user",
+          "opening": "visually_similar_confirmed_by_user",
+          "endpoints": "not_measured"
+        }
+      },
+      "visual_alignment_status": "User accepted the current overall pose after elbow and wrist-bend adjustments",
+      "commissioning": {
+        "status": "limited_physical_control_confirmed_by_user",
+        "all_six_controls_responding": true,
+        "excursion_limit_deg": 5,
+        "command_speed_deg_s": 5,
+        "evidence": "User reported all responding; controller output reached ACTIVE. No quantitative tracking-error measurements recorded.",
+        "full_range_validated": false
+      }
+    },
+    "reference_height_m": null,
+    "plan": {
+      "start": [
+        -1.0777223131397513,
+        0.5797525135457159,
+        -0.3107563937358384,
+        1.3760290899363812,
+        0.45323237781939735,
+        0.25674295326269786
+      ],
+      "goal": [
+        -1.0777223131397513,
+        0.5797525135457159,
+        -0.3107563937358384,
+        1.3760290899363812,
+        0.45323237781939735,
+        0.12983877267178465
+      ],
+      "duration": 6.81663182852376
+    },
+    "clearance": {
+      "method": "sampled moving visual geometry vs infinite tabletop plane",
+      "samples": 161,
+      "path_minimum_m": 0.008890583497294428,
+      "gripper_holder_path_minimum_m": 0.009757439721226634,
+      "minimum_at_fraction": 0.0,
+      "closest_body": "shoulder",
+      "closest_geom": "rotation_pitch_so101_v1",
+      "endpoint": {
+        "minimum_m": 0.008890583497294428,
+        "gripper_holder_minimum_m": 0.00979101008536451,
+        "geom": "rotation_pitch_so101_v1",
+        "body": "shoulder"
+      },
+      "status": "no intersection in sampled poses",
+      "collision_validated": false,
+      "limitations": [
+        "Provisional camera/base/table registration and approximate holder shape.",
+        "Fixed base excluded. Table objects, cables and self-collision not checked.",
+        "Discrete samples do not establish continuous path clearance."
+      ]
+    },
+    "initial_clearance": {
+      "minimum_m": 0.008890583497294428,
+      "gripper_holder_minimum_m": 0.010150742442674526,
+      "geom": "rotation_pitch_so101_v1",
+      "body": "shoulder"
+    },
+    "surface_center_base_m": [
+      0.149851369270893,
+      0.21823262179459757,
+      -0.01290630781842128
+    ],
+    "region": [
+      [
+        0.149851369270893,
+        0.21823262179459757,
+        -0.01290630781842128
+      ],
+      [
+        0.06371937692165375,
+        0.03563825041055679,
+        0.001
+      ],
+      [
+        [
+          0.9916624598282783,
+          -0.0886349436896583,
+          -0.09353829442779042
+        ],
+        [
+          -0.09269818819172816,
+          -0.9948897001552679,
+          -0.04001912581419248
+        ],
+        [
+          -0.08951319273324924,
+          0.048356295165080054,
+          -0.994811066004298
+        ]
+      ]
+    ],
+    "original_opening_rad": 0.25674295326269786,
+    "hardware_commands": false,
+    "note": "Supervised experimental grasp; model gap is approximate, contact/force not measured."
+  },
+  {
+    "mode": "supervised_grasp",
+    "stage": "lift",
+    "prepared_at_unix": 1789823875.1509252,
+    "joint_mapping": {
+      "validated_for_commands": false,
+      "notes": "All six directions, visual pose offsets, and gripper opening were confirmed. User reports all controls responding in the limited physical control test. Full-range accuracy and physical collision clearance remain unvalidated.",
+      "sign": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "offset_rad": [
+        0,
+        0,
+        -0.09599310885968812,
+        -0.07853981633974483,
+        -1.5707963267948966
+      ],
+      "gripper_closed_rad": -0.174533,
+      "gripper_open_rad": 1.7453292,
+      "validation": {
+        "shoulder_pan": {
+          "direction": "confirmed_same_by_user",
+          "offset": "not_validated",
+          "range": "not_validated"
+        },
+        "shoulder_lift": {
+          "direction": "confirmed_same_by_user",
+          "offset": "not_validated",
+          "range": "not_validated"
+        },
+        "elbow_flex": {
+          "direction": "confirmed_same_by_user",
+          "offset": "minus_5.5_degrees_visually_confirmed_by_user",
+          "range": "not_validated",
+          "reference": "User requested one additional upward degree beyond the previous -4.5 degree offset"
+        },
+        "wrist_flex": {
+          "direction": "confirmed_same_by_user",
+          "offset": "minus_4.5_degrees_visually_confirmed_by_user",
+          "range": "not_validated",
+          "reference": "User requested one additional upward degree beyond the previous -3.5 degree offset"
+        },
+        "wrist_roll": {
+          "direction": "confirmed_same_by_user",
+          "offset": "minus_90_degrees_confirmed_by_user",
+          "range": "not_validated"
+        },
+        "gripper": {
+          "direction": "confirmed_same_by_user",
+          "opening": "visually_similar_confirmed_by_user",
+          "endpoints": "not_measured"
+        }
+      },
+      "visual_alignment_status": "User accepted the current overall pose after elbow and wrist-bend adjustments",
+      "commissioning": {
+        "status": "limited_physical_control_confirmed_by_user",
+        "all_six_controls_responding": true,
+        "excursion_limit_deg": 5,
+        "command_speed_deg_s": 5,
+        "evidence": "User reported all responding; controller output reached ACTIVE. No quantitative tracking-error measurements recorded.",
+        "full_range_validated": false
+      }
+    },
+    "reference_height_m": 0.038,
+    "plan": {
+      "start": [
+        -1.0777223131397513,
+        0.5797525135457159,
+        -0.3107563937358384,
+        1.3760290899363812,
+        0.45323237781939735,
+        0.12983877267178465
+      ],
+      "goal": [
+        -1.0725798904848691,
+        0.4481675361829463,
+        -0.24635262744440278,
+        1.376029089937727,
+        0.4551813951538969,
+        0.12983877267178465
+      ],
+      "target": [
+        0.15340582445914902,
+        0.21975334857553688,
+        0.024896512689742044
+      ],
+      "error_m": 0.0002905371714457773,
+      "downward_tilt_deg": 5.528066209511267,
+      "jaw_alignment_error_deg": 4.976663987501842,
+      "orientation_error_deg": 5.528311457667499,
+      "object_axis": [
+        0.991662459828278,
+        -0.09269818819172815,
+        -0.08951319273324929
+      ],
+      "table_up": [
+        0.09353829442779042,
+        0.04001912581419248,
+        0.994811066004298
+      ],
+      "mode": "aligned_hover",
+      "grasp_executed": false,
+      "start_adjustment_deg": 5.729570238627888e-05,
+      "duration": 14.136119719145952
+    },
+    "clearance": {
+      "method": "sampled moving visual geometry vs infinite tabletop plane",
+      "samples": 161,
+      "path_minimum_m": 0.00889026330037164,
+      "gripper_holder_path_minimum_m": 0.00979101008536451,
+      "minimum_at_fraction": 1.0,
+      "closest_body": "shoulder",
+      "closest_geom": "rotation_pitch_so101_v1",
+      "endpoint": {
+        "minimum_m": 0.00889026330037164,
+        "gripper_holder_minimum_m": 0.030044955904332295,
+        "geom": "rotation_pitch_so101_v1",
+        "body": "shoulder"
+      },
+      "status": "no intersection in sampled poses",
+      "collision_validated": false,
+      "limitations": [
+        "Provisional camera/base/table registration and approximate holder shape.",
+        "Fixed base excluded. Table objects, cables and self-collision not checked.",
+        "Discrete samples do not establish continuous path clearance."
+      ]
+    },
+    "initial_clearance": {
+      "minimum_m": 0.008890583497294428,
+      "gripper_holder_minimum_m": 0.00979101008536451,
+      "geom": "rotation_pitch_so101_v1",
+      "body": "shoulder"
+    },
+    "surface_center_base_m": [
+      0.149851369270893,
+      0.21823262179459757,
+      -0.01290630781842128
+    ],
+    "region": [
+      [
+        0.149851369270893,
+        0.21823262179459757,
+        -0.01290630781842128
+      ],
+      [
+        0.06371937692165375,
+        0.03563825041055679,
+        0.001
+      ],
+      [
+        [
+          0.9916624598282783,
+          -0.0886349436896583,
+          -0.09353829442779042
+        ],
+        [
+          -0.09269818819172816,
+          -0.9948897001552679,
+          -0.04001912581419248
+        ],
+        [
+          -0.08951319273324924,
+          0.048356295165080054,
+          -0.994811066004298
+        ]
+      ]
+    ],
+    "original_opening_rad": 0.25674295326269786,
+    "hardware_commands": false,
+    "note": "Supervised experimental grasp; model gap is approximate, contact/force not measured."
+  }
+]

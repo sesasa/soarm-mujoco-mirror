@@ -1,0 +1,21 @@
+{
+  "status": "wrist_optical_alignment_unresolved",
+  "paired_views": 6,
+  "board_max_motion_overhead_px": 0.293,
+  "individual_mount_translation_span_mm": [
+    7.7348,
+    14.2346,
+    13.316
+  ],
+  "fixed_board_holdout_range_px": [
+    13.3117,
+    57.9977
+  ],
+  "joint_board_holdout_range_px": [
+    14.9675,
+    57.4029
+  ],
+  "accepted": false,
+  "applied": false,
+  "next_check": "Check rigidity of physical wrist-camera bracket and whether camera mounting/lens was altered during marker removal. Avoid gathering more similar views until cause is investigated."
+}

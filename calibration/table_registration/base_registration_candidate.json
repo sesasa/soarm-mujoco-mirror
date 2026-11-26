@@ -1,0 +1,146 @@
+{
+  "status": "provisional_manual_plate_fit_not_for_robot_commands",
+  "image": "captures/base/registration_raw.png",
+  "reference_phone": "Photos-1-001/base/IMG_8803.heic",
+  "landmark_names": [
+    "plate forward outer tip",
+    "plate outer shoulder midpoint",
+    "plate rear outer corner"
+  ],
+  "model_points_base_m": [
+    [
+      0.064635,
+      0.03063,
+      0.0
+    ],
+    [
+      0.019435,
+      0.0554625,
+      0.0
+    ],
+    [
+      -0.022365,
+      0.04077,
+      0.0
+    ]
+  ],
+  "raw_pixels": [
+    [
+      439.5,
+      348.5
+    ],
+    [
+      418.5,
+      390.5
+    ],
+    [
+      416.0,
+      427.0
+    ]
+  ],
+  "projected_pixels": [
+    [
+      440.4865861104706,
+      351.20157136366277
+    ],
+    [
+      414.43747998616004,
+      387.63195501480516
+    ],
+    [
+      419.1154667467532,
+      427.28216353555683
+    ]
+  ],
+  "rms_px": 3.776565467776717,
+  "T_table_from_base": [
+    [
+      -0.0914090620305683,
+      0.9958134279967767,
+      0.0,
+      -0.03130652603573871
+    ],
+    [
+      -0.9958134279967767,
+      -0.0914090620305683,
+      0.0,
+      0.22318515207689993
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0024
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "T_camera_from_base": [
+    [
+      0.20655027988316121,
+      -0.9726520421136416,
+      0.10623081875025916,
+      0.1827355271354802
+    ],
+    [
+      -0.9576445450587207,
+      -0.22322940402648683,
+      -0.18189436081763333,
+      0.13013479421335306
+    ],
+    [
+      0.20063376385709272,
+      -0.06416103295725649,
+      -0.9775630182501763,
+      0.42505266488240057
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "camera_position_base_m": [
+    0.0015988855334827662,
+    0.2340598142304833,
+    0.41977440654893006
+  ],
+  "manual_2px_noise_parameter_std": [
+    0.0016081118206989812,
+    0.001907783394840949,
+    0.038175251800316154
+  ],
+  "limitations": [
+    "Three manually selected landmarks on only one plate side; independent validation required.",
+    "Camera calibration has limited lower-image coverage where base is located.",
+    "Assumes CAD plate matches physical print and rests flat on tabletop.",
+    "Base origin elevated 2.4 mm so lowest CAD plate surface rests on table.",
+    "Does not change joint mapping or authorize motion."
+  ],
+  "validation": {
+    "status": "three_pose_visual_mismatch_not_accepted",
+    "overlay": "calibration/table_registration/robot_pose_overlay.jpg",
+    "encoder_observation": "captures/base/joint_observation.json",
+    "method": "MuJoCo forward kinematics at observed joint positions with existing user-reviewed joint mapping; mesh convex outlines projected through candidate base pose and overhead lens distortion.",
+    "finding": "Visible arm-outline mismatch persists across three poses. Third pose includes an unobscured checkerboard in a new placement; independently fitted plane is close to original, but this does not uniquely identify the source of arm mismatch. Base fit remains provisional; joint mapping and working scene unchanged.",
+    "second_pose": {
+      "image": "captures/base/pose2_raw.png",
+      "observation": "captures/base/pose2_joints.json",
+      "overlay": "calibration/table_registration/pose2_overlay.jpg"
+    },
+    "third_pose": {
+      "image": "captures/base/pose3_raw.png",
+      "observation": "captures/base/pose3_joints.json",
+      "overlay": "calibration/table_registration/pose3_overlay.jpg",
+      "table_plane_check": "calibration/table_registration/pose3_plane/board_plane.json",
+      "plane_normal_difference_deg": 0.05608560461676524,
+      "camera_height_difference_m": 0.0018820747074320132,
+      "checkerboard_placement_changed": true
+    }
+  }
+}

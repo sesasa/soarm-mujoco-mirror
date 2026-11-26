@@ -1,0 +1,9 @@
+{
+  "source": "captures/live_grip/1789992971586560329/complete_pick_place_preview.json",
+  "hardware_commands": false,
+  "original_motion_seconds": 40.81396948199093,
+  "new_motion_seconds": 10.203492370497733,
+  "speed_multiplier": 4,
+  "ideal_feedback_ticks": 316,
+  "all_endpoints_pass": true
+}

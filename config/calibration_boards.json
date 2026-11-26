@@ -1,0 +1,16 @@
+{
+  "inner_corners": [
+    9,
+    6
+  ],
+  "boards": {
+    "large": {
+      "square_m": 0.025,
+      "pdf": "calibration/print/checkerboard_25mm_A4.pdf"
+    },
+    "small": {
+      "square_m": 0.01,
+      "pdf": "calibration/print/checkerboard_10mm_A4.pdf"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "full_report_has_extensions": true,
+  "full_report_has_gpt": true,
+  "summary_has_grip_steps": true,
+  "obsolete_abstract_removed": true,
+  "robustness_roadmap_present": true,
+  "recommendations_marked_proposed": true,
+  "grasp_verification_discussed": true,
+  "summary_pages": 10
+}

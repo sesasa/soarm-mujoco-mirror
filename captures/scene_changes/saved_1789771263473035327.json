@@ -1,0 +1,228 @@
+{
+  "time": 1789771263.4838529,
+  "positions": {
+    "shoulder_pan": -66.24175824175825,
+    "shoulder_lift": -102.63736263736264,
+    "elbow_flex": 94.63736263736264,
+    "wrist_flex": 24.175824175824175,
+    "wrist_roll": 18.857142857142858,
+    "gripper": 20.856463124504362
+  },
+  "joint_mapping": {
+    "validated_for_commands": false,
+    "notes": "All six directions, visual pose offsets, and gripper opening were confirmed. User reports all controls responding in the limited physical control test. Full-range accuracy and physical collision clearance remain unvalidated.",
+    "sign": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "offset_rad": [
+      0,
+      0,
+      -0.09599310885968812,
+      -0.07853981633974483,
+      -1.5707963267948966
+    ],
+    "gripper_closed_rad": -0.174533,
+    "gripper_open_rad": 1.7453292,
+    "validation": {
+      "shoulder_pan": {
+        "direction": "confirmed_same_by_user",
+        "offset": "not_validated",
+        "range": "not_validated"
+      },
+      "shoulder_lift": {
+        "direction": "confirmed_same_by_user",
+        "offset": "not_validated",
+        "range": "not_validated"
+      },
+      "elbow_flex": {
+        "direction": "confirmed_same_by_user",
+        "offset": "minus_5.5_degrees_visually_confirmed_by_user",
+        "range": "not_validated",
+        "reference": "User requested one additional upward degree beyond the previous -4.5 degree offset"
+      },
+      "wrist_flex": {
+        "direction": "confirmed_same_by_user",
+        "offset": "minus_4.5_degrees_visually_confirmed_by_user",
+        "range": "not_validated",
+        "reference": "User requested one additional upward degree beyond the previous -3.5 degree offset"
+      },
+      "wrist_roll": {
+        "direction": "confirmed_same_by_user",
+        "offset": "minus_90_degrees_confirmed_by_user",
+        "range": "not_validated"
+      },
+      "gripper": {
+        "direction": "confirmed_same_by_user",
+        "opening": "visually_similar_confirmed_by_user",
+        "endpoints": "not_measured"
+      }
+    },
+    "visual_alignment_status": "User accepted the current overall pose after elbow and wrist-bend adjustments",
+    "commissioning": {
+      "status": "limited_physical_control_confirmed_by_user",
+      "all_six_controls_responding": true,
+      "excursion_limit_deg": 5,
+      "command_speed_deg_s": 5,
+      "evidence": "User reported all responding; controller output reached ACTIVE. No quantitative tracking-error measurements recorded.",
+      "full_range_validated": false
+    }
+  },
+  "registration": {
+    "status": "provisional_for_visualization_only",
+    "source_session": "/home/saeed/Documents/Robotic_projects/SOARM-MuJoCoMirror/calibration/marker_views/1789753029756920858",
+    "method": "Joint corner reprojection: T_camera_from_base @ T_base_from_gripper(q) @ T_gripper_from_marker. Fixed recorded joint offsets and camera intrinsics.",
+    "view_count": 16,
+    "T_camera_from_base": [
+      [
+        0.1697343290738394,
+        -0.9771808877590223,
+        0.12770187990919504,
+        0.18667462282894873
+      ],
+      [
+        -0.9791196038744837,
+        -0.18192521638060105,
+        -0.09070841721442047,
+        0.14557783566899532
+      ],
+      [
+        0.11187072379549301,
+        -0.10963908173347839,
+        -0.9876559182803049,
+        0.43205459726358575
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_gripper_from_marker": [
+      [
+        -0.10928502227415068,
+        0.022431333231373307,
+        -0.9937573240967846,
+        -0.03642131540791469
+      ],
+      [
+        0.9936836805748839,
+        0.028098225304014318,
+        -0.1086426835728827,
+        -0.008344656366735285
+      ],
+      [
+        0.025485816951611784,
+        -0.9993534535009265,
+        -0.02536036494376606,
+        -0.04967186286990724
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "overall_corner_rms_px": 3.571926670654622,
+    "per_view_rms_px": [
+      2.3027743455692584,
+      5.13720470277929,
+      6.883382109929683,
+      5.722105696413014,
+      1.553816559873584,
+      0.5847534722414341,
+      1.5389957635230884,
+      4.580958604392962,
+      5.8671772101300155,
+      2.9592790779616185,
+      2.516597713060337,
+      2.240230114433665,
+      1.5687089503027327,
+      0.935335303735651,
+      2.4896660943402873,
+      1.4643674597932224
+    ],
+    "held_out_indices": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "held_out_rms_px": [
+      2.971580444750765,
+      4.4855218641754835,
+      7.2719854173835925,
+      2.0496840444691182
+    ],
+    "solver_success": true,
+    "minimum_corner_depth_m": 0.19951116054347892,
+    "joint_span_deg": [
+      38.065934065934066,
+      125.97802197802197,
+      71.73626373626374,
+      90.46153846153845,
+      46.32967032967033,
+      0.08723235630983485
+    ],
+    "jacobian_singular_values_mixed_units": [
+      11239.111541882457,
+      10281.543777672869,
+      3509.088549155169,
+      2187.5611071935086,
+      1631.198076639171,
+      1036.6066021792142,
+      487.4163922372722,
+      225.67456930920105,
+      208.73586908523387,
+      136.68017227360016,
+      106.39649905842657,
+      91.5355277978919
+    ],
+    "limitations": [
+      "Assumes rigid marker attachment, correct robot kinematics and stationary samples.",
+      "Pixel fit does not independently establish metric accuracy or collision clearance.",
+      "No transforms, joint offsets or commands applied to working system."
+    ],
+    "review": {
+      "synthetic_solver_test_max_pixel_error": 1.7564616427989677e-11,
+      "decision": "Keep existing joint offsets. Joint refinement does not improve held-out pooled RMS. Baseline transform is usable for an initial visual preview, not accepted for precise reaching or grasping.",
+      "held_out_pooled_rms_px": 4.637703454470013
+    }
+  },
+  "intrinsics": {
+    "matrix": [
+      [
+        407.3701242998436,
+        0.0,
+        293.44928060702415
+      ],
+      [
+        0.0,
+        411.17821567464836,
+        296.02549433513514
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "distortion": [
+      -0.32791680390757394,
+      0.16307208656693342,
+      0.004108678253739655,
+      -0.003960831042028781,
+      -0.04795048682726994
+    ]
+  },
+  "encoder_sample_time": 1789771263.3480866,
+  "encoder_receipt_age_s": 0.13436095300130546,
+  "hardware_synchronized": false,
+  "hardware_commands": false,
+  "note": "Compare stationary poses; camera and encoders are sampled separately."
+}

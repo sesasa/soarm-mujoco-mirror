@@ -1,0 +1,63 @@
+{
+  "status": "single_pose_candidate_requires_multi_pose_validation",
+  "T_gripper_from_wrist_optical": [
+    [
+      0.995445302431591,
+      0.058216177686699844,
+      0.07549520860577437,
+      -0.010321379549828806
+    ],
+    [
+      0.08741058602250251,
+      -0.873436693205633,
+      -0.4790279035851793,
+      0.07674512197604283
+    ],
+    [
+      0.038053111805494935,
+      0.48344515678364186,
+      -0.8745471634305145,
+      0.004143957408663634
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "optical_axes": "OpenCV right/down/forward",
+  "overhead_board_fit": {
+    "rms_px": 0.25215181708335876,
+    "corner_colour_samples": [
+      171.0,
+      32.0
+    ],
+    "reversed_detector_order": true,
+    "canonical_origin_pixel": [
+      367.6040344238281,
+      157.72869873046875
+    ]
+  },
+  "wrist_board_fit": {
+    "rms_px": 0.5707762837409973,
+    "corner_colour_samples": [
+      149.0,
+      5.0
+    ],
+    "reversed_detector_order": true,
+    "canonical_origin_pixel": [
+      145.38771057128906,
+      92.44046020507812
+    ]
+  },
+  "square_m": 0.0096,
+  "source": "calibration/wrist_extrinsics_secured/1789762157381228096/pose_000",
+  "limitations": [
+    "Both camera intrinsics and overhead/base transform contribute uncertainty.",
+    "Wrist intrinsic calibration is provisional.",
+    "Sequential camera/motor samples require stationary robot and board.",
+    "Board symmetry resolved by black/white outer-corner contrast.",
+    "No working camera transform or robot command mapping changed."
+  ]
+}

@@ -1,0 +1,308 @@
+<mujoco model="SO101 desk — simulation only">
+  <option integrator="implicitfast" timestep="0.002" cone="elliptic" iterations="10" ls_iterations="20" impratio="10" />
+  <compiler angle="radian" meshdir="assets/so101/assets" autolimits="true" />
+  <visual>
+    <scale contactwidth="0.1" contactheight="0.05" forcewidth="0.02" framelength="0.75" framewidth="0.025" camera="0.2" />
+    <global offwidth="960" offheight="720" />
+  </visual>
+  <default>
+    <mesh maxhullvert="128" />
+    <default class="so101">
+      <joint damping="1" frictionloss="0.1" armature="0.005" />
+      <position kp="50" />
+      <default class="visual">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" />
+      </default>
+      <default class="collision">
+        <geom group="3" condim="3" />
+      </default>
+      <default class="collision_gripper">
+        <geom group="3" condim="6" friction="1 5e-3 5e-4" solref="0.01 1" priority="1" rgba="1.0 0 0 1.0" mass="0" />
+      </default>
+      <default class="collision_gripper_mesh">
+        <geom group="4" condim="6" friction="1 5e-3 5e-4" solref="0.01 1" priority="1" rgba="1.0 0 0 1.0" mass="0" />
+      </default>
+    </default>
+    <default class="sts3215">
+      <geom contype="0" conaffinity="0" />
+      <joint damping="0.60" frictionloss="0.052" armature="0.028" />
+      <position kp="998.22" kv="2.731" forcerange="-2.94 2.94" />
+    </default>
+    <default class="backlash">
+      <joint damping="0.01" frictionloss="0" armature="0.01" limited="true" range="-0.0087267 0.0087267" />
+    </default>
+  </default>
+  <asset>
+    <mesh file="waveshare_mounting_plate_so101_v2.stl" />
+    <mesh file="sts3215_03a_v1.stl" />
+    <mesh file="motor_holder_so101_base_v1.stl" />
+    <mesh file="wrist_roll_follower_so101_v1.stl" />
+    <mesh file="moving_jaw_so101_v1.stl" />
+    <mesh file="base_motor_holder_so101_v1.stl" />
+    <mesh file="upper_arm_so101_v1.stl" />
+    <mesh file="wrist_roll_pitch_so101_v2.stl" />
+    <mesh file="under_arm_so101_v1.stl" />
+    <mesh file="rotation_pitch_so101_v1.stl" />
+    <mesh file="motor_holder_so101_wrist_v1.stl" />
+    <mesh file="sts3215_03a_no_horn_v1.stl" />
+    <mesh file="base_so101_v2.stl" />
+    <mesh file="moving_jaw_so101_gripper_v1.stl" />
+    <mesh file="wrist_roll_follower_so101_camera_mount.stl" />
+    <mesh maxhullvert="64" file="wrist_roll_follower_so101_gripper_part0_v1.stl" />
+    <mesh maxhullvert="64" file="moving_jaw_so101_gripper_part0_v1.stl" />
+    <mesh maxhullvert="64" file="moving_jaw_so101_gripper_part1_v1.stl" />
+    <material name="base_motor_holder_so101_v1_material" rgba="0.88 0.89 0.87 1" />
+    <material name="base_so101_v2_material" rgba="0.88 0.89 0.87 1" />
+    <material name="sts3215_03a_v1_material" rgba="0.1 0.1 0.1 1" />
+    <material name="waveshare_mounting_plate_so101_v2_material" rgba="0.88 0.89 0.87 1" />
+    <material name="motor_holder_so101_base_v1_material" rgba="0.88 0.89 0.87 1" />
+    <material name="rotation_pitch_so101_v1_material" rgba="0.88 0.89 0.87 1" />
+    <material name="upper_arm_so101_v1_material" rgba="0.88 0.89 0.87 1" />
+    <material name="under_arm_so101_v1_material" rgba="0.88 0.89 0.87 1" />
+    <material name="motor_holder_so101_wrist_v1_material" rgba="0.88 0.89 0.87 1" />
+    <material name="sts3215_03a_no_horn_v1_material" rgba="0.1 0.1 0.1 1.0" />
+    <material name="wrist_roll_pitch_so101_v2_material" rgba="0.88 0.89 0.87 1" />
+    <material name="wrist_roll_follower_so101_v1_material" rgba="0.88 0.89 0.87 1" />
+    <material name="moving_jaw_so101_v1_material" rgba="0.88 0.89 0.87 1" />
+    <mesh name="table_visual_mesh" vertex="0.1859 0.5939 -0.028 0.109 0.5965 -0.028 0.032 0.5676 -0.028 -0.0256 0.5164 -0.028 -0.0641 0.4459 -0.028 -0.0833 0.3786 -0.028 -0.0705 0.3177 -0.028 -0.0449 0.26 -0.028 -0.0128 0.1895 -0.028 0.0064 0.11900000000000002 -0.028 0.0128 0.054900000000000004 -0.028 0.0064 -0.009199999999999986 -0.028 -0.0192 -0.07329999999999998 -0.028 -0.0577 -0.14379999999999998 -0.028 -0.0961 -0.2207 -0.028 -0.1186 -0.30399999999999994 -0.028 -0.109 -0.3809 -0.028 -0.0769 -0.44499999999999995 -0.028 -0.0128 -0.4962 -0.028 0.0641 -0.5155 -0.028 0.1474 -0.5091 -0.028 0.2371 -0.48339999999999994 -0.028 0.314 -0.44499999999999995 -0.028 0.3909 -0.3809 -0.028 0.4614 -0.2912 -0.028 0.5255 -0.18219999999999997 -0.028 0.5672 -0.07329999999999998 -0.028 0.5896 0.0421 -0.028 0.5928 0.08700000000000002 -0.028 0.5832 0.1831 -0.028 0.5608 0.2728 -0.028 0.5191 0.3625 -0.028 0.4582 0.4427 -0.028 0.3781 0.5164 -0.028 0.2852 0.5612 -0.028 0.1859 0.5939 -0.003 0.109 0.5965 -0.003 0.032 0.5676 -0.003 -0.0256 0.5164 -0.003 -0.0641 0.4459 -0.003 -0.0833 0.3786 -0.003 -0.0705 0.3177 -0.003 -0.0449 0.26 -0.003 -0.0128 0.1895 -0.003 0.0064 0.11900000000000002 -0.003 0.0128 0.054900000000000004 -0.003 0.0064 -0.009199999999999986 -0.003 -0.0192 -0.07329999999999998 -0.003 -0.0577 -0.14379999999999998 -0.003 -0.0961 -0.2207 -0.003 -0.1186 -0.30399999999999994 -0.003 -0.109 -0.3809 -0.003 -0.0769 -0.44499999999999995 -0.003 -0.0128 -0.4962 -0.003 0.0641 -0.5155 -0.003 0.1474 -0.5091 -0.003 0.2371 -0.48339999999999994 -0.003 0.314 -0.44499999999999995 -0.003 0.3909 -0.3809 -0.003 0.4614 -0.2912 -0.003 0.5255 -0.18219999999999997 -0.003 0.5672 -0.07329999999999998 -0.003 0.5896 0.0421 -0.003 0.5928 0.08700000000000002 -0.003 0.5832 0.1831 -0.003 0.5608 0.2728 -0.003 0.5191 0.3625 -0.003 0.4582 0.4427 -0.003 0.3781 0.5164 -0.003 0.2852 0.5612 -0.003" face="1 0 34 69 35 36 2 1 34 69 36 37 3 2 34 69 37 38 4 3 34 69 38 39 5 4 34 69 39 40 6 5 34 69 40 41 7 6 34 69 41 42 8 7 34 69 42 43 9 8 34 69 43 44 10 9 34 69 44 45 11 10 34 69 45 46 12 11 34 69 46 47 14 13 12 47 48 49 15 14 12 47 49 50 15 12 34 69 47 50 16 15 34 69 50 51 17 16 34 69 51 52 18 17 34 69 52 53 19 18 34 69 53 54 20 19 34 69 54 55 21 20 34 69 55 56 22 21 34 69 56 57 23 22 34 69 57 58 24 23 34 69 58 59 25 24 34 69 59 60 26 25 34 69 60 61 27 26 34 69 61 62 28 27 34 69 62 63 29 28 34 69 63 64 30 29 34 69 64 65 31 30 34 69 65 66 32 31 34 69 66 67 34 33 32 67 68 69 0 1 36 0 36 35 1 2 37 1 37 36 2 3 38 2 38 37 3 4 39 3 39 38 4 5 40 4 40 39 5 6 41 5 41 40 6 7 42 6 42 41 7 8 43 7 43 42 8 9 44 8 44 43 9 10 45 9 45 44 10 11 46 10 46 45 11 12 47 11 47 46 12 13 48 12 48 47 13 14 49 13 49 48 14 15 50 14 50 49 15 16 51 15 51 50 16 17 52 16 52 51 17 18 53 17 53 52 18 19 54 18 54 53 19 20 55 19 55 54 20 21 56 20 56 55 21 22 57 21 57 56 22 23 58 22 58 57 23 24 59 23 59 58 24 25 60 24 60 59 25 26 61 25 61 60 26 27 62 26 62 61 27 28 63 27 63 62 28 29 64 28 64 63 29 30 65 29 65 64 30 31 66 30 66 65 31 32 67 31 67 66 32 33 68 32 68 67 33 34 69 33 69 68 34 0 35 34 35 69" />
+    <mesh name="table_collision_0" vertex="0.2852 0.5612 -0.028 0.1859 0.5939 -0.028 0.109 0.5965 -0.028 0.2852 0.5612 -0.003 0.1859 0.5939 -0.003 0.109 0.5965 -0.003" />
+    <mesh name="table_collision_1" vertex="0.2852 0.5612 -0.028 0.109 0.5965 -0.028 0.032 0.5676 -0.028 0.2852 0.5612 -0.003 0.109 0.5965 -0.003 0.032 0.5676 -0.003" />
+    <mesh name="table_collision_2" vertex="0.2852 0.5612 -0.028 0.032 0.5676 -0.028 -0.0256 0.5164 -0.028 0.2852 0.5612 -0.003 0.032 0.5676 -0.003 -0.0256 0.5164 -0.003" />
+    <mesh name="table_collision_3" vertex="0.2852 0.5612 -0.028 -0.0256 0.5164 -0.028 -0.0641 0.4459 -0.028 0.2852 0.5612 -0.003 -0.0256 0.5164 -0.003 -0.0641 0.4459 -0.003" />
+    <mesh name="table_collision_4" vertex="0.2852 0.5612 -0.028 -0.0641 0.4459 -0.028 -0.0833 0.3786 -0.028 0.2852 0.5612 -0.003 -0.0641 0.4459 -0.003 -0.0833 0.3786 -0.003" />
+    <mesh name="table_collision_5" vertex="0.2852 0.5612 -0.028 -0.0833 0.3786 -0.028 -0.0705 0.3177 -0.028 0.2852 0.5612 -0.003 -0.0833 0.3786 -0.003 -0.0705 0.3177 -0.003" />
+    <mesh name="table_collision_6" vertex="0.2852 0.5612 -0.028 -0.0705 0.3177 -0.028 -0.0449 0.26 -0.028 0.2852 0.5612 -0.003 -0.0705 0.3177 -0.003 -0.0449 0.26 -0.003" />
+    <mesh name="table_collision_7" vertex="0.2852 0.5612 -0.028 -0.0449 0.26 -0.028 -0.0128 0.1895 -0.028 0.2852 0.5612 -0.003 -0.0449 0.26 -0.003 -0.0128 0.1895 -0.003" />
+    <mesh name="table_collision_8" vertex="0.2852 0.5612 -0.028 -0.0128 0.1895 -0.028 0.0064 0.11900000000000002 -0.028 0.2852 0.5612 -0.003 -0.0128 0.1895 -0.003 0.0064 0.11900000000000002 -0.003" />
+    <mesh name="table_collision_9" vertex="0.2852 0.5612 -0.028 0.0064 0.11900000000000002 -0.028 0.0128 0.054900000000000004 -0.028 0.2852 0.5612 -0.003 0.0064 0.11900000000000002 -0.003 0.0128 0.054900000000000004 -0.003" />
+    <mesh name="table_collision_10" vertex="0.2852 0.5612 -0.028 0.0128 0.054900000000000004 -0.028 0.0064 -0.009199999999999986 -0.028 0.2852 0.5612 -0.003 0.0128 0.054900000000000004 -0.003 0.0064 -0.009199999999999986 -0.003" />
+    <mesh name="table_collision_11" vertex="0.2852 0.5612 -0.028 0.0064 -0.009199999999999986 -0.028 -0.0192 -0.07329999999999998 -0.028 0.2852 0.5612 -0.003 0.0064 -0.009199999999999986 -0.003 -0.0192 -0.07329999999999998 -0.003" />
+    <mesh name="table_collision_12" vertex="-0.0192 -0.07329999999999998 -0.028 -0.0577 -0.14379999999999998 -0.028 -0.0961 -0.2207 -0.028 -0.0192 -0.07329999999999998 -0.003 -0.0577 -0.14379999999999998 -0.003 -0.0961 -0.2207 -0.003" />
+    <mesh name="table_collision_13" vertex="-0.0192 -0.07329999999999998 -0.028 -0.0961 -0.2207 -0.028 -0.1186 -0.30399999999999994 -0.028 -0.0192 -0.07329999999999998 -0.003 -0.0961 -0.2207 -0.003 -0.1186 -0.30399999999999994 -0.003" />
+    <mesh name="table_collision_14" vertex="0.2852 0.5612 -0.028 -0.0192 -0.07329999999999998 -0.028 -0.1186 -0.30399999999999994 -0.028 0.2852 0.5612 -0.003 -0.0192 -0.07329999999999998 -0.003 -0.1186 -0.30399999999999994 -0.003" />
+    <mesh name="table_collision_15" vertex="0.2852 0.5612 -0.028 -0.1186 -0.30399999999999994 -0.028 -0.109 -0.3809 -0.028 0.2852 0.5612 -0.003 -0.1186 -0.30399999999999994 -0.003 -0.109 -0.3809 -0.003" />
+    <mesh name="table_collision_16" vertex="0.2852 0.5612 -0.028 -0.109 -0.3809 -0.028 -0.0769 -0.44499999999999995 -0.028 0.2852 0.5612 -0.003 -0.109 -0.3809 -0.003 -0.0769 -0.44499999999999995 -0.003" />
+    <mesh name="table_collision_17" vertex="0.2852 0.5612 -0.028 -0.0769 -0.44499999999999995 -0.028 -0.0128 -0.4962 -0.028 0.2852 0.5612 -0.003 -0.0769 -0.44499999999999995 -0.003 -0.0128 -0.4962 -0.003" />
+    <mesh name="table_collision_18" vertex="0.2852 0.5612 -0.028 -0.0128 -0.4962 -0.028 0.0641 -0.5155 -0.028 0.2852 0.5612 -0.003 -0.0128 -0.4962 -0.003 0.0641 -0.5155 -0.003" />
+    <mesh name="table_collision_19" vertex="0.2852 0.5612 -0.028 0.0641 -0.5155 -0.028 0.1474 -0.5091 -0.028 0.2852 0.5612 -0.003 0.0641 -0.5155 -0.003 0.1474 -0.5091 -0.003" />
+    <mesh name="table_collision_20" vertex="0.2852 0.5612 -0.028 0.1474 -0.5091 -0.028 0.2371 -0.48339999999999994 -0.028 0.2852 0.5612 -0.003 0.1474 -0.5091 -0.003 0.2371 -0.48339999999999994 -0.003" />
+    <mesh name="table_collision_21" vertex="0.2852 0.5612 -0.028 0.2371 -0.48339999999999994 -0.028 0.314 -0.44499999999999995 -0.028 0.2852 0.5612 -0.003 0.2371 -0.48339999999999994 -0.003 0.314 -0.44499999999999995 -0.003" />
+    <mesh name="table_collision_22" vertex="0.2852 0.5612 -0.028 0.314 -0.44499999999999995 -0.028 0.3909 -0.3809 -0.028 0.2852 0.5612 -0.003 0.314 -0.44499999999999995 -0.003 0.3909 -0.3809 -0.003" />
+    <mesh name="table_collision_23" vertex="0.2852 0.5612 -0.028 0.3909 -0.3809 -0.028 0.4614 -0.2912 -0.028 0.2852 0.5612 -0.003 0.3909 -0.3809 -0.003 0.4614 -0.2912 -0.003" />
+    <mesh name="table_collision_24" vertex="0.2852 0.5612 -0.028 0.4614 -0.2912 -0.028 0.5255 -0.18219999999999997 -0.028 0.2852 0.5612 -0.003 0.4614 -0.2912 -0.003 0.5255 -0.18219999999999997 -0.003" />
+    <mesh name="table_collision_25" vertex="0.2852 0.5612 -0.028 0.5255 -0.18219999999999997 -0.028 0.5672 -0.07329999999999998 -0.028 0.2852 0.5612 -0.003 0.5255 -0.18219999999999997 -0.003 0.5672 -0.07329999999999998 -0.003" />
+    <mesh name="table_collision_26" vertex="0.2852 0.5612 -0.028 0.5672 -0.07329999999999998 -0.028 0.5896 0.0421 -0.028 0.2852 0.5612 -0.003 0.5672 -0.07329999999999998 -0.003 0.5896 0.0421 -0.003" />
+    <mesh name="table_collision_27" vertex="0.2852 0.5612 -0.028 0.5896 0.0421 -0.028 0.5928 0.08700000000000002 -0.028 0.2852 0.5612 -0.003 0.5896 0.0421 -0.003 0.5928 0.08700000000000002 -0.003" />
+    <mesh name="table_collision_28" vertex="0.2852 0.5612 -0.028 0.5928 0.08700000000000002 -0.028 0.5832 0.1831 -0.028 0.2852 0.5612 -0.003 0.5928 0.08700000000000002 -0.003 0.5832 0.1831 -0.003" />
+    <mesh name="table_collision_29" vertex="0.2852 0.5612 -0.028 0.5832 0.1831 -0.028 0.5608 0.2728 -0.028 0.2852 0.5612 -0.003 0.5832 0.1831 -0.003 0.5608 0.2728 -0.003" />
+    <mesh name="table_collision_30" vertex="0.2852 0.5612 -0.028 0.5608 0.2728 -0.028 0.5191 0.3625 -0.028 0.2852 0.5612 -0.003 0.5608 0.2728 -0.003 0.5191 0.3625 -0.003" />
+    <mesh name="table_collision_31" vertex="0.2852 0.5612 -0.028 0.5191 0.3625 -0.028 0.4582 0.4427 -0.028 0.2852 0.5612 -0.003 0.5191 0.3625 -0.003 0.4582 0.4427 -0.003" />
+    <mesh name="table_collision_32" vertex="0.4582 0.4427 -0.028 0.3781 0.5164 -0.028 0.2852 0.5612 -0.028 0.4582 0.4427 -0.003 0.3781 0.5164 -0.003 0.2852 0.5612 -0.003" />
+  </asset>
+  <worldbody>
+    <body name="base" pos="0.03702363238770422 0.09999999999999999 0" quat="1 0 0 0" childclass="so101">
+      <inertial pos="0.0137179 -5.19711e-05 0.0334843" mass="0.147" fullinertia="0.000114686 0.000136117 0.000130364 -4.59787e-07 4.97151e-06 9.75275e-08" />
+      <geom type="mesh" class="visual" pos="-0.006365 -9.9e-05 -0.0024" quat="1 1 1 1" mesh="base_motor_holder_so101_v1" material="base_motor_holder_so101_v1_material" />
+      <geom type="mesh" class="visual" pos="-0.006365 0 -0.0024" quat="1 1 1 1" mesh="base_so101_v2" material="base_so101_v2_material" />
+      <geom type="mesh" class="visual" pos="0.0263353 0 0.0437" quat="1 0 0 0" mesh="sts3215_03a_v1" material="sts3215_03a_v1_material" />
+      <geom type="mesh" class="visual" pos="-0.0309827 -0.000199 0.0474" quat="1 1 1 1" mesh="waveshare_mounting_plate_so101_v2" material="waveshare_mounting_plate_so101_v2_material" />
+      <site group="3" name="baseframe" pos="0 0 0" quat="1 0 0 0" />
+      <body name="shoulder" pos="0.0388353 0 0.0624" quat="0 0 -1 0">
+        <joint axis="0 0 1" name="shoulder_pan" type="hinge" range="-1.91986 1.91986" class="sts3215" />
+        <inertial pos="-0.0307604 -1.7e-05 -0.0252713" mass="0.100006" fullinertia="8.3759e-05 8.10403e-05 2.39783e-05 7.55525e-08 -1.16342e-06 1.54663e-07" />
+        <geom type="mesh" class="visual" pos="-0.030399 0.000422 -0.0417" quat="1 1 1 -1" mesh="sts3215_03a_v1" material="sts3215_03a_v1_material" />
+        <geom type="box" class="collision" pos="-0.030399 0.000422 -0.0387" quat="1 1 1 -1" size="0.023 0.015 0.01" />
+        <geom type="mesh" class="visual" pos="-0.067599 -0.0001778 0.01585" quat="1 1 -1 1" mesh="motor_holder_so101_base_v1" material="motor_holder_so101_base_v1_material" />
+        <geom type="box" class="collision" pos="-0.025 0 0.0" quat="1 1 -1 1" size="0.038 0.025 0.02" />
+        <geom type="mesh" class="visual" pos="0.012201 2.2e-05 0.0464" quat="1 -1 0 0" mesh="rotation_pitch_so101_v1" material="rotation_pitch_so101_v1_material" />
+        <body name="upper_arm" pos="-0.0303992 -0.0182778 -0.0542" quat="1 -1 -1 -1">
+          <joint axis="0 0 1" name="shoulder_lift" type="hinge" range="-1.7453293 1.7453293" class="sts3215" />
+          <inertial pos="-0.089847 -0.008382 0.018409" mass="0.103" fullinertia="4.08002e-05 0.000147318 0.000142487 -1.97819e-05 -4.03016e-08 8.97326e-09" />
+          <geom type="mesh" class="visual" pos="-0.11257 -0.0155 0.0187" quat="0 -1 1 0" mesh="sts3215_03a_v1" material="sts3215_03a_v1_material" />
+          <geom type="box" class="collision" pos="-0.06 0 0.02" quat="0 -1 1 0" size="0.01 0.07 0.03" />
+          <geom type="mesh" class="visual" pos="-0.065085 0.012 0.0182" quat="0 1 0 0" mesh="upper_arm_so101_v1" material="upper_arm_so101_v1_material" />
+          <geom type="box" class="collision" pos="-0.12 -0.014 0.0182" quat="0 1 0 0" size="0.01 0.02 0.015" />
+          <body name="lower_arm" pos="-0.11257 -0.028 0" quat="1 0 0 1">
+            <joint axis="0 0 1" name="elbow_flex" type="hinge" range="-1.69 1.69" class="sts3215" />
+            <inertial pos="-0.098070 0.0032438 0.018283" mass="0.104" fullinertia="2.87438e-05 0.000159844 0.00014529 7.41152e-06 1.26409e-06 -4.90188e-08" />
+            <geom type="mesh" class="visual" pos="-0.06485 -0.032 0.0182" quat="0 1 0 0" mesh="under_arm_so101_v1" material="under_arm_so101_v1_material" />
+            <geom type="box" class="collision" pos="-0.05 0 0.0182" quat="0 1 0 0" size="0.07 0.01 0.03" />
+            <geom type="mesh" class="visual" pos="-0.06485 -0.032 0.018" quat="0 -1 0 0" mesh="motor_holder_so101_wrist_v1" material="motor_holder_so101_wrist_v1_material" />
+            <geom type="box" class="collision" pos="-0.125 0.005 0.018" quat="0 -1 0 0" size="0.023 0.013 0.018" />
+            <geom type="mesh" class="visual" pos="-0.1224 0.0052 0.0187" quat="0 0 1 0" mesh="sts3215_03a_v1" material="sts3215_03a_v1_material" />
+            <body name="wrist" pos="-0.1349 0.0052 0" quat="1 0 0 -1">
+              <joint axis="0 0 1" name="wrist_flex" type="hinge" range="-1.658063 1.658063" class="sts3215" />
+              <inertial pos="-0.000103312 -0.0386143 0.0281156" mass="0.079" fullinertia="3.68263e-05 2.5391e-05 2.1e-05 1.7893e-08 -5.28128e-08 3.6412e-06" />
+              <geom type="mesh" class="visual" pos="0 -0.0424 0.0306" quat="1 1 1 -1" mesh="sts3215_03a_no_horn_v1" material="sts3215_03a_no_horn_v1_material" />
+              <geom type="box" class="collision" pos="0 -0.0424 0.0256" quat="1 1 1 -1" size="0.029 0.015 0.018" />
+              <geom type="mesh" class="visual" pos="0 -0.028 0.0181" quat="1 -1 -1 -1" mesh="wrist_roll_pitch_so101_v2" material="wrist_roll_pitch_so101_v2_material" />
+              <geom type="box" class="collision" pos="0 -0.02 0.0191" quat="1 -1 -1 -1" size="0.027 0.01 0.03" />
+              <body name="gripper" pos="5.55112e-17 -0.0611 0.0181" quat="0.0172091 -0.0172091 0.706897 0.706897">
+                <joint axis="0 0 1" name="wrist_roll" type="hinge" range="-2.7438473 2.7438473" class="sts3215" />
+                <inertial pos="0.000214 0.000245 -0.025187" mass="0.087" fullinertia="2.75087e-05 4.33657e-05 3.45059e-05 -3.35241e-07 -5.7352e-06 -5.17847e-08" />
+                <geom type="mesh" class="visual" pos="0.0077 0.0001 -0.0234" quat="1 -1 0 0" mesh="sts3215_03a_v1" material="sts3215_03a_v1_material" />
+                <geom type="mesh" class="visual" pos="0 -0.000218 0.00095" quat="0 1 0 0" mesh="wrist_roll_follower_so101_v1" material="wrist_roll_follower_so101_v1_material" />
+                <geom type="box" class="collision" pos="0 -0.000218 0.00095" quat="0 1 0 0" size="0.01 0.01 0.018" />
+                <geom name="fixed_jaw_box1" class="collision_gripper" type="box" size="0.0325 0.015 0.015" pos="-0.0025 0 -0.022" />
+                <geom name="fixed_jaw_box2" class="collision_gripper" type="box" size="0.01 0.015 0.005" pos="-0.024 0 -0.04" />
+                <geom name="fixed_jaw_sph_tip1" class="collision_gripper" type="sphere" size="0.00075" pos="-0.0081 0 -0.101" />
+                <geom name="fixed_jaw_sph_tip2" class="collision_gripper" type="sphere" size="0.00075" pos="-0.0081 0.0035 -0.0975" />
+                <geom name="fixed_jaw_sph_tip3" class="collision_gripper" type="sphere" size="0.00075" pos="-0.0081 -0.0035 -0.0975" />
+                <geom type="mesh" class="collision_gripper_mesh" pos="0 -0.000218 0.00095" quat="0 1 0 0" mesh="wrist_roll_follower_so101_gripper_part0_v1" />
+                <geom name="fixed_jaw_box3" class="collision_gripper" type="capsule" size="0.0011 0.002" pos="-0.009 0 -0.103" euler="1.57 0 0" />
+                <geom name="fixed_jaw_box4" class="collision_gripper" type="box" size="0.001 0.004 0.004" pos="-0.009 0 -0.0982" />
+                <geom name="fixed_jaw_box5" class="collision_gripper" type="box" size="0.001 0.005 0.006" pos="-0.0108 0 -0.0905" />
+                <geom name="fixed_jaw_box6" class="collision_gripper" type="box" size="0.001 0.009 0.008" pos="-0.0125 0 -0.0727" />
+                <geom name="fixed_jaw_box7" class="collision_gripper" type="box" size="0.001 0.01 0.008" pos="-0.0143 0 -0.053" />
+                <site group="3" name="gripperframe" pos="0.012 -0.000218 -0.098127" quat="1 0 1 0" />
+                <body name="camera_mount">
+                  <camera name="wrist_cam" mode="fixed" pos="0.0 0.055 -0.045" fovy="45" xyaxes="0.6713820702561661 -0.7071815255030338 0.2216763535556866 0.7309897781604903 0.6811609485029481 -0.0409109576940026" />
+                  <geom type="mesh" mass="0.012" class="visual" pos="-0.010255753481783056 -0.0021716701002266435 0.025338749254283983" quat="-0.1057711773638683 0.9762960071199334 -0.18827903956903916 0.014476456047537486" mesh="wrist_roll_follower_so101_camera_mount" material="wrist_roll_follower_so101_v1_material" rgba="0 0 0 0" group="5" />
+                  <geom name="camera_box1" class="collision_gripper" type="box" size="0.015 0.015 0.003" pos="-0.0025 0.03 -0.03" />
+                  <geom name="camera_box2" class="collision_gripper" type="box" size="0.021 0.021 0.003" pos="-0.001 0.06 -0.04" euler="-0.55 0 0" />
+                  <geom name="photo_holder_foot" group="2" contype="0" conaffinity="0" mass="0" type="box" pos="0.0026661776374821405 0.03059937518969487 0.012567049651064418" size="0.008 0.0015 0.0075" quat="-0.7651370438479312 0.6155540103117785 -0.12289698539579513 0.14336978587332067" rgba="0.88 0.89 0.87 1" />
+                  <geom name="photo_holder_inclined_support" group="2" contype="0" conaffinity="0" mass="0" type="box" pos="0.009489956529628769 0.04774167027770698 0.011059704574689504" size="0.008 0.0015 0.01154427806160661" quat="-0.5948396227574351 0.7813496391994152 -0.15374212368317677 0.10964453441062566" rgba="0.88 0.89 0.87 1" />
+                  <geom name="photo_holder_side_-1" group="2" contype="0" conaffinity="0" mass="0" type="box" pos="0.002045197474283386 0.0793090026578809 0.0010567683535700548" size="0.0015 0.017 0.0015" quat="0.9594062851261972 -0.20947795955568707 0.04601345024530209 -0.18314291391495116" rgba="0.88 0.89 0.87 1" />
+                  <geom name="photo_holder_edge_-1" group="2" contype="0" conaffinity="0" mass="0" type="box" pos="0.014077671157494507 0.05935124641887816 0.007334311102717872" size="0.017 0.0015 0.0015" quat="0.9594062851261972 -0.20947795955568707 0.04601345024530209 -0.18314291391495116" rgba="0.88 0.89 0.87 1" />
+                  <geom name="photo_holder_side_1" group="2" contype="0" conaffinity="0" mass="0" type="box" pos="0.03640646369974892 0.06559330494754925 0.0006289603341444357" size="0.0015 0.017 0.0015" quat="0.9594062851261972 -0.20947795955568707 0.04601345024530209 -0.18314291391495116" rgba="0.88 0.89 0.87 1" />
+                  <geom name="photo_holder_edge_1" group="2" contype="0" conaffinity="0" mass="0" type="box" pos="0.024373990016537794 0.08555106118655202 -0.005648582415003375" size="0.017 0.0015 0.0015" quat="0.9594062851261972 -0.20947795955568707 0.04601345024530209 -0.18314291391495116" rgba="0.88 0.89 0.87 1" />
+                  <geom name="photo_holder_pcb" group="2" contype="0" conaffinity="0" mass="0" type="box" pos="0.019638380573414504 0.07341389097089475 0.0031128730781417938" size="0.017 0.014000000000000002 0.001" quat="0.9594062851261972 -0.20947795955568707 0.04601345024530209 -0.18314291391495116" rgba="0.025 0.10 0.065 1" />
+                  <geom name="photo_holder_lens_base" group="2" contype="0" conaffinity="0" mass="0" type="cylinder" pos="0.01856575060877878 0.07091077433362764 -0.0027891496309980276" size="0.009 0.004" quat="0.9594062851261972 -0.20947795955568707 0.04601345024530209 -0.18314291391495116" rgba="0.035 0.035 0.035 1" />
+                  <geom name="photo_holder_lens_barrel" group="2" contype="0" conaffinity="0" mass="0" type="cylinder" pos="0.016915550663185355 0.06705982566090898 -0.01186918456813621" size="0.0065 0.006" quat="0.9594062851261972 -0.20947795955568707 0.04601345024530209 -0.18314291391495116" rgba="0.025 0.025 0.025 1" />
+                  <geom name="photo_holder_lens_glass" group="2" contype="0" conaffinity="0" mass="0" type="cylinder" pos="0.015892426696917435 0.06467223748382342 -0.017498806229161876" size="0.0055 0.0003" quat="0.9594062851261972 -0.20947795955568707 0.04601345024530209 -0.18314291391495116" rgba="0.06 0.10 0.14 1" />
+                </body>
+                <body name="moving_jaw_so101_v1" pos="0.0202 0.0188 -0.0234" quat="1 1 0 0">
+                  <joint axis="0 0 1" name="gripper" type="hinge" range="-0.174533 1.7453292" class="sts3215" />
+                  <inertial pos="-0.001575 -0.0300244 0.0192755" mass="0.012" fullinertia="6.61427e-06 1.89032e-06 5.28738e-06 -3.19807e-07 -5.90717e-09 -1.09945e-07" />
+                  <geom type="mesh" class="visual" pos="0 0 0.0189" quat="1 0 0 0" mesh="moving_jaw_so101_v1" material="moving_jaw_so101_v1_material" />
+                  <geom type="mesh" class="collision_gripper_mesh" pos="0 0 0.0189" quat="1 0 0 0" mesh="moving_jaw_so101_gripper_part0_v1" />
+                  <geom type="mesh" class="collision_gripper_mesh" pos="0 0 0.0189" quat="1 0 0 0" mesh="moving_jaw_so101_gripper_part1_v1" />
+                  <geom name="moving_jaw_box1" class="collision_gripper" type="box" size="0.01 0.01 0.015" pos="-0.0 -0.013 0.019" />
+                  <geom name="moving_jaw_sph_tip1" class="collision_gripper" type="sphere" size="0.00075" pos="-0.012 -0.078 0.0192" />
+                  <geom name="moving_jaw_sph_tip2" class="collision_gripper" type="sphere" size="0.00075" pos="-0.012 -0.0745 0.0225 " />
+                  <geom name="moving_jaw_sph_tip3" class="collision_gripper" type="sphere" size="0.00075" pos="-0.012 -0.0745 0.0155 " />
+                  <geom name="moving_jaw_box2" class="collision_gripper" type="box" size="0.001 0.004 0.004" pos="-0.0113 -0.076 0.01875" />
+                  <geom name="moving_jaw_box3" class="collision_gripper" type="box" size="0.001 0.005 0.006" pos="-0.0093 -0.067 0.01875" />
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+    <light pos="0.3 0 1.5" dir="0 0 -1" directional="true" />
+    <geom name="table" type="mesh" mesh="table_visual_mesh" rgba="0.91 0.9 0.85 1" contype="0" conaffinity="0" />
+    <geom name="table_collision_0" type="mesh" mesh="table_collision_0" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_1" type="mesh" mesh="table_collision_1" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_2" type="mesh" mesh="table_collision_2" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_3" type="mesh" mesh="table_collision_3" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_4" type="mesh" mesh="table_collision_4" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_5" type="mesh" mesh="table_collision_5" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_6" type="mesh" mesh="table_collision_6" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_7" type="mesh" mesh="table_collision_7" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_8" type="mesh" mesh="table_collision_8" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_9" type="mesh" mesh="table_collision_9" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_10" type="mesh" mesh="table_collision_10" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_11" type="mesh" mesh="table_collision_11" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_12" type="mesh" mesh="table_collision_12" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_13" type="mesh" mesh="table_collision_13" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_14" type="mesh" mesh="table_collision_14" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_15" type="mesh" mesh="table_collision_15" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_16" type="mesh" mesh="table_collision_16" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_17" type="mesh" mesh="table_collision_17" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_18" type="mesh" mesh="table_collision_18" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_19" type="mesh" mesh="table_collision_19" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_20" type="mesh" mesh="table_collision_20" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_21" type="mesh" mesh="table_collision_21" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_22" type="mesh" mesh="table_collision_22" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_23" type="mesh" mesh="table_collision_23" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_24" type="mesh" mesh="table_collision_24" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_25" type="mesh" mesh="table_collision_25" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_26" type="mesh" mesh="table_collision_26" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_27" type="mesh" mesh="table_collision_27" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_28" type="mesh" mesh="table_collision_28" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_29" type="mesh" mesh="table_collision_29" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_30" type="mesh" mesh="table_collision_30" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_31" type="mesh" mesh="table_collision_31" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="table_collision_32" type="mesh" mesh="table_collision_32" group="3" rgba="0.91 0.9 0.85 1" />
+    <geom name="floor" type="plane" size="2 2 0.01" pos="0 0 -0.75" rgba="0.22 0.25 0.29 1" />
+    <body name="remote" pos="0.31 0 0.009">
+      <freejoint />
+      <geom name="remote_shell" type="box" size="0.11 0.025 0.009" mass="0.12" rgba="0.055 0.06 0.065 1" />
+      <geom type="sphere" size="0.003" pos="-0.085 -0.012 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="-0.085 0.0 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="-0.085 0.012 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="-0.064 -0.012 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="-0.064 0.0 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="-0.064 0.012 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="-0.043000000000000003 -0.012 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="-0.043000000000000003 0.0 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="-0.043000000000000003 0.012 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="-0.022000000000000006 -0.012 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="-0.022000000000000006 0.0 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="-0.022000000000000006 0.012 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="-0.0010000000000000009 -0.012 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="-0.0010000000000000009 0.0 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="-0.0010000000000000009 0.012 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="0.020000000000000004 -0.012 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="0.020000000000000004 0.0 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="0.020000000000000004 0.012 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="0.040999999999999995 -0.012 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="0.040999999999999995 0.0 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="0.040999999999999995 0.012 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="0.06200000000000001 -0.012 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="0.06200000000000001 0.0 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="0.06200000000000001 0.012 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="0.083 -0.012 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="0.083 0.0 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+      <geom type="sphere" size="0.003" pos="0.083 0.012 0.009" rgba="0.7 0.7 0.7 1" contype="0" conaffinity="0" mass="0" />
+    </body>
+    <body name="tape_measure" pos="0.29737013578414917 -0.07630260288715363 0.023">
+      <freejoint />
+      <geom type="cylinder" size="0.035 0.023" mass="0.07" rgba="0.52 0.54 0.55 1" />
+    </body>
+    <body name="candle" pos="0.36210301518440247 -0.1069980338215828 0.013">
+      <freejoint />
+      <geom type="cylinder" size="0.021 0.013" mass="0.07" rgba="0.86 0.85 0.8 1" />
+    </body>
+    <geom name="holder_candle" type="cylinder" size="0.017 0.009" pos="0.3302171528339386 0.1453135907649994 0.009" rgba="0.8 0.8 0.76 1" />
+    <body name="wire_holder" pos="0.3302171528339386 0.1453135907649994 0">
+      <geom type="capsule" size="0.002" fromto="0.04 0.0 0.055 0.038042260651806145 0.012360679774997897 0.055" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="0.038042260651806145 0.012360679774997897 0.055 0.032360679774997896 0.023511410091698926 0.055" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="0.032360679774997896 0.023511410091698926 0.055 0.023511410091698926 0.032360679774997896 0.055" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="0.023511410091698926 0.032360679774997896 0.055 0.012360679774997899 0.038042260651806145 0.055" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="0.012360679774997899 0.038042260651806145 0.055 2.4492935982947064e-18 0.04 0.055" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="2.4492935982947064e-18 0.04 0.055 -0.012360679774997893 0.038042260651806145 0.055" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="-0.012360679774997893 0.038042260651806145 0.055 -0.023511410091698923 0.032360679774997896 0.055" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="-0.023511410091698923 0.032360679774997896 0.055 -0.032360679774997896 0.02351141009169893 0.055" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="-0.032360679774997896 0.02351141009169893 0.055 -0.038042260651806145 0.0123606797749979 0.055" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="-0.038042260651806145 0.0123606797749979 0.055 -0.04 4.898587196589413e-18 0.055" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="-0.04 4.898587196589413e-18 0.055 -0.03804226065180615 -0.012360679774997876 0.055" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="-0.03804226065180615 -0.012360679774997876 0.055 -0.0323606797749979 -0.023511410091698923 0.055" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="-0.0323606797749979 -0.023511410091698923 0.055 -0.02351141009169893 -0.032360679774997896 0.055" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="-0.02351141009169893 -0.032360679774997896 0.055 -0.012360679774997902 -0.038042260651806145 0.055" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="-0.012360679774997902 -0.038042260651806145 0.055 -7.347880794884118e-18 -0.04 0.055" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="-7.347880794884118e-18 -0.04 0.055 0.01236067977499789 -0.038042260651806145 0.055" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="0.01236067977499789 -0.038042260651806145 0.055 0.023511410091698916 -0.0323606797749979 0.055" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="0.023511410091698916 -0.0323606797749979 0.055 0.032360679774997896 -0.023511410091698937 0.055" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="0.032360679774997896 -0.023511410091698937 0.055 0.038042260651806145 -0.012360679774997906 0.055" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="0.038042260651806145 -0.012360679774997906 0.055 0.04 -9.797174393178826e-18 0.055" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="0.04 0.0 0.055 0.045 0.0 0.003" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="-0.01999999999999999 0.034641016151377546 0.055 -0.02249999999999999 0.03897114317029974 0.003" rgba="0.06 0.06 0.06 1" />
+      <geom type="capsule" size="0.002" fromto="-0.020000000000000018 -0.03464101615137754 0.055 -0.02250000000000002 -0.038971143170299725 0.003" rgba="0.06 0.06 0.06 1" />
+    </body>
+    <geom name="camera_stand_base" type="cylinder" size="0.085 0.012" pos="0.11789865046739578 0.23630808293819427 0.012" rgba="0.05 0.05 0.05 1" />
+    <geom type="capsule" size="0.009" fromto="0.11789865046739578 0.23630808293819427 0.025 -0.012101349532604222 0.23630808293819427 0.4" rgba="0.06 0.06 0.06 1" />
+    <geom type="capsule" size="0.009" fromto="-0.012101349532604222 0.23630808293819427 0.4 0.16672882730058253 0.24640604101441144 0.3346070175026131" rgba="0.06 0.06 0.06 1" />
+    <geom name="overhead_camera_housing" type="box" size="0.022 0.016 0.01" pos="0.16672882730058253 0.24640604101441144 0.34860701750261314" rgba="0.07 0.09 0.07 1" />
+    <camera name="overhead" pos="0.16672882730058253 0.24640604101441144 0.3346070175026131" xyaxes="-0.04684266543703508 -0.9597745563995719 0.2768367128521059 0.9764516303779525 0.014430895026907198 0.2152532527070406" fovy="74.27875535727347" />
+  </worldbody>
+  <actuator>
+    <position class="sts3215" name="shoulder_pan" joint="shoulder_pan" ctrlrange="-1.91986 1.91986" />
+    <position class="sts3215" name="shoulder_lift" joint="shoulder_lift" ctrlrange="-1.7453293 1.7453293" />
+    <position class="sts3215" name="elbow_flex" joint="elbow_flex" ctrlrange="-1.69 1.69" />
+    <position class="sts3215" name="wrist_flex" joint="wrist_flex" ctrlrange="-1.658063 1.658063" />
+    <position class="sts3215" name="wrist_roll" joint="wrist_roll" ctrlrange="-2.7438473 2.7438473" />
+    <position class="sts3215" name="gripper" joint="gripper" ctrlrange="-0.174533 1.7453292" />
+  </actuator>
+</mujoco>

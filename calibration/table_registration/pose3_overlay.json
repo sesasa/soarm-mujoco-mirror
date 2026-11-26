@@ -1,0 +1,40 @@
+{
+  "image": "captures/base/pose3_raw.png",
+  "observation": "captures/base/pose3_joints.json",
+  "joint_positions_rad": [
+    -0.9766172034236402,
+    0.9566705834008479,
+    -0.6874871103047994,
+    0.8390047047087027,
+    -1.58383834757903,
+    0.12387539904837436
+  ],
+  "joint_projected_pixels": {
+    "shoulder_pan": [
+      488.71224274109164,
+      378.27618946936525
+    ],
+    "shoulder_lift": [
+      511.924793666562,
+      339.24137129876357
+    ],
+    "elbow_flex": [
+      457.00419885388897,
+      232.8653289905049
+    ],
+    "wrist_flex": [
+      329.46234516722143,
+      134.41853141261382
+    ],
+    "wrist_roll": [
+      286.51321932965027,
+      156.14576803227385
+    ],
+    "gripper": [
+      282.81524135262964,
+      134.74024411263
+    ]
+  },
+  "status": "visual_comparison_only",
+  "notes": "Per-body convex outlines include hidden surfaces; not exact visible silhouettes. Images and encoder readings acquired sequentially while arm assumed stationary."
+}

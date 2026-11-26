@@ -1,0 +1,32 @@
+{
+  "shoulder_pan": {
+    "encoder_span": 2315,
+    "travel_deg": 203.52,
+    "source": "user hand sweep"
+  },
+  "shoulder_lift": {
+    "encoder_span": 2387,
+    "travel_deg": 209.85,
+    "source": "user hand sweep"
+  },
+  "elbow_flex": {
+    "encoder_span": 2187,
+    "travel_deg": 192.26,
+    "source": "user hand sweep"
+  },
+  "wrist_flex": {
+    "encoder_span": 1942,
+    "travel_deg": 170.73,
+    "source": "user hand sweep"
+  },
+  "wrist_roll": {
+    "encoder_span": 4095,
+    "travel_deg": 360.0,
+    "source": "LeRobot full-turn convention"
+  },
+  "gripper": {
+    "encoder_span": 1261,
+    "travel_deg": 110.86,
+    "source": "user hand sweep"
+  }
+}

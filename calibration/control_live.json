@@ -1,0 +1,119 @@
+{
+  "state": "MONITOR",
+  "reason": "Ready: A holds this pose; sliders control all six joints",
+  "q": [
+    -0.1373248070799934,
+    -1.7913599135853888,
+    1.5664809522707348,
+    1.0875702773004228,
+    -1.3506163288509965,
+    0.08276811958762886
+  ],
+  "command": [
+    -1.1070374112649748,
+    -0.48869220400000013,
+    1.564946596884366,
+    -0.7330958241646071,
+    -1.3530574278047642,
+    0.0812456277557494
+  ],
+  "motor_diagnostics": null,
+  "limits": [
+    [
+      -1.7407261858352236,
+      1.7407261858352236
+    ],
+    [
+      -1.7453293,
+      1.7453293
+    ],
+    [
+      -1.69,
+      1.564946596884366
+    ],
+    [
+      -1.5331087226172169,
+      1.3760290899377272
+    ],
+    [
+      -2.7438473,
+      1.5355061529084182
+    ],
+    [
+      -0.1395156878667724,
+      1.7103118878667722
+    ]
+  ],
+  "time": 366879.454239339,
+  "grasp_stage": null,
+  "grasp_running": null,
+  "grasp_elapsed": null,
+  "hover_used": false,
+  "hover_elapsed": null,
+  "recorded_at_unix": 1789823636.0566297,
+  "step_notice": "",
+  "step_running": false,
+  "joint_mapping": {
+    "validated_for_commands": false,
+    "notes": "All six directions, visual pose offsets, and gripper opening were confirmed. User reports all controls responding in the limited physical control test. Full-range accuracy and physical collision clearance remain unvalidated.",
+    "sign": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "offset_rad": [
+      0,
+      0,
+      -0.09599310885968812,
+      -0.07853981633974483,
+      -1.5707963267948966
+    ],
+    "gripper_closed_rad": -0.174533,
+    "gripper_open_rad": 1.7453292,
+    "validation": {
+      "shoulder_pan": {
+        "direction": "confirmed_same_by_user",
+        "offset": "not_validated",
+        "range": "not_validated"
+      },
+      "shoulder_lift": {
+        "direction": "confirmed_same_by_user",
+        "offset": "not_validated",
+        "range": "not_validated"
+      },
+      "elbow_flex": {
+        "direction": "confirmed_same_by_user",
+        "offset": "minus_5.5_degrees_visually_confirmed_by_user",
+        "range": "not_validated",
+        "reference": "User requested one additional upward degree beyond the previous -4.5 degree offset"
+      },
+      "wrist_flex": {
+        "direction": "confirmed_same_by_user",
+        "offset": "minus_4.5_degrees_visually_confirmed_by_user",
+        "range": "not_validated",
+        "reference": "User requested one additional upward degree beyond the previous -3.5 degree offset"
+      },
+      "wrist_roll": {
+        "direction": "confirmed_same_by_user",
+        "offset": "minus_90_degrees_confirmed_by_user",
+        "range": "not_validated"
+      },
+      "gripper": {
+        "direction": "confirmed_same_by_user",
+        "opening": "visually_similar_confirmed_by_user",
+        "endpoints": "not_measured"
+      }
+    },
+    "visual_alignment_status": "User accepted the current overall pose after elbow and wrist-bend adjustments",
+    "commissioning": {
+      "status": "limited_physical_control_confirmed_by_user",
+      "all_six_controls_responding": true,
+      "excursion_limit_deg": 5,
+      "command_speed_deg_s": 5,
+      "evidence": "User reported all responding; controller output reached ACTIVE. No quantitative tracking-error measurements recorded.",
+      "full_range_validated": false
+    }
+  }
+}

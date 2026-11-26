@@ -1,0 +1,27 @@
+{
+  "before": {
+    "time": 1789762850.8562415,
+    "positions": {
+      "shoulder_pan": -14.813186813186814,
+      "shoulder_lift": -102.98901098901099,
+      "elbow_flex": 33.0989010989011,
+      "wrist_flex": 103.73626373626374,
+      "wrist_roll": -2.241758241758242,
+      "gripper": 1.26883425852498
+    }
+  },
+  "after": {
+    "time": 1789762852.4393134,
+    "positions": {
+      "shoulder_pan": -14.813186813186814,
+      "shoulder_lift": -102.98901098901099,
+      "elbow_flex": 33.0989010989011,
+      "wrist_flex": 103.73626373626374,
+      "wrist_roll": -2.241758241758242,
+      "gripper": 1.26883425852498
+    }
+  },
+  "stationarity_check_passed": true,
+  "saved_time": 1789762852.852817,
+  "synchronization": "Sequential read-only encoder queries and paired camera grabs; not hardware synchronized."
+}

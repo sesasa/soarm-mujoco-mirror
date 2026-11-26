@@ -1,0 +1,1 @@
+Basket not clearly visible in current image (match 0.30, angle 0, location (471, 81)); clear its rim

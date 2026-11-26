@@ -1,0 +1,19 @@
+{
+  "status": "reference_photo_reviewed_registration_pending",
+  "source": "Photos-1-001/base/IMG_8803.heic",
+  "review_image": "captures/base/8803.png",
+  "review_image_size_px": [
+    1350,
+    1800
+  ],
+  "observations": [
+    "Ruler with visible 0\u201315 cm markings lies beside fixed mounting plate.",
+    "Both sides of perforated mounting plate are visible, with some regions obscured by clamps, wires and arm.",
+    "Photo is sufficient as a visual reference for selecting fixed landmarks."
+  ],
+  "limitations": [
+    "Phone lens and pose are not calibrated.",
+    "Ruler and elevated mounting features are not coplanar; a single pixels-per-metre factor cannot be applied to all parts.",
+    "Correspondence to CAD and overhead camera must still be established; no base pose has been accepted."
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "planned_joint": "shoulder_pan",
+  "delta_deg": -10,
+  "start": [
+    -0.9489988064690047,
+    -1.482954480925292,
+    1.3838926612928664,
+    0.4477440811846991,
+    -1.2416770964188228,
+    0.3994464206185567
+  ],
+  "goal": [
+    -1.1235317316684377,
+    -1.482954480925292,
+    1.3838926612928664,
+    0.4477440811846991,
+    -1.2416770964188228,
+    0.3994464206185567
+  ],
+  "clearance": {
+    "method": "sampled moving visual geometry vs infinite tabletop plane",
+    "samples": 161,
+    "path_minimum_m": 0.008888093342312671,
+    "gripper_holder_path_minimum_m": 0.11800792243663623,
+    "minimum_at_fraction": 0.16875,
+    "closest_body": "shoulder",
+    "closest_geom": "rotation_pitch_so101_v1",
+    "endpoint": {
+      "minimum_m": 0.00889456117778891,
+      "gripper_holder_minimum_m": 0.11800792243663623,
+      "geom": "rotation_pitch_so101_v1",
+      "body": "shoulder"
+    },
+    "status": "no intersection in sampled poses",
+    "collision_validated": false,
+    "limitations": [
+      "Provisional camera/base/table registration and approximate holder shape.",
+      "Fixed base excluded. Table objects, cables and self-collision not checked.",
+      "Discrete samples do not establish continuous path clearance."
+    ]
+  },
+  "source_state": {
+    "state": "HOLD",
+    "reason": "Camera guard: scene footprints changed",
+    "q": [
+      -0.9489988064690047,
+      -1.482954480925292,
+      1.3838926612928664,
+      0.4477440811846991,
+      -1.2416770964188228,
+      0.3994464206185567
+    ],
+    "command": [
+      -0.9505331618553733,
+      -1.482954480925292,
+      1.3777552397473918,
+      0.4477440811846991,
+      -1.2416770964188228,
+      0.3994464206185567
+    ],
+    "limits": [
+      [
+        -1.0377996244550898,
+        -0.8632666992556568
+      ],
+      [
+        -1.5717552989113768,
+        -1.397222373711944
+      ],
+      [
+        1.2858857109885695,
+        1.4604186361880023
+      ],
+      [
+        0.3604776185849826,
+        0.5350105437844156
+      ],
+      [
+        -1.3289435590185392,
+        -1.1544106338191065
+      ],
+      [
+        0.3121799580188402,
+        0.48671288321827316
+      ]
+    ],
+    "time": 355405.39660752,
+    "hover_used": true,
+    "hover_elapsed": null,
+    "recorded_at_unix": 1789774175.9092696,
+    "notice": "Stopped: scene footprints changed",
+    "target_visible": true,
+    "target_stable_s": 108.200000000001
+  },
+  "hardware_commands": false,
+  "note": "Supervised joint test candidate; recheck pose after controller restart."
+}

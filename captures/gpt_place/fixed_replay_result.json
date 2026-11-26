@@ -1,0 +1,18 @@
+{
+  "source": "captures/live_grip/1789991802064423104/complete_pick_place_preview.json",
+  "stages": [
+    "clear_wrist",
+    "ready",
+    "approach",
+    "lower",
+    "close",
+    "basket_lift",
+    "basket_transfer",
+    "basket_open",
+    "return_sitting"
+  ],
+  "ticks": 1176,
+  "hardware_commands": false,
+  "vision_queries_during_replay": 0,
+  "status": "passed ideal-feedback full fixed-plan replay"
+}

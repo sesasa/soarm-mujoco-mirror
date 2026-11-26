@@ -1,0 +1,138 @@
+{
+  "time": 1789833543.2215466,
+  "read_only": true,
+  "motors": {
+    "shoulder_pan": {
+      "torque_enabled": {
+        "value": 0,
+        "comm": 0,
+        "device_error": 0
+      },
+      "status": {
+        "value": 0,
+        "comm": 0,
+        "device_error": 0
+      },
+      "temperature_raw": {
+        "value": 39,
+        "comm": 0,
+        "device_error": 0
+      },
+      "position_raw": {
+        "value": 2068,
+        "comm": 0,
+        "device_error": 0
+      }
+    },
+    "shoulder_lift": {
+      "torque_enabled": {
+        "value": 0,
+        "comm": 0,
+        "device_error": 0
+      },
+      "status": {
+        "value": 0,
+        "comm": 0,
+        "device_error": 0
+      },
+      "temperature_raw": {
+        "value": 41,
+        "comm": 0,
+        "device_error": 0
+      },
+      "position_raw": {
+        "value": 863,
+        "comm": 0,
+        "device_error": 0
+      }
+    },
+    "elbow_flex": {
+      "torque_enabled": {
+        "value": 0,
+        "comm": 0,
+        "device_error": 0
+      },
+      "status": {
+        "value": 0,
+        "comm": 0,
+        "device_error": 0
+      },
+      "temperature_raw": {
+        "value": 38,
+        "comm": 0,
+        "device_error": 0
+      },
+      "position_raw": {
+        "value": 3088,
+        "comm": 0,
+        "device_error": 0
+      }
+    },
+    "wrist_flex": {
+      "torque_enabled": {
+        "value": 0,
+        "comm": 0,
+        "device_error": 0
+      },
+      "status": {
+        "value": 0,
+        "comm": 0,
+        "device_error": 0
+      },
+      "temperature_raw": {
+        "value": 41,
+        "comm": 0,
+        "device_error": 0
+      },
+      "position_raw": {
+        "value": 2658,
+        "comm": 0,
+        "device_error": 0
+      }
+    },
+    "wrist_roll": {
+      "torque_enabled": {
+        "value": 0,
+        "comm": 0,
+        "device_error": 0
+      },
+      "status": {
+        "value": 0,
+        "comm": 0,
+        "device_error": 0
+      },
+      "temperature_raw": {
+        "value": 41,
+        "comm": 0,
+        "device_error": 0
+      },
+      "position_raw": {
+        "value": 2024,
+        "comm": 0,
+        "device_error": 0
+      }
+    },
+    "gripper": {
+      "torque_enabled": {
+        "value": 0,
+        "comm": 0,
+        "device_error": 32
+      },
+      "status": {
+        "value": 32,
+        "comm": 0,
+        "device_error": 32
+      },
+      "temperature_raw": {
+        "value": 41,
+        "comm": 0,
+        "device_error": 32
+      },
+      "position_raw": {
+        "value": 1717,
+        "comm": 0,
+        "device_error": 32
+      }
+    }
+  }
+}

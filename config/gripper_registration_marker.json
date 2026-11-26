@@ -1,0 +1,14 @@
+{
+  "dictionary": "DICT_4X4_50",
+  "id": 7,
+  "nominal_black_square_m": 0.08,
+  "actual_black_square_m": 0.0768,
+  "printed_scale_verified": true,
+  "pdf": "calibration/print/gripper_registration_marker_A4.pdf",
+  "mounting": "Rigid flat backing; marker fixed to gripper with full white border visible to overhead; do not open or close gripper during capture.",
+  "measured_check_bar_mm": 96,
+  "print_scale": 0.96,
+  "scale_assumption": "Uniform print scaling; user reported 96 mm in response to request to measure both bars.",
+  "mounting_status": "marker_detected_in_overhead_view_rigidity_to_be_checked_during_capture",
+  "mount_check_image": "captures/marker_registration/mount_check.png"
+}

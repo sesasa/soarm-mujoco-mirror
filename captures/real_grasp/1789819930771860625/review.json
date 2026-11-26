@@ -1,0 +1,25 @@
+{
+  "completed": false,
+  "failed_stage": "approach",
+  "stop_reason": "Grasp tracking error too large; stopped",
+  "last_logged_elapsed_s": 10.029909535020124,
+  "last_logged_tracking_error_deg": [
+    -0.09867360277392805,
+    -0.11848427208990421,
+    2.9894906244177526,
+    -0.003870196730271334,
+    -0.4103100408193576,
+    0.0
+  ],
+  "measured_motion_deg": [
+    0.0,
+    2.7252747252747187,
+    0.08791208791209139,
+    1.406593406593405,
+    2.3736263736263656,
+    0.0
+  ],
+  "main_lagging_joint": "elbow_flex",
+  "lowering_started": false,
+  "next_check": "Read-only motor parameter audit; no limit or gain changes yet"
+}

@@ -1,0 +1,112 @@
+{
+  "start": [
+    -1.017384835462523,
+    0.5430818552960885,
+    -0.41203918315349464,
+    1.5232082713745374,
+    0.6611955635687309,
+    0.2822605213852869
+  ],
+  "goal": [
+    -1.0198985674971042,
+    0.5477113621634987,
+    -0.34521472520169216,
+    1.4516072146973995,
+    0.6586877299870993,
+    0.2822605213852869
+  ],
+  "target": [
+    0.16035369852723447,
+    0.21029088560203074,
+    0.016582157254191265
+  ],
+  "error_m": 1.8905778796376888e-05,
+  "downward_tilt_deg": 3.368161660569009,
+  "jaw_alignment_error_deg": 2.7605868087543834,
+  "orientation_error_deg": 3.368183001395748,
+  "object_axis": [
+    0.9939221253270818,
+    0.05450158893380698,
+    -0.09564719331473955
+  ],
+  "table_up": [
+    0.09353829442779042,
+    0.04001912581419248,
+    0.994811066004298
+  ],
+  "mode": "vertical_step",
+  "grasp_executed": false,
+  "start_adjustment_deg": 0.0,
+  "duration": 2.0,
+  "measured_object": {
+    "name": "pink_highlighter",
+    "height_m": 0.017,
+    "width_m": 0.027,
+    "estimated_length_m": 0.11072336882352829,
+    "surface_center_base_m": [
+      0.15754754969440074,
+      0.20909031182760496,
+      -0.01326217472593768
+    ],
+    "center_base_m": [
+      0.15834262519703696,
+      0.20943047439702558,
+      -0.004806280664901146
+    ],
+    "association": "unique pink colour candidate",
+    "shape": "rectangular visual proxy",
+    "pose_and_length_provisional": true,
+    "collision_validated": false
+  },
+  "jaw_opening": {
+    "object_width_m": 0.027,
+    "requested_gap_m": 0.037,
+    "initial_gap_m": 0.0032655309960594693,
+    "model_gap_m": 0.037000000000000026,
+    "extra_gap_m": 0.01,
+    "method": "projected named fingertip sphere surfaces",
+    "physical_gap_validated": false,
+    "finger_body_contact_checked": false
+  },
+  "surface": [
+    0.15754754969440074,
+    0.20909031182760496,
+    -0.01326217472593768
+  ],
+  "height_m": 0.030000000000000006,
+  "table_clearance": {
+    "method": "sampled moving visual geometry vs infinite tabletop plane",
+    "samples": 81,
+    "path_minimum_m": 0.008888435716404686,
+    "gripper_holder_path_minimum_m": 0.02212210585068901,
+    "minimum_at_fraction": 0.0,
+    "closest_body": "shoulder",
+    "closest_geom": "rotation_pitch_so101_v1",
+    "endpoint": {
+      "minimum_m": 0.008888454917767519,
+      "gripper_holder_minimum_m": 0.02212210585068901,
+      "geom": "rotation_pitch_so101_v1",
+      "body": "shoulder"
+    },
+    "status": "no intersection in sampled poses",
+    "collision_validated": false,
+    "limitations": [
+      "Provisional camera/base/table registration and approximate holder shape.",
+      "Fixed base excluded. Table objects, cables and self-collision not checked.",
+      "Discrete samples do not establish continuous path clearance."
+    ]
+  },
+  "vertical_path_checks": {
+    "samples": 41,
+    "maximum_lateral_error_m": 8.840776459432559e-05,
+    "maximum_downward_tilt_deg": 3.368161660569009,
+    "maximum_jaw_alignment_error_deg": 2.7605868087543834,
+    "minimum_reference_height_m": 0.030001110744243036,
+    "grasp_executed": false
+  },
+  "time": 1789768868.1610284,
+  "hardware_commands": false,
+  "position_only": false,
+  "collision_validated": false,
+  "gripper_site": "gripperframe"
+}

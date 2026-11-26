@@ -1,0 +1,167 @@
+[
+  {
+    "height_cm": 6.999999999999999,
+    "clearance": {
+      "method": "sampled moving visual geometry vs infinite tabletop plane",
+      "samples": 81,
+      "path_minimum_m": 0.008888514736142404,
+      "gripper_holder_path_minimum_m": 0.06443484256480345,
+      "minimum_at_fraction": 0.0,
+      "closest_body": "shoulder",
+      "closest_geom": "rotation_pitch_so101_v1",
+      "endpoint": {
+        "minimum_m": 0.008888617123551212,
+        "gripper_holder_minimum_m": 0.06443484256480345,
+        "geom": "rotation_pitch_so101_v1",
+        "body": "shoulder"
+      },
+      "status": "no intersection in sampled poses",
+      "collision_validated": false,
+      "limitations": [
+        "Provisional camera/base/table registration and approximate holder shape.",
+        "Fixed base excluded. Table objects, cables and self-collision not checked.",
+        "Discrete samples do not establish continuous path clearance."
+      ]
+    },
+    "alignment": {
+      "samples": 41,
+      "maximum_lateral_error_m": 9.79856283644002e-05,
+      "maximum_downward_tilt_deg": 3.8928402512370175,
+      "maximum_jaw_alignment_error_deg": 3.884722087895946,
+      "minimum_reference_height_m": 0.06999350321315324,
+      "grasp_executed": false
+    }
+  },
+  {
+    "height_cm": 5.999999999999999,
+    "clearance": {
+      "method": "sampled moving visual geometry vs infinite tabletop plane",
+      "samples": 81,
+      "path_minimum_m": 0.008888583584956325,
+      "gripper_holder_path_minimum_m": 0.054470645401185055,
+      "minimum_at_fraction": 1.0,
+      "closest_body": "shoulder",
+      "closest_geom": "rotation_pitch_so101_v1",
+      "endpoint": {
+        "minimum_m": 0.008888583584956325,
+        "gripper_holder_minimum_m": 0.054470645401185055,
+        "geom": "rotation_pitch_so101_v1",
+        "body": "shoulder"
+      },
+      "status": "no intersection in sampled poses",
+      "collision_validated": false,
+      "limitations": [
+        "Provisional camera/base/table registration and approximate holder shape.",
+        "Fixed base excluded. Table objects, cables and self-collision not checked.",
+        "Discrete samples do not establish continuous path clearance."
+      ]
+    },
+    "alignment": {
+      "samples": 41,
+      "maximum_lateral_error_m": 9.925721361018708e-05,
+      "maximum_downward_tilt_deg": 2.8940149143448406,
+      "maximum_jaw_alignment_error_deg": 2.071878457381496,
+      "minimum_reference_height_m": 0.06000093088792336,
+      "grasp_executed": false
+    }
+  },
+  {
+    "height_cm": 4.999999999999998,
+    "clearance": {
+      "method": "sampled moving visual geometry vs infinite tabletop plane",
+      "samples": 81,
+      "path_minimum_m": 0.008888514850256844,
+      "gripper_holder_path_minimum_m": 0.04447210246678723,
+      "minimum_at_fraction": 1.0,
+      "closest_body": "shoulder",
+      "closest_geom": "rotation_pitch_so101_v1",
+      "endpoint": {
+        "minimum_m": 0.008888514850256844,
+        "gripper_holder_minimum_m": 0.04447210246678723,
+        "geom": "rotation_pitch_so101_v1",
+        "body": "shoulder"
+      },
+      "status": "no intersection in sampled poses",
+      "collision_validated": false,
+      "limitations": [
+        "Provisional camera/base/table registration and approximate holder shape.",
+        "Fixed base excluded. Table objects, cables and self-collision not checked.",
+        "Discrete samples do not establish continuous path clearance."
+      ]
+    },
+    "alignment": {
+      "samples": 41,
+      "maximum_lateral_error_m": 9.587366024288393e-05,
+      "maximum_downward_tilt_deg": 2.90578465656611,
+      "maximum_jaw_alignment_error_deg": 2.0205041283895833,
+      "minimum_reference_height_m": 0.05000094106735309,
+      "grasp_executed": false
+    }
+  },
+  {
+    "height_cm": 3.9999999999999982,
+    "clearance": {
+      "method": "sampled moving visual geometry vs infinite tabletop plane",
+      "samples": 81,
+      "path_minimum_m": 0.008888450806572058,
+      "gripper_holder_path_minimum_m": 0.03447354888075037,
+      "minimum_at_fraction": 1.0,
+      "closest_body": "shoulder",
+      "closest_geom": "rotation_pitch_so101_v1",
+      "endpoint": {
+        "minimum_m": 0.008888450806572058,
+        "gripper_holder_minimum_m": 0.03447354888075037,
+        "geom": "rotation_pitch_so101_v1",
+        "body": "shoulder"
+      },
+      "status": "no intersection in sampled poses",
+      "collision_validated": false,
+      "limitations": [
+        "Provisional camera/base/table registration and approximate holder shape.",
+        "Fixed base excluded. Table objects, cables and self-collision not checked.",
+        "Discrete samples do not establish continuous path clearance."
+      ]
+    },
+    "alignment": {
+      "samples": 41,
+      "maximum_lateral_error_m": 8.88702182840717e-05,
+      "maximum_downward_tilt_deg": 2.9176346256443826,
+      "maximum_jaw_alignment_error_deg": 2.033634382525722,
+      "minimum_reference_height_m": 0.04000095135904265,
+      "grasp_executed": false
+    }
+  },
+  {
+    "height_cm": 2.999999999999998,
+    "clearance": {
+      "method": "sampled moving visual geometry vs infinite tabletop plane",
+      "samples": 81,
+      "path_minimum_m": 0.00888839157730971,
+      "gripper_holder_path_minimum_m": 0.024474984552131235,
+      "minimum_at_fraction": 1.0,
+      "closest_body": "shoulder",
+      "closest_geom": "rotation_pitch_so101_v1",
+      "endpoint": {
+        "minimum_m": 0.00888839157730971,
+        "gripper_holder_minimum_m": 0.024474984552131235,
+        "geom": "rotation_pitch_so101_v1",
+        "body": "shoulder"
+      },
+      "status": "no intersection in sampled poses",
+      "collision_validated": false,
+      "limitations": [
+        "Provisional camera/base/table registration and approximate holder shape.",
+        "Fixed base excluded. Table objects, cables and self-collision not checked.",
+        "Discrete samples do not establish continuous path clearance."
+      ]
+    },
+    "alignment": {
+      "samples": 41,
+      "maximum_lateral_error_m": 8.36734105141812e-05,
+      "maximum_downward_tilt_deg": 2.929565413026643,
+      "maximum_jaw_alignment_error_deg": 2.0468902452411952,
+      "minimum_reference_height_m": 0.030000961762407585,
+      "grasp_executed": false
+    }
+  }
+]

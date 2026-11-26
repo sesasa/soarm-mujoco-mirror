@@ -1,0 +1,11 @@
+{
+  "pink_highlighter": {
+    "height_m": 0.017,
+    "width_m": 0.027,
+    "source": "User measured highlighter lying on tabletop: height 17 mm, width 27 mm",
+    "length_source": "estimated from overhead footprint",
+    "shape": "rectangular visual proxy",
+    "association": "single bright pink/red candidate; ambiguous matches are not assigned",
+    "collision_validated": false
+  }
+}

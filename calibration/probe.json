@@ -1,0 +1,21 @@
+{
+  "port": "/dev/serial/by-id/usb-1a86_USB_Single_Serial_5B3E122257-if00",
+  "read_only": true,
+  "positions_raw": {
+    "shoulder_pan": 2017,
+    "shoulder_lift": 881,
+    "elbow_flex": 3085,
+    "wrist_flex": 2726,
+    "wrist_roll": 2029,
+    "gripper": 1617
+  },
+  "torque_enabled": {
+    "shoulder_pan": 0,
+    "shoulder_lift": 0,
+    "elbow_flex": 0,
+    "wrist_flex": 0,
+    "wrist_roll": 0,
+    "gripper": 0
+  },
+  "project_calibration_exists": true
+}

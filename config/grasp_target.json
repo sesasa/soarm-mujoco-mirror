@@ -1,0 +1,15 @@
+{
+  "name": "green-and-gold packet",
+  "kind": "packet",
+  "hsv_hue_min": 10,
+  "hsv_hue_max": 100,
+  "opening_margin_m": 0.008,
+  "closing_margin_m": 0.004,
+  "width_estimate_method": "calibrated tabletop projection",
+  "closing_gap_m": 0.035,
+  "after_grasp": "basket",
+  "height_m": 0.04,
+  "descent_m": 0.025,
+  "camera_left_offset_m": 0.02,
+  "sequence_speed_multiplier": 2.0
+}

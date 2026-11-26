@@ -1,0 +1,222 @@
+{
+  "status": "rejected_for_application_cross_pose_inconsistency",
+  "T_gripper_from_wrist_optical": [
+    [
+      0.9927322663203139,
+      0.09407858289719108,
+      0.07504577034443535,
+      -0.013480939367073801
+    ],
+    [
+      0.11699304166532341,
+      -0.9005870755519622,
+      -0.41863533958644766,
+      0.07323638145845515
+    ],
+    [
+      0.028200631348061854,
+      0.4243726423661412,
+      -0.9050483881001888,
+      0.013462962706101174
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "optical_axes": "OpenCV right/down/forward",
+  "mujoco_position_gripper_m": [
+    -0.013480939367073801,
+    0.07323638145845515,
+    0.013462962706101174
+  ],
+  "mujoco_quat_wxyz": [
+    0.9744700777823382,
+    -0.21627343957832812,
+    -0.026487832732499453,
+    0.05415036063571681
+  ],
+  "camera_intrinsics": {
+    "camera": {
+      "name": "camera_6",
+      "role": "wrist",
+      "path": "/dev/v4l/by-id/usb-icSpring_icspring_camera-video-index0",
+      "fourcc": "YUYV",
+      "controls": {
+        "auto_exposure": 3,
+        "white_balance_automatic": 1,
+        "power_line_frequency": 1
+      },
+      "rotation_deg": 0,
+      "capability_notes": "Live V4L2 probe: only 640x480 YUYV advertised; no zoom control exposed. Current capture uses the full delivered frame without digital cropping."
+    },
+    "size": [
+      640,
+      480
+    ],
+    "board": "small",
+    "square_m": 0.0096,
+    "source_session": "calibration/camera_views/wrist_1789744394484397566",
+    "raw_sensor_orientation": true,
+    "rms_px": 0.7110396461856785,
+    "matrix": [
+      [
+        1288.3349501203925,
+        0.0,
+        307.92556875789916
+      ],
+      [
+        0.0,
+        1289.900059127829,
+        216.08413968765416
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "distortion": [
+      -0.3355194356904441,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "held_out_rms_px": [
+      0.4372062087059021,
+      0.610379159450531,
+      0.7772320508956909,
+      0.7915730476379395,
+      0.5952339172363281,
+      0.5268884301185608,
+      0.6398875117301941,
+      0.6132034063339233
+    ],
+    "subset_fx_fy_cx_cy": [
+      [
+        1296.6804267424634,
+        1298.7905174669054,
+        331.0879928889462,
+        212.7259434888289
+      ],
+      [
+        1285.9857138476843,
+        1286.4362947094219,
+        300.1917065792517,
+        209.6026689508287
+      ],
+      [
+        1289.7806044388167,
+        1291.9796139524312,
+        313.35809268446656,
+        217.67410817515452
+      ],
+      [
+        1291.2653411054669,
+        1292.1070335617171,
+        301.0972202282207,
+        214.2047003756259
+      ],
+      [
+        1291.599955023455,
+        1294.0860468166452,
+        310.5869672228231,
+        225.37427091528218
+      ],
+      [
+        1290.8443656611612,
+        1292.354161080956,
+        304.22377097088605,
+        217.0755887014725
+      ],
+      [
+        1286.4790395476155,
+        1287.2938377787377,
+        319.822398945473,
+        213.5770868769719
+      ],
+      [
+        1293.623097794088,
+        1294.3573159299947,
+        305.20331748871035,
+        213.72795822632017
+      ],
+      [
+        1291.1634026416732,
+        1292.3696437261663,
+        300.23446485740965,
+        213.15318289130718
+      ],
+      [
+        1285.910592387267,
+        1287.38693358888,
+        310.705220599022,
+        223.29275531652556
+      ]
+    ],
+    "flags": 200,
+    "status": "provisional_intrinsics_requires_geometric_validation",
+    "model": "OpenCV pinhole with k1 fitted; k2, k3 and tangential distortion fixed to zero",
+    "view_count": 37,
+    "review": {
+      "corner_bounds_px": [
+        [
+          121.93437194824219,
+          28.643108367919922
+        ],
+        [
+          595.3663330078125,
+          356.27398681640625
+        ]
+      ],
+      "limitations": [
+        "Principal-point subset estimates span approximately 31 px horizontally and 16 px vertically.",
+        "Limited lower-image and edge coverage; radial-only lens model is an assumption.",
+        "Pixel reprojection fit does not establish metric or grasping accuracy.",
+        "Camera-to-wrist and world transforms are not calibrated by this result.",
+        "Not applied to simulation, live images or robot commands."
+      ],
+      "decision": "Retain as provisional lens calibration; additional capture is deferred. Single radial coefficient selected for comparable held-out error and reduced parameter instability."
+    }
+  },
+  "view_count": 6,
+  "per_view_rms_px": [
+    39.4718280419824,
+    53.200360175678995,
+    17.165872221739185,
+    8.931437455886094,
+    5.696620158712075,
+    5.795824986454027
+  ],
+  "leave_one_pose_out_rms_px": [
+    48.521324862263796,
+    57.99766661058497,
+    20.12758996488936,
+    41.11118968498806,
+    13.311680080096393,
+    13.448432356407336
+  ],
+  "individual_translation_span_mm": [
+    7.734783953570503,
+    14.234577946903832,
+    13.31604301066358
+  ],
+  "source_folders": [
+    "calibration/wrist_extrinsics/pose_000",
+    "calibration/wrist_extrinsics/pose_001",
+    "calibration/wrist_extrinsics/pose_002",
+    "calibration/wrist_extrinsics/pose_003",
+    "calibration/wrist_extrinsics/pose_004",
+    "calibration/wrist_extrinsics/pose_005"
+  ],
+  "limitations": [
+    "Wrist intrinsics and overhead/base calibration remain provisional.",
+    "Individual estimates vary; not validated for precise reaching or collision avoidance.",
+    "Reprojection checks involve two cameras and robot kinematics, not just mount accuracy.",
+    "No joint offsets or robot commands changed."
+  ],
+  "decision": "Do not apply to simulation optics or robot commands. Held-out errors exceed acceptable visual registration; physical camera rigidity, provisional wrist intrinsics and upstream robot/overhead calibration need investigation before further capture."
+}

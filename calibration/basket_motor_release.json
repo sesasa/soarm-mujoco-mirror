@@ -1,0 +1,98 @@
+{
+  "shoulder_pan": {
+    "write": [
+      0,
+      0
+    ],
+    "torque": [
+      0,
+      0,
+      0
+    ],
+    "status": [
+      0,
+      0,
+      0
+    ]
+  },
+  "shoulder_lift": {
+    "write": [
+      0,
+      0
+    ],
+    "torque": [
+      0,
+      0,
+      0
+    ],
+    "status": [
+      0,
+      0,
+      0
+    ]
+  },
+  "elbow_flex": {
+    "write": [
+      0,
+      0
+    ],
+    "torque": [
+      0,
+      0,
+      0
+    ],
+    "status": [
+      0,
+      0,
+      0
+    ]
+  },
+  "wrist_flex": {
+    "write": [
+      0,
+      0
+    ],
+    "torque": [
+      0,
+      0,
+      0
+    ],
+    "status": [
+      0,
+      0,
+      0
+    ]
+  },
+  "wrist_roll": {
+    "write": [
+      0,
+      0
+    ],
+    "torque": [
+      0,
+      0,
+      0
+    ],
+    "status": [
+      0,
+      0,
+      0
+    ]
+  },
+  "gripper": {
+    "write": [
+      0,
+      0
+    ],
+    "torque": [
+      0,
+      0,
+      0
+    ],
+    "status": [
+      0,
+      0,
+      0
+    ]
+  }
+}

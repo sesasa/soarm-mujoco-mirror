@@ -1,0 +1,7 @@
+{
+  "hardware_commands": false,
+  "fake_bus_subprocess": true,
+  "stream_started": true,
+  "heartbeat_did_not_keep_stale_target_alive": true,
+  "final_reason": "Visual target stream lost; holding"
+}

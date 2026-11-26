@@ -1,0 +1,16 @@
+{
+  "source_capture": "captures/scene_changes/saved_1789771263473035327.json",
+  "user_measured_gap_m": 0.033,
+  "measurement_location": "Inside gap near tip, middle of last toothed/stepped section",
+  "measurement_precision": "User revised first reading from approximately 34 mm to approximately 33 mm",
+  "saved_gripper_percent": 20.856463124504362,
+  "current_model_angle_deg": 12.942105423729648,
+  "current_model_tip_proxy_gap_m": 0.03257421571422606,
+  "applied": false,
+  "limitations": [
+    "Tip sphere proxies may not match the measured tooth surfaces.",
+    "Single opening cannot determine both mapping scale and offset.",
+    "Image and encoders not hardware synchronized."
+  ],
+  "difference_model_minus_measured_mm": -0.42578428577394467
+}

@@ -1,0 +1,277 @@
+{
+  "status": "captured_requires_review",
+  "marker": {
+    "dictionary": "DICT_4X4_50",
+    "id": 7,
+    "nominal_black_square_m": 0.08,
+    "actual_black_square_m": 0.0768,
+    "printed_scale_verified": true,
+    "pdf": "calibration/print/gripper_registration_marker_A4.pdf",
+    "mounting": "Rigid flat backing; marker fixed to gripper with full white border visible to overhead; do not open or close gripper during capture.",
+    "measured_check_bar_mm": 96,
+    "print_scale": 0.96,
+    "scale_assumption": "Uniform print scaling; user reported 96 mm in response to request to measure both bars.",
+    "mounting_status": "marker_detected_in_overhead_view_rigidity_to_be_checked_during_capture",
+    "mount_check_image": "captures/marker_registration/mount_check.png"
+  },
+  "camera": {
+    "name": "camera_4",
+    "role": "overhead",
+    "path": "/dev/v4l/by-id/usb-icSpring_icspring_camera_202404160005-video-index0",
+    "fourcc": "MJPG",
+    "controls": {
+      "auto_exposure": 3,
+      "white_balance_automatic": 1,
+      "power_line_frequency": 1
+    },
+    "rotation_deg": 0
+  },
+  "size": [
+    640,
+    480
+  ],
+  "intrinsics": {
+    "status": "accepted_initial_intrinsics_limited_image_coverage",
+    "camera": {
+      "name": "camera_4",
+      "role": "overhead",
+      "path": "/dev/v4l/by-id/usb-icSpring_icspring_camera_202404160005-video-index0",
+      "fourcc": "MJPG",
+      "controls": {
+        "auto_exposure": 3,
+        "white_balance_automatic": 1,
+        "power_line_frequency": 1
+      },
+      "rotation_deg": 0
+    },
+    "size": [
+      640,
+      480
+    ],
+    "board": "large",
+    "square_m": 0.024,
+    "matrix": [
+      [
+        407.3701242998436,
+        0.0,
+        293.44928060702415
+      ],
+      [
+        0.0,
+        411.17821567464836,
+        296.02549433513514
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "distortion": [
+      -0.32791680390757394,
+      0.16307208656693342,
+      0.004108678253739655,
+      -0.003960831042028781,
+      -0.04795048682726994
+    ],
+    "rms_px": 0.2871947225839538,
+    "per_view_rms_px": [
+      0.2347790002822876,
+      0.2595178782939911,
+      0.2987283766269684,
+      0.21254636347293854,
+      0.22437159717082977,
+      0.23728232085704803,
+      0.20666822791099548,
+      0.21407587826251984,
+      0.18930687010288239,
+      0.17235951125621796,
+      0.16950266063213348,
+      0.24019604921340942,
+      0.2423844039440155,
+      0.19847054779529572,
+      0.21538124978542328,
+      0.295642614364624,
+      0.2256670445203781,
+      0.2297101616859436,
+      0.3678585886955261,
+      0.33535799384117126,
+      0.3732401430606842,
+      0.4538866877555847,
+      0.3431761562824249,
+      0.3593998849391937,
+      0.46055832505226135,
+      0.34210145473480225,
+      0.34368640184402466
+    ],
+    "held_out_rms_px": [
+      0.2349095344543457,
+      0.23941196501255035,
+      0.1727464497089386,
+      0.3017621338367462,
+      0.37445423007011414,
+      0.3427842855453491
+    ],
+    "source_session": "calibration/camera_views/overhead_1789741520865148825",
+    "model": "OpenCV pinhole with 5 distortion coefficients",
+    "raw_sensor_orientation": true,
+    "notes": "Intrinsics only. Does not establish robot/world extrinsics or wrist hand-eye calibration; not auto-applied to simulation.",
+    "review": {
+      "subset_estimates_fx_fy_cx_cy_rms": [
+        [
+          407.2480815213811,
+          411.0105842695283,
+          293.5943678898037,
+          296.0563846981117,
+          0.3005839562559779
+        ],
+        [
+          407.988278356133,
+          411.5198826393383,
+          292.73622585991234,
+          295.7169084120477,
+          0.28684092418025353
+        ],
+        [
+          406.9617198641469,
+          410.82798739981024,
+          295.2588270799055,
+          295.82984918186906,
+          0.28591361019162675
+        ],
+        [
+          407.7409262005173,
+          411.55580720988326,
+          293.50702799168494,
+          295.7770406484514,
+          0.29702094023673864
+        ],
+        [
+          407.7408805850965,
+          411.3316448387074,
+          292.6675622285462,
+          295.7956375399572,
+          0.29330710066459403
+        ],
+        [
+          405.4441014242182,
+          409.48275090924113,
+          294.99245352447724,
+          296.03827421235263,
+          0.29091548873930223
+        ],
+        [
+          405.9297503085594,
+          409.5628943856432,
+          293.2152131169289,
+          295.8239832004357,
+          0.29298124042562307
+        ],
+        [
+          405.41198922788044,
+          409.2693137163426,
+          293.0879751091573,
+          296.6728926414751,
+          0.2771184768696643
+        ],
+        [
+          408.1113076012657,
+          411.73824690588776,
+          292.1595342570913,
+          295.9481071282715,
+          0.2750030673881757
+        ],
+        [
+          407.4724624784407,
+          410.95398114355766,
+          292.4161516908289,
+          295.24317720115585,
+          0.2923015003062497
+        ]
+      ],
+      "corner_bounds_px": [
+        [
+          125.83627319335938,
+          52.420257568359375
+        ],
+        [
+          525.7987060546875,
+          284.7744445800781
+        ]
+      ],
+      "decision": "Accepted for initial overhead lens correction at the recorded 640x480 MJPG mode. Rigid-backed views visually reviewed; low held-out errors and stable 20-of-27 subsets. Bottom and outer image regions lack checkerboard coverage; full-frame accuracy remains unvalidated.",
+      "limitations": [
+        "Not a robot/world extrinsic calibration.",
+        "Reprojection errors are image-space fit metrics, not metric positioning accuracy.",
+        "Use only with the same camera lens settings and capture mode.",
+        "Not yet applied to the simulation camera pose or live pipeline."
+      ]
+    }
+  },
+  "joint_mapping": {
+    "validated_for_commands": false,
+    "notes": "All six directions, visual pose offsets, and gripper opening were confirmed. User reports all controls responding in the limited physical control test. Full-range accuracy and physical collision clearance remain unvalidated.",
+    "sign": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "offset_rad": [
+      0,
+      0,
+      -0.09599310885968812,
+      -0.07853981633974483,
+      -1.5707963267948966
+    ],
+    "gripper_closed_rad": -0.174533,
+    "gripper_open_rad": 1.7453292,
+    "validation": {
+      "shoulder_pan": {
+        "direction": "confirmed_same_by_user",
+        "offset": "not_validated",
+        "range": "not_validated"
+      },
+      "shoulder_lift": {
+        "direction": "confirmed_same_by_user",
+        "offset": "not_validated",
+        "range": "not_validated"
+      },
+      "elbow_flex": {
+        "direction": "confirmed_same_by_user",
+        "offset": "minus_5.5_degrees_visually_confirmed_by_user",
+        "range": "not_validated",
+        "reference": "User requested one additional upward degree beyond the previous -4.5 degree offset"
+      },
+      "wrist_flex": {
+        "direction": "confirmed_same_by_user",
+        "offset": "minus_4.5_degrees_visually_confirmed_by_user",
+        "range": "not_validated",
+        "reference": "User requested one additional upward degree beyond the previous -3.5 degree offset"
+      },
+      "wrist_roll": {
+        "direction": "confirmed_same_by_user",
+        "offset": "minus_90_degrees_confirmed_by_user",
+        "range": "not_validated"
+      },
+      "gripper": {
+        "direction": "confirmed_same_by_user",
+        "opening": "visually_similar_confirmed_by_user",
+        "endpoints": "not_measured"
+      }
+    },
+    "visual_alignment_status": "User accepted the current overall pose after elbow and wrist-bend adjustments",
+    "commissioning": {
+      "status": "limited_physical_control_confirmed_by_user",
+      "all_six_controls_responding": true,
+      "excursion_limit_deg": 5,
+      "command_speed_deg_s": 5,
+      "evidence": "User reported all responding; controller output reached ACTIVE. No quantitative tracking-error measurements recorded.",
+      "full_range_validated": false
+    }
+  },
+  "robot_model": "assets/so101/so101.xml",
+  "views": [],
+  "notes": "Read-only motor stream. Marker must stay rigid on fixed gripper housing. Software timestamps and stationary gating, not hardware synchronization."
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "camera": 4,
+    "exposure": 1,
+    "mean": 187.43385091145834,
+    "clipped_percent": 0.2659505208333333
+  },
+  {
+    "camera": 4,
+    "exposure": 3,
+    "mean": 107.14167317708333,
+    "clipped_percent": 0.5231119791666666
+  },
+  {
+    "camera": 4,
+    "exposure": 6,
+    "mean": 153.96933919270833,
+    "clipped_percent": 0.4016927083333333
+  },
+  {
+    "camera": 4,
+    "exposure": 10,
+    "mean": 181.92676432291665,
+    "clipped_percent": 0.2965494791666667
+  },
+  {
+    "camera": 6,
+    "exposure": 1,
+    "mean": 71.88145833333333,
+    "clipped_percent": 9.626953125
+  },
+  {
+    "camera": 6,
+    "exposure": 3,
+    "mean": 136.403037109375,
+    "clipped_percent": 27.191080729166668
+  },
+  {
+    "camera": 6,
+    "exposure": 6,
+    "mean": 191.50705729166665,
+    "clipped_percent": 34.274739583333336
+  },
+  {
+    "camera": 6,
+    "exposure": 10,
+    "mean": 225.254287109375,
+    "clipped_percent": 61.243489583333336
+  }
+]

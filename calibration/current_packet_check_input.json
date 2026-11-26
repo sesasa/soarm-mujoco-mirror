@@ -1,0 +1,126 @@
+{
+  "state": {
+    "state": "MONITOR",
+    "reason": "Ready: A holds this pose; sliders control all six joints",
+    "q": [
+      -0.1189125424435697,
+      -1.7928942689717575,
+      1.5588091753388917,
+      1.0752954342094736,
+      -1.6697622492156738,
+      0.6871973768437749
+    ],
+    "command": [
+      -0.1189125424435697,
+      -1.7928942689717575,
+      1.5588091753388917,
+      1.0752954342094736,
+      -1.6697622492156738,
+      0.6871973768437749
+    ],
+    "segment_id": null,
+    "segment_elapsed": null,
+    "motor_diagnostics": {
+      "time": 394202.254840319,
+      "raw_units": true,
+      "Present_Load": {
+        "shoulder_pan": 0,
+        "shoulder_lift": 0,
+        "elbow_flex": 0,
+        "wrist_flex": 0,
+        "wrist_roll": 0,
+        "gripper": 0
+      },
+      "Present_Current": {
+        "shoulder_pan": 0,
+        "shoulder_lift": 0,
+        "elbow_flex": 0,
+        "wrist_flex": 2,
+        "wrist_roll": 0,
+        "gripper": 0
+      },
+      "Present_Voltage": {
+        "shoulder_pan": 124,
+        "shoulder_lift": 124,
+        "elbow_flex": 123,
+        "wrist_flex": 123,
+        "wrist_roll": 124,
+        "gripper": 122
+      },
+      "Status": {
+        "shoulder_pan": 0,
+        "shoulder_lift": 0,
+        "elbow_flex": 0,
+        "wrist_flex": 0,
+        "wrist_roll": 0,
+        "gripper": 0
+      }
+    },
+    "limits": [
+      [
+        -1.7407261858352236,
+        1.7407261858352236
+      ],
+      [
+        -1.7453293,
+        1.7453293
+      ],
+      [
+        -1.69,
+        1.5465343322479426
+      ],
+      [
+        -1.5331087226172169,
+        1.3760290899377272
+      ],
+      [
+        -2.7438473,
+        1.5355061529084182
+      ],
+      [
+        -0.1395156878667724,
+        1.7103118878667722
+      ]
+    ],
+    "time": 394503.428161171,
+    "grasp_stage": null,
+    "grasp_running": null,
+    "grasp_elapsed": null,
+    "hover_used": false,
+    "hover_elapsed": null,
+    "recorded_at_unix": 1789853020.5976357,
+    "notice": "Torque release requested",
+    "replay_running": false,
+    "replay_stage": null,
+    "replay_elapsed": 36.66242865343704
+  },
+  "region": [
+    [
+      0.22205066859412517,
+      0.15349924286383113,
+      -0.017090847198837196
+    ],
+    [
+      0.026757918298244476,
+      0.05431661009788513,
+      0.001
+    ],
+    [
+      [
+        0.5164680270813832,
+        -0.8511823332742545,
+        -0.09353829442779042
+      ],
+      [
+        -0.8561900699443177,
+        -0.51510875909638,
+        -0.04001912581419248
+      ],
+      [
+        -0.014118821884570634,
+        0.10075515780337967,
+        -0.994811066004298
+      ]
+    ]
+  ]
+}

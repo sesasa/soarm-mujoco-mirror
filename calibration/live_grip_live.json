@@ -1,0 +1,108 @@
+{
+  "state": "HOLD",
+  "reason": "Placement complete; holding sitting pose",
+  "q": [
+    -0.1296530301481502,
+    -1.7238482765851686,
+    1.5327251337706245,
+    1.0768297895958423,
+    -1.6835714476929917,
+    0.5577855711340207
+  ],
+  "command": [
+    -0.1296530301481502,
+    -1.7238482765851686,
+    1.5327251337706245,
+    1.073761078823105,
+    -1.6835714476929917,
+    0.5577855711340207
+  ],
+  "segment_id": null,
+  "segment_elapsed": null,
+  "direct_pause_id": null,
+  "visual_servo_running": false,
+  "motor_diagnostics": {
+    "time": 442876.248068705,
+    "raw_units": true,
+    "Present_Load": {
+      "shoulder_pan": 34,
+      "shoulder_lift": -37,
+      "elbow_flex": -30,
+      "wrist_flex": -69,
+      "wrist_roll": 30,
+      "gripper": 51
+    },
+    "Present_Current": {
+      "shoulder_pan": 6,
+      "shoulder_lift": 6,
+      "elbow_flex": 3,
+      "wrist_flex": 17,
+      "wrist_roll": 0,
+      "gripper": 7
+    },
+    "Present_Voltage": {
+      "shoulder_pan": 124,
+      "shoulder_lift": 124,
+      "elbow_flex": 123,
+      "wrist_flex": 123,
+      "wrist_roll": 124,
+      "gripper": 122
+    },
+    "Status": {
+      "shoulder_pan": 0,
+      "shoulder_lift": 0,
+      "elbow_flex": 0,
+      "wrist_flex": 0,
+      "wrist_roll": 0,
+      "gripper": 0
+    }
+  },
+  "limits": [
+    [
+      -1.7407261858352236,
+      1.7407261858352236
+    ],
+    [
+      -1.7453293,
+      1.7453293
+    ],
+    [
+      -1.69,
+      1.5465343322479426
+    ],
+    [
+      -1.5331087226172169,
+      1.3760290899377272
+    ],
+    [
+      -2.7438473,
+      1.5355061529084182
+    ],
+    [
+      -0.1395156878667724,
+      1.7103118878667722
+    ]
+  ],
+  "time": 442979.160198816,
+  "grasp_stage": null,
+  "grasp_running": null,
+  "grasp_elapsed": null,
+  "hover_used": false,
+  "hover_elapsed": null,
+  "recorded_at_unix": 1789996740.5386066,
+  "phase": "DONE",
+  "notice": "Placement complete; holding sitting pose",
+  "ik_ms": null,
+  "frame_age_s": 0.07238948403391987,
+  "wrist_setup": false,
+  "wrist_features": null,
+  "named_reach": true,
+  "gpt_reach": true,
+  "gpt_grip": true,
+  "gpt_place": true,
+  "fixed_plan": true,
+  "automatic_command": false,
+  "voice_status": "Listening: say pick and place ...",
+  "active_name": "pick and place matchbox",
+  "names": []
+}

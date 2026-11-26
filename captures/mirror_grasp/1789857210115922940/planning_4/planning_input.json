@@ -1,0 +1,122 @@
+{
+  "state": {
+    "state": "ACTIVE",
+    "reason": "Direct joint control: full working range, 7 deg/s; Space holds, X releases",
+    "q": [
+      0.02531686387508258,
+      -1.7744820043353335,
+      1.5588091753388917,
+      1.0584175249594183,
+      -1.6467469184201442,
+      0.4314187490880254
+    ],
+    "command": [
+      0.02531686387508258,
+      -1.7744820043353335,
+      1.5588091753388917,
+      1.0584175249594183,
+      -1.6467469184201442,
+      0.4314187490880254
+    ],
+    "segment_id": null,
+    "segment_elapsed": null,
+    "motor_diagnostics": {
+      "time": 398714.83901817,
+      "raw_units": true,
+      "Present_Load": {
+        "shoulder_pan": 0,
+        "shoulder_lift": 0,
+        "elbow_flex": 0,
+        "wrist_flex": 0,
+        "wrist_roll": 0,
+        "gripper": 0
+      },
+      "Present_Current": {
+        "shoulder_pan": 0,
+        "shoulder_lift": 0,
+        "elbow_flex": 0,
+        "wrist_flex": 2,
+        "wrist_roll": 0,
+        "gripper": 0
+      },
+      "Present_Voltage": {
+        "shoulder_pan": 124,
+        "shoulder_lift": 124,
+        "elbow_flex": 123,
+        "wrist_flex": 123,
+        "wrist_roll": 124,
+        "gripper": 122
+      },
+      "Status": {
+        "shoulder_pan": 0,
+        "shoulder_lift": 0,
+        "elbow_flex": 0,
+        "wrist_flex": 0,
+        "wrist_roll": 0,
+        "gripper": 0
+      }
+    },
+    "limits": [
+      [
+        -1.7407261858352236,
+        1.7407261858352236
+      ],
+      [
+        -1.7744820043353335,
+        1.7453293
+      ],
+      [
+        -1.69,
+        1.5588091753388917
+      ],
+      [
+        -1.5331087226172169,
+        1.3760290899377272
+      ],
+      [
+        -2.7438473,
+        1.5355061529084182
+      ],
+      [
+        -0.1395156878667724,
+        1.7103118878667722
+      ]
+    ],
+    "time": 398715.006668421,
+    "grasp_stage": null,
+    "grasp_running": null,
+    "grasp_elapsed": null,
+    "hover_used": false,
+    "hover_elapsed": null
+  },
+  "region": [
+    [
+      0.23471896662632624,
+      0.10021501692642719,
+      -0.016138488321014145
+    ],
+    [
+      0.027291344478726387,
+      0.05246186628937721,
+      0.001
+    ],
+    [
+      [
+        0.5938342610045663,
+        -0.799131689981508,
+        -0.09353829442779042
+      ],
+      [
+        -0.804244628539016,
+        -0.5929494472846806,
+        -0.04001912581419248
+      ],
+      [
+        -0.02348292833743179,
+        0.09899239886017114,
+        -0.994811066004298
+      ]
+    ]
+  ],
+  "completed": []
+}

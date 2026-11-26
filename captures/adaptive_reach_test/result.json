@@ -1,0 +1,22 @@
+{
+  "source": "captures/mirror_grasp/1789857210115922940/planning_5/captured_state.json",
+  "hardware_commands": false,
+  "image_modification": "Synthetic box shift -10 pixels in overhead x; actual scene was not modified",
+  "target_shift_m": 0.010914854179903349,
+  "original_planning_seconds": 1.7029627919546328,
+  "adaptive_replanning_seconds": 1.6441069550346583,
+  "interrupted_at": "halfway through original approach, ideal feedback",
+  "stale_target_plan_rejected": true,
+  "replacement_replay_passed": true,
+  "replacement_stages": [
+    "ready",
+    "approach",
+    "lower",
+    "close",
+    "basket_lift",
+    "basket_transfer",
+    "basket_open",
+    "return_sitting"
+  ],
+  "limitations": "Saved-scene synthetic image and ideal joint feedback; no live perception or physical-motion validation."
+}

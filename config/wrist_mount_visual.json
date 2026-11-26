@@ -1,0 +1,66 @@
+{
+  "status": "approximate_visual_model",
+  "translation_in_gripper_m": [
+    0,
+    0,
+    0.045
+  ],
+  "reason": "Actual camera holder appears farther rearward along gripper than imported mesh; approximate placement from four overhead panel-centre landmarks.",
+  "evidence": "calibration/robot_camera/holder_landmarks.json",
+  "scope": "Photo-informed visual holder, PCB and lens only; existing placement adjustments retained. Joint mapping, optical camera transform, and collision proxies unchanged.",
+  "rotation_quat_wxyz": [
+    0.9762960071199334,
+    0.1057711773638683,
+    -0.014476456047537486,
+    -0.18827903956903916
+  ],
+  "rotation_pivot_gripper_m": [
+    0,
+    0.024,
+    0.025
+  ],
+  "rotation_reference": {
+    "interpretation": "25 degrees clockwise in overhead image at saved pose, around approximate mounting end; fixed thereafter in gripper coordinates",
+    "axis_in_gripper": [
+      0.48868677706159935,
+      -0.06688450318377229,
+      -0.8698917732448135
+    ],
+    "degrees": 25,
+    "observation": "captures/calibrated_preview/holder_rotation_joints.json"
+  },
+  "shape": {
+    "source": "Photos-1-001/IMG_8804.heic",
+    "status": "photo_informed_approximation_not_dimensionally_measured",
+    "foot_m": [
+      0,
+      0.024,
+      -0.019
+    ],
+    "bend_m": [
+      0,
+      0.039,
+      -0.019
+    ],
+    "frame_center_m": [
+      0,
+      0.073,
+      -0.04
+    ],
+    "frame_size_m": [
+      0.04,
+      0.034
+    ],
+    "frame_rim_m": 0.003,
+    "frame_thickness_m": 0.003,
+    "frame_tilt_deg": 37,
+    "support_width_m": 0.016,
+    "support_thickness_m": 0.003
+  },
+  "post_rotation_translation_gripper_m": [
+    0,
+    0,
+    -0.015
+  ],
+  "latest_adjustment": "User requested 1\u20132 cm toward gripper; applied 15 mm along gripper local -Z toward fingertips after visual rotation."
+}

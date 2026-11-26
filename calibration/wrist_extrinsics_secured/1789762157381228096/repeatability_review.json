@@ -1,0 +1,17 @@
+{
+  "status": "stationary_repeatability_improved_cross_pose_validation_pending",
+  "saved_views": 5,
+  "distinct_joint_poses": 3,
+  "repeat_views": [
+    "pose_001",
+    "pose_002",
+    "pose_003"
+  ],
+  "stationary_max_pairwise_translation_difference_mm": 1.5201843153090548,
+  "stationary_max_pairwise_rotation_difference_deg": 0.18488783895400238,
+  "other_pose_translation_difference_from_repeat_mean_mm": [
+    8.143170130833646,
+    11.07796465820024
+  ],
+  "decision": "Stationary estimates are repeatable, but changed poses still differ by several mm. Do not apply an optical calibration from this set yet. Need distinct wrist orientations as well as translations; repeated views must not be treated as independent validation poses."
+}

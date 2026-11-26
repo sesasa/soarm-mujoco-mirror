@@ -1,0 +1,27 @@
+{
+  "camera": {
+    "name": "camera_4",
+    "role": "overhead",
+    "path": "/dev/v4l/by-id/usb-icSpring_icspring_camera_202404160005-video-index0",
+    "fourcc": "MJPG",
+    "controls": {
+      "auto_exposure": 3,
+      "white_balance_automatic": 1,
+      "power_line_frequency": 1
+    },
+    "rotation_deg": 0
+  },
+  "board": "large",
+  "inner_corners": [
+    9,
+    6
+  ],
+  "square_m": 0.025,
+  "size": [
+    640,
+    480
+  ],
+  "raw_sensor_orientation": true,
+  "printed_scale_verified": false,
+  "views": []
+}

@@ -1,0 +1,95 @@
+{
+  "state": {
+    "state": "ACTIVE",
+    "reason": "Direct joint control: full working range, 7 deg/s; Space holds, X releases",
+    "q": [
+      -1.5504661179255121,
+      0.040660417738769,
+      0.12878995524331785,
+      1.3714260237786213,
+      -1.3828377919647379,
+      0.7252596726407614
+    ],
+    "command": [
+      -1.5693342283316976,
+      0.004012302201294005,
+      0.12528279240174067,
+      1.376029089937727,
+      -1.3798749316044485,
+      0.7443778918632477
+    ],
+    "segment_id": 8,
+    "segment_elapsed": 31.126421032584084,
+    "motor_diagnostics": {
+      "time": 401208.44507358,
+      "raw_units": true,
+      "Present_Load": {
+        "shoulder_pan": -58,
+        "shoulder_lift": -185,
+        "elbow_flex": 0,
+        "wrist_flex": 27,
+        "wrist_roll": 23,
+        "gripper": 62
+      },
+      "Present_Current": {
+        "shoulder_pan": 13,
+        "shoulder_lift": 83,
+        "elbow_flex": 0,
+        "wrist_flex": 5,
+        "wrist_roll": 0,
+        "gripper": 10
+      },
+      "Present_Voltage": {
+        "shoulder_pan": 124,
+        "shoulder_lift": 123,
+        "elbow_flex": 123,
+        "wrist_flex": 122,
+        "wrist_roll": 123,
+        "gripper": 121
+      },
+      "Status": {
+        "shoulder_pan": 0,
+        "shoulder_lift": 0,
+        "elbow_flex": 0,
+        "wrist_flex": 0,
+        "wrist_roll": 0,
+        "gripper": 0
+      }
+    },
+    "limits": [
+      [
+        -1.7407261858352236,
+        1.7407261858352236
+      ],
+      [
+        -1.7453293,
+        1.7453293
+      ],
+      [
+        -1.69,
+        1.5465343322479426
+      ],
+      [
+        -1.5331087226172169,
+        1.3760290899377272
+      ],
+      [
+        -2.7438473,
+        1.5355061529084182
+      ],
+      [
+        -0.1395156878667724,
+        1.7103118878667722
+      ]
+    ],
+    "time": 401208.547239064,
+    "grasp_stage": null,
+    "grasp_running": null,
+    "grasp_elapsed": null,
+    "hover_used": false,
+    "hover_elapsed": null
+  },
+  "completed": [
+    "packet"
+  ]
+}

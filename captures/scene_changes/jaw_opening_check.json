@@ -1,0 +1,103 @@
+{
+  "start": [
+    -1.008482411857349,
+    0.42138122372839243,
+    -0.511931160335099,
+    1.6580629999999998,
+    0.665520952274857,
+    -0.15017313068992863
+  ],
+  "goal": [
+    -1.008482411857349,
+    0.42138122372839243,
+    -0.511931160335099,
+    1.6580629999999998,
+    0.665520952274857,
+    0.28226052138528623
+  ],
+  "target": [
+    0.16471041008618922,
+    0.21209662688759706,
+    0.06636067112081588
+  ],
+  "error_m": 0.00038984565651618944,
+  "downward_tilt_deg": 5.995112690580128,
+  "jaw_alignment_error_deg": 5.597408308131449,
+  "orientation_error_deg": 5.9960264197678,
+  "object_axis": [
+    0.9939221253270817,
+    0.05450158893380697,
+    -0.09564719331473952
+  ],
+  "table_up": [
+    0.09353829442779042,
+    0.04001912581419248,
+    0.994811066004298
+  ],
+  "mode": "jaw_opening",
+  "grasp_executed": false,
+  "start_adjustment_deg": 0.0,
+  "duration": 2.0,
+  "table_clearance": {
+    "method": "sampled moving visual geometry vs infinite tabletop plane",
+    "samples": 81,
+    "path_minimum_m": 0.008888335432514959,
+    "gripper_holder_path_minimum_m": 0.07189357820656395,
+    "minimum_at_fraction": 0.0,
+    "closest_body": "shoulder",
+    "closest_geom": "rotation_pitch_so101_v1",
+    "endpoint": {
+      "minimum_m": 0.008888335432514959,
+      "gripper_holder_minimum_m": 0.0725473635996346,
+      "geom": "rotation_pitch_so101_v1",
+      "body": "shoulder"
+    },
+    "status": "no intersection in sampled poses",
+    "collision_validated": false,
+    "limitations": [
+      "Provisional camera/base/table registration and approximate holder shape.",
+      "Fixed base excluded. Table objects, cables and self-collision not checked.",
+      "Discrete samples do not establish continuous path clearance."
+    ]
+  },
+  "measured_object": {
+    "name": "pink_highlighter",
+    "height_m": 0.017,
+    "width_m": 0.027,
+    "estimated_length_m": 0.1113884225487709,
+    "surface_center_base_m": [
+      0.157227346531966,
+      0.20889509682246166,
+      -0.01322421415952796
+    ],
+    "center_base_m": [
+      0.1580224220346022,
+      0.20923525939188228,
+      -0.004768320098491426
+    ],
+    "association": "unique pink colour candidate",
+    "shape": "rectangular visual proxy",
+    "pose_and_length_provisional": true,
+    "collision_validated": false
+  },
+  "surface": [
+    0.157227346531966,
+    0.20889509682246166,
+    -0.01322421415952796
+  ],
+  "time": 1789768548.6007044,
+  "hardware_commands": false,
+  "position_only": false,
+  "collision_validated": false,
+  "gripper_site": "gripperframe",
+  "jaw_opening": {
+    "object_width_m": 0.027,
+    "requested_gap_m": 0.037,
+    "initial_gap_m": 0.0032655309960594936,
+    "model_gap_m": 0.037000000000000005,
+    "extra_gap_m": 0.01,
+    "method": "projected named fingertip sphere surfaces",
+    "physical_gap_validated": false,
+    "finger_body_contact_checked": false
+  }
+}

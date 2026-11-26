@@ -1,0 +1,43 @@
+[
+  {
+    "name": "camera_4",
+    "role": "overhead",
+    "path": "/dev/v4l/by-id/usb-icSpring_icspring_camera_202404160005-video-index0",
+    "fourcc": "MJPG",
+    "controls": {
+      "auto_exposure": 3,
+      "white_balance_automatic": 1,
+      "power_line_frequency": 1
+    },
+    "rotation_deg": 0,
+    "applied_controls": {
+      "auto_exposure": 3,
+      "white_balance_automatic": 1,
+      "power_line_frequency": 1
+    },
+    "negotiated_fourcc": "MJPG",
+    "capture_fps": 30.0,
+    "frames": 37
+  },
+  {
+    "name": "camera_6",
+    "role": "wrist",
+    "path": "/dev/v4l/by-id/usb-icSpring_icspring_camera-video-index0",
+    "fourcc": "YUYV",
+    "controls": {
+      "auto_exposure": 3,
+      "white_balance_automatic": 1,
+      "power_line_frequency": 1
+    },
+    "rotation_deg": 0,
+    "capability_notes": "Live V4L2 probe: only 640x480 YUYV advertised; no zoom control exposed. Current capture uses the full delivered frame without digital cropping.",
+    "applied_controls": {
+      "auto_exposure": 3,
+      "white_balance_automatic": 1,
+      "power_line_frequency": 1
+    },
+    "negotiated_fourcc": "YUYV",
+    "capture_fps": 30.0,
+    "frames": 37
+  }
+]
